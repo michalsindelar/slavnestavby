@@ -1,29 +1,29 @@
 {
-  "name": "heroku-cra-node",
+  "name": "slavnestavby",
   "version": "1.0.0",
-  "description": "How to use create-react-app with a custom Node API on Heroku",
+  "description": "Codebase for slavnestavby.cz web presentation",
   "engines": {
     "node": "6.11.x"
   },
   "scripts": {
     "start": "node server",
-    "heroku-postbuild": "cd react-ui/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+    "heroku-postbuild": "cd app/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
   },
   "cacheDirectories": [
     "node_modules",
-    "react-ui/node_modules"
+    "app/node_modules"
   ],
   "dependencies": {
     "express": "^4.14.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mars/heroku-cra-node.git"
+    "url": "https://github.com/michalsindelar/slavnestavby"
   },
   "keywords": [
     "node",
     "heroku",
-    "create-react-app",
+    "app",
     "react"
   ],
   "license": "MIT",
