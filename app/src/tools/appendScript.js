@@ -1,6 +1,6 @@
 // @flow
 
-const appendScript = (url: string, callback?: Function): Promise =>
+const appendScript = (url: string): Promise =>
   new Promise((resolve, reject) => { // eslint-disable-line
     const t = document.getElementsByTagName("script")[0]
     let r = false
@@ -12,9 +12,7 @@ const appendScript = (url: string, callback?: Function): Promise =>
     s.onload = s.onreadystatechange = () => { // eslint-disable-line
       if (!r && (!this.readyState || this.readyState === "complete")) {
         r = true
-        if (!callback || callback()) {
-          resolve(this)
-        }
+        resolve(this)
       }
     }
     s.onerror = s.onabort = reject // eslint-disable-line
