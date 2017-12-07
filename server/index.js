@@ -15,7 +15,10 @@ app.listen(PORT, function () {
 
 // Formatters
 // ===
-const formatter = R.identity
+const limitResults = R.compose(
+  R.take(10),
+  R.prop('data')
+)
 
 // Helper for cached api requests
 // ===
@@ -30,7 +33,7 @@ const cachedApiRequest = (res, key) =>  {
     ApisCache.set(key, fs.readFileSync(path.resolve(__dirname, `../fixtures/${key}.json`)));
     data = ApisCache.get(key)
   } finally {
-    res.send(data)
+    res.send(limitResults(JSON.parse(data)))
   }
 }
 
