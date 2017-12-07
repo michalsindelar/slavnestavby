@@ -1,8 +1,8 @@
+import { createStore, applyMiddleware } from "redux"
 import createHistory from "history/createBrowserHistory"
+import thunk from "redux-thunk"
 
-import { createStore } from "redux"
-
-import reducer from "../home/services/homeStore"
+import home from "../home/services/reducer"
 
 export const history = createHistory()
-export const store = createStore(reducer)
+export const store = createStore(home, applyMiddleware(thunk))
