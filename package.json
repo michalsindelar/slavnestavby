@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "node server",
-    "startDevelopment": "node server & npm start npm start --prefix app/",
+    "startDevelopment": "node server & npm start --prefix app/",
     "heroku-postbuild": "cd app/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
   },
   "cacheDirectories": [
@@ -15,7 +15,9 @@
     "app/node_modules"
   ],
   "dependencies": {
-    "express": "^4.14.1"
+    "express": "^4.14.1",
+    "node-cache": "^4.1.1",
+    "ramda": "^0.25.0"
   },
   "repository": {
     "type": "git",

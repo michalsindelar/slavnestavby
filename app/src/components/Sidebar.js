@@ -1,6 +1,7 @@
 import React from "react"
-import { THEME } from "../consts/theme"
 import styled from "styled-components"
+
+import { THEME } from "../consts/theme"
 
 const SidebarStyle = styled.div`
   background-color: ${THEME.pallete.secondary};

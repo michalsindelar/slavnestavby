@@ -1,0 +1,1771 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "active": true,
+      "name": "Jan Kotěra",
+      "description": "Architekt mezinárodního významu a teoretik architektury, urbanista, návrhář nábytku a výtvarník, narozen v Brně, studoval na Odborné škole stavitelské v Plzni, od roku 1894 na vídeňské Akademii výtvarných umění u Otto Wagnera, v roce 1898 podnikl studijní cestu do Itálie, vyučoval na Uměleckoprůmyslové škole a Akademii výtvarných umění v Praze, byl členem spolku výtvarných umělců Mánes, redaktorem časopisu Volné směry. Zdroj: www.archiweb.cz",
+      "date_of_birth": "1871-12-18",
+      "date_of_death": "1923-04-17",
+      "photo": "http://slavnestavby.cz/aplikace/files/photo/architects/kotera-jan/kotera-jan.jpg",
+      "structure_ids": [
+        1,
+        115
+      ],
+      "last_change": 1487059327
+    },
+    {
+      "id": 2,
+      "active": true,
+      "name": "Petr Hájek",
+      "description": "Narodil se v Karlových Varech. V letech 1988 – 1995 studoval na Fakultě architektury ČVUT. V letech 1995 – 1998 studoval Školu Architektury AVU. Od roku 2004 je lektorem na Fakultě architektury ČVUT. V roce 2010 založil Laboratoř experimentální architektury (LEA). A v roce 2010 jmenován docentem na FA ČVUT v Praze. Od roku 2012 je vedoucí atelieru na Vysoké škole výtvarných umění v Bratislavě",
+      "date_of_birth": "1970-04-18",
+      "date_of_death": null,
+      "photo": "http://slavnestavby.cz/aplikace/files/photo/architects/hajek-petr/hajek-petr.jpg",
+      "structure_ids": [
+        null
+      ],
+      "last_change": 1488296177
+    },
+    {
+      "id": 3,
+      "active": true,
+      "name": "Martin Stoss",
+      "description": "Narodil se v Praze. V letech 2005 – 2012 studoval na Fakultě architektury ČVUT. V letech 2009 - 2010 studoval na Chalmers University, Göteborg. V letech 2001 - 2005 studoval na Střední uměleckoprůmyslové škole, obor nábytkářství v Praze.",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        null
+      ],
+      "last_change": 1481473997
+    },
+    {
+      "id": 4,
+      "active": true,
+      "name": "Cornelia Klien",
+      "description": "V letech 2001 – 2010 studovala University of Applied Arts ve Vídni. V letech 2005 – 2008 studovala na Academy of Fine Arts v Krakově.",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        null
+      ],
+      "last_change": 1481474218
+    },
+    {
+      "id": 5,
+      "active": true,
+      "name": "Tereza Keilová",
+      "description": "V letech 2009 – 2015 studovala na Fakultě architektury ČVUT. V letech 2013 - 2014 studovala Technische Universität v Rakouském Grazu.",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": "http://slavnestavby.cz/aplikace/files/photo/architects/keilova-tereza/keilova-tereza.jpg",
+      "structure_ids": [
+        null
+      ],
+      "last_change": 1488296460
+    },
+    {
+      "id": 6,
+      "active": true,
+      "name": "Josef Karel Říha",
+      "description": "Po vystudování pražské techniky pracoval ing. arch. Josef Karel Říha v letech 1917-18 v ateliéru Jana Kotěry, pak se stal úředníkem Státní památkové péče a od roku 1923 byl samostatným projektantem. Byl také redaktorem Socialistických listů, výtvarného sborníku Život, Lidových novin a od konce dvacátých let často přispíval do architektonických časopisů (nejvíce Stavba, Stavitel a Architekt SIA). Ve 20. letech se věnoval především návrhům obytných budov (typové rodinné domy vystavěné v řadě sídlišť Podkarpatské Rusi, činžovní domy v Ostravě, Plzni, Praze) i budovám veřejným (kancelářský a obchodní dům společnosti Ferra, Palác Báňské a hutní společnosti s Divadlem Vlasty Buriana, které bylo umístěné v suterénu). V roce 1931 zvítězil v soutěži dělnického spolku Včela na nájemní domy s malými byty. Zřejmě nejznámější stavbou je architektova vlastní vila v ulici Nad Santoškou v Praze uváděná v dobových časopisech jako příklad moderní architektury. Mimoto se Říha věnoval instalacím desítek výstav včetně státních expozic předválečného Československa v zahraničí. Za zmínku také stojí, že v jeho ateliéru v roce 1927 občasně vypomáhal mladý Karel Honzík.  Kolem roku 1930 se architekt Říha začal věnovat i otázkám urbanistickým, územnímu a krajinnému plánování. Komplexní pojetí plánování měst se projevilo v první souhrnné a ve své době zásadní práci. Vypracováním textu „Město a upravovací plán“ (1932) pověřil Ústav pro stavbu měst při Masarykově akademii práce právě J. K. Říhu a O. Fierlingera, kteří redigovali texty odborníků z nejrůznějších oborů (např.: doktor medicíny L. P. Procházka, konzervátor a ochránce přírody R. Maximovič, památkář a architekt K. F. Kühn, ale i mladý E. Hruška). Vznikl tak stručný přehled metodiky a dobové techniky tvorby regulačních plánů, plánování měst a jejich okolí a příslib plánů regionálních. Již nechybí kapitoly o rekreaci, zelených plochách či ochraně přírodních památek.  Ve druhé polovině 30. let se Josef Karel Říha zaměřoval ještě více na problematiku rozvoje venkova, vesnice a regionálního plánování. Mimoto stále seznamoval čtenáře odborných periodik s urbanistickými aktualitami v západní Evropě.  V roce 1948 vydal jedinečnou knihu „Země krásná: kniha o přírodě, civilisaci a plánování“ (největší část knihy sepsal v letech 1943-44). Kniha je vlastně úvodem do krajinného plánování, zabývá se historickými souvislostmi, geologií, ve velké míře botanikou a geobotanikou, technickým vývojem, ale také zahradní a parkovou architekturou, urbanismem, prostorovým plánováním, estetickými a etickými hodnotami přírody i ochranou přírody. Takto široce pojatou a vědecky podloženou naukou o krajině Říhova kniha předčí i „Obytnou krajinu“ Ladislava Žáka.  Z poválečné tvorby je známo jen málo realizací, víme zatím jen o přestavbě domu u Hybernů pro výstavní účely (1938-49) nebo o realizaci Motolského krematoria (1951-54) – ovšem bez zamýšlených parkových úprav. Zřejmě posledním větším projektem architekta byla studie rekreace na Berounsku v polovině 60. let. Oficiálních poct se architektu Říhovi dostalo až na konci 60. let, kdy byl znovu přijat do Svazu architektů a vyznamenán k 50. výročí vzniku Československé republiky. Zdroj: www.archiweb.cz",
+      "date_of_birth": "1893-06-01",
+      "date_of_death": "1970-02-10",
+      "photo": "http://slavnestavby.cz/aplikace/files/photo/architects/riha-josef-karel/riha-josef-karel.jpg",
+      "structure_ids": [
+        3
+      ],
+      "last_change": 1488296160
+    },
+    {
+      "id": 7,
+      "active": true,
+      "name": "Karel Pecánek",
+      "description": "Architekt a památkář Karel Pecánek se narodil 9. 7. 1886 v pražské čtvrti Královské Vinohrady. V letech 1904–1909 studoval na Fakultě pozemního stavitelství České školy technické v Praze (dnešní ČVUT). Po absolvování soukromé architektonické praxe začal vyučovat na průmyslové škole v Brně. Od roku 1919 působil jako pracovník Památkového úřadu v Praze a zastával funkci vrchního rady osvětové služby. V rámci své profese se podílel na záchraně řady architektonických památek – na úpravě Černínského paláce na Hradčanech, kláštera sv. Anežky, hradu a zámku ve Velharticích, kaple Andělů strážných v Sušici aj. Ve dvacátých letech minulého století byly jeho texty a stavební projekty převážně novoklasicistního charakteru hojně publikovány v časopisech Stavitel, Styl a Architekt SIA.  V Plzni sehrál Karel Pecánek důležitou roli v letech 1929–1930, když se zasadil o schválení modernistické podoby průčelí funkcionalistického obchodního a nájemního domu Růženy Holcbechrové (C1–202). Na výsledné podobě fasády se nakonec ve spolupráci se stavitelem a autorem návrhu Františkem Holcbechrem i sám podílel. Zdroj: http://pam.plzne.cz/ Literatura Petr Domanický, Stanislav Bukovský - Radovan Kodera (eds.), Zápal, Chvojka, Neckář a další architekti meziválečné Plzně (kat. výst.), Plzeň 2007 Jiří Himlera, Nová encyklopedie českého výtvarného umění. Dodatky, Praha 1995, str. 586 Prokop Toman, Nový slovník československých výtvarných umělců, II. L–Ž, Praha 1950, str. 254 Pavel Vlček, (Jiří Hilmera), Encyklopedie architektů, stavitelů, zedníků a kameníků v Čechách, Praha 2004, str. 487",
+      "date_of_birth": "1886-07-09",
+      "date_of_death": "1944-06-25",
+      "photo": null,
+      "structure_ids": [
+        15
+      ],
+      "last_change": 1481622269
+    },
+    {
+      "id": 8,
+      "active": true,
+      "name": "Bedřich Bendelmayer",
+      "description": "Jeden z průkopníků pražské secese Bedřich Bendelmayer se narodil 8. dubna 1872 v Praze. Architekturu vystudoval na pražské Uměleckoprůmyslové škole u Friedricha Ohmanna, v jehož ateliéru po studiích také krátce pracoval. Ve své architektonické praxi Bendelmayer často spolupracoval se svými spolužáky – zpočátku s Rudolfem Němcem, později s Aloisem Dryákem, s nímž v roce 1903 působil ve společné projekční kanceláři, a také s Emilem Weichertem, po jehož boku se zúčastnil několika soutěží. Po Dryákovi Bendelmayer působil rovněž jako hlavní inženýr stavební firmy Quida Bělského až do roku 1904, kdy byl po roztržce s ředitelem propuštěn. Účastnil se mnoha domácích i mezinárodních architektonických soutěží (mj. na budovu Měšťanské besedy v Plzni) a byl členem pražské Jednoty umělců výtvarných. První Bendelmayerovy projekty byly ještě ovlivněné historismem, především novorenesancí (nájemní domy U České královny v Hradci Králové a U sv. Jiří v Praze-Holešovicích, navržené ve spolupráci s Rudolfem Němcem). Po odchodu Friedricha Ohmanna do Vídně v roce 1899 se Bendelmayer spolu s Aloisem Dryákem podílel na dokončení Ohmannova projektu hotelu Central na Novém Městě pražském, považovaného za druhou secesní stavbu v Praze. Následně se Bendelmayer přiklonil k wagnerovské secesi, v jejímž duchu projektoval do začátku první světové války. K jeho nejvýznamnějším realizacím z této doby patří průčelí hotelu Arcivévoda Štěpán na Václavském náměstí v Praze z roku 1903 (dnes Grand Hotel Evropa), činžovní a obchodní dvojdům s ateliéry U Prašné brány č. p. 1078 a 1079/I, na nichž v letech 1903–1904 spolupracoval s Emilem Weichertem, palác Hvězda na Václavském náměstí z let 1911–1913 a přestavba Spořitelny královského města Plzně z roku 1915. V této tvůrčí etapě, do níž spadá i první návrh plzeňských městských lázní z roku 1914, Bendelmayer navrhl také řadu činžovních domů v Praze. Ve dvacátých letech minulého století získal několik zakázek na veřejné stavby, především bankovní domy a soudní budovy, a jeho styl se posunul k monumentalizujícímu novoklasicismu. Asi nejznámější z této etapy jsou Justiční palác na Pankráci v Praze, svého času největší soudní budova v republice, bývalá Česká průmyslová banka, tehdy nejmodernější banka v Praze. Bedřich Bendelmayer zemřel 20. dubna 1932 v Praze. Zdroj: http://pam.plzne.cz/",
+      "date_of_birth": "1872-04-08",
+      "date_of_death": "1932-04-20",
+      "photo": null,
+      "structure_ids": [
+        16
+      ],
+      "last_change": 1481622793
+    },
+    {
+      "id": 9,
+      "active": true,
+      "name": "Ivan Nedoma",
+      "description": "1929 -1935 České vysoké učení technické v Praze, Praha ( architektura a pozemní stavitelství) Zdroj: http://abart-full.artarchiv.cz/",
+      "date_of_birth": "1911-08-03",
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        17
+      ],
+      "last_change": 1481623310
+    },
+    {
+      "id": 10,
+      "active": true,
+      "name": "František Stalmach",
+      "description": "František Stalmach se narodil 10. září 1903 do rodiny akademického malíře Josefa Stalmacha. Roku 1924 absolvoval Státní vyšší průmyslovou školu v Brně a téhož roku nastoupil na Akademii výtvarných umění v Praze, kde do roku 1927 studoval architekturu u Josefa Gočára. Jméno Františka Stalmacha je nerozlučně spjato s mimořádně činorodou projekční kanceláří Stalmach–Svoboda, v níž – jak je z názvu patrné – spolupracoval se svým přítelem a spolužákem z pražské AVU Janem Hanušem Svobodou. Společnou kariéru zahájili v roce 1929 a soustředili se takřka výhradně na návrhy administrativních bankovních budov, jež často měly i obytnou či kulturní funkci. Přestože projektovali také v Praze, gros jejich činnosti tvořily návrhy pro menší sídla v Čechách (na Moravě působili pouze ve Stalmachově rodné Moravské Ostravě). Stalmach se Svobodou si zakládali na ryzích funkcionalistických formách s důrazem na racionální provozní řešení a přehlednou dispozici. Výtvarné hledisko jim však nebylo lhostejné, jak prozrazují četné stavební prvky a detaily často pocházející z rejstříku emocionálního funkcionalismu: symetrické řešení průčelí, zaoblená nároží, motivy arkýřů a průběžných teras a zejména ušlechtilé kamenné obklady fasád. Přestože v průběhu čtyřicátých let začali uplatňovat robustnější formy, vždy ve svých návrzích respektovali měřítko a urbanistickou strukturu okolní zástavby. Podobně jako jeho souputník byl i František Stalmach členem Sdružení architektů a Asociace akademických architektů a se svým kolegou publikoval v dobových odborných revuích Stavitel, Architekt SIA a Architektura. Po převratu v únoru 1948 Stalmach emigroval do Spolkové republiky Německo a na rozdíl od Svobody, který odtud zamířil do USA, se pak roku 1951 přesunul do Kanady. Působil zejména v Torontu – nejprve v projekční kanceláři Gore and Storie Consulting Engineers, později spolupracoval s Hermannem Wojtechem. I zde se účastnil odborné spolkové činnosti a byl členem Royal Architectural Institute of Canada. Pilně se účastnil aktivit krajanských hnutí a pro českou katolickou farnost v Kanadě, která vznikla na konci čtyřicátých let po příchodu většího počtu emigrantů z komunistického Československa, pro ni navrhl dva svatostánky – kostel sv. Antonína v Chathamu a kostel sv. Václava v Torontu (torontský kostel vznikl přestavbou opuštěného skladiště). František Stalmach se architektuře věnoval i v pokročilém věku a projektoval až do první poloviny osmdesátých let. Zemřel v kanadském Hillsburgu 22. září 1985. Zdroj: pam.plzne.cz",
+      "date_of_birth": "1903-09-10",
+      "date_of_death": "1985-09-22",
+      "photo": null,
+      "structure_ids": [
+        18
+      ],
+      "last_change": 1481623705
+    },
+    {
+      "id": 11,
+      "active": true,
+      "name": "Jan Hanuš Svoboda",
+      "description": "Jan Hanuš Svoboda, rodák ze středočeské Příbrami, nastoupil po absolutoriu Vyšší průmyslové školy v Bratislavě v roce 1923 na Akademii výtvarných umění v Praze, kde do roku 1926 navštěvoval prestižní speciálku vedenou Josefem Gočárem. Seznámil se zde se svým budoucím kolegou a přítelem Františkem Stalmachem, s nímž v roce 1929 založili společnou architektonickou kancelář Stalmach–Svoboda, zaměřenou zejména na projekty administrativních bankovních budov, často s přidruženým obytným a kulturním provozem. Přestože projektovali také v Praze, za jádro jejich činnosti můžeme považovat návrhy pro menší města převážně v Čechách, ojediněle na Moravě. Pod vlivem tzv. emocionálního funkcionalismu, jehož protagonisté se nehodlali absolutně podřídit diktátu funkce, a naopak prosazovali tvůrčí a uměleckou roli architekta, Stalmach a Svoboda projektovali budovy, které citlivě reagovaly na urbanistický kontext místa a měřítko okolní zástavby. Estetické hodnoty jejich budov spočívaly zejména v uplatňování ušlechtilých materiálů (především kamenných obkladů fasády), ale i v souměrném řešení průčelí, často doplněném pásovými okny, zaoblenými nárožími, rozlehlými terasami ad. Kromě těchto výtvarných aspektů však vždy kladli důraz na racionální, ekonomicky podložený koncept a přehlednou dispozici. Jan Hanuš Svoboda ve spolupráci se svým kolegou publikoval v dobových odborných revuích Stavitel, Architekt SIA a Architektura a byl členem Sdružení architektů a Asociace akademických architektů. Podobně jako František Stalmach také Svoboda v roce 1949 emigroval do Spolkové republiky Německo. Na rozdíl od svého přítele, který následně přesídlil do Kanady, odcestoval Svoboda do Spojených států amerických, kde do roku 1962 působil jako architekt v kanceláři Designer R. J. Reiley &amp; Associates v New Yorku a poté v Úřadu pro školské stavby Ministerstva školství státu New York. I v Americe se účastnil odborné spolkové činnosti a od roku 1960 byl členem American Institute of Architects. Jan Hanuš Svoboda zemřel na blíže neznámém místě v USA v roce 1978. Zdroj: pam.plzne.cz/",
+      "date_of_birth": "1904-09-01",
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        18
+      ],
+      "last_change": 1481624085
+    },
+    {
+      "id": 12,
+      "active": true,
+      "name": "Milan Babuška",
+      "description": "Narodil se 20. 11. 1884 Dubí u Kladna, dětství prožil v Unhošti. Po studiích na rakovnické reálce odešel studovat architekturu na ČVUT. Protože byl též mimořádně hudebně nadaný, současně s architekturou studoval hru na housle. Před první světovou válkou krátce pracoval jako architekt, působil rovněž jako dirigent České filharmonie. Byl jmenován profesorem na průmyslové škole v Jaroměři a současně s profesurou pracoval jako soukromý projektant. Zúčastnil se několika soutěží, jeho projekt stavby ústavu pro mentálně postižené děti v Chotěboři tehdy zvítězil. Během první světové války přešel z Jaroměře na pražskou průmyslovou školu stavební, kde působil do roku 1923. Od té doby se Babuška plně věnoval projekční činnosti. Specializoval se především na projekty škol a průmyslových staveb, kterých během svého života uskutečnil přes dvě stovky. Projektoval rovněž lázeňské budovy, z raného období např. v Jáchymově, z pozdějšího např. Lázeňský dům ve Velichovkách. Jeho nejznámější uskutečněnou stavbou zůstávají budovy Technického a Národního zemědělského muzea na Letné. V roce 1922 se mu narodil syn Milan a 1926 druhý syn Ivo, významný český a americký matematik. Zdroj: Zdroj: archiv FOIBOS BOOKS, Wikipedia",
+      "date_of_birth": "1884-11-20",
+      "date_of_death": "1953-10-17",
+      "photo": "http://slavnestavby.cz/aplikace/files/photo/architects/babuska-milan/babuska-milan.jpg",
+      "structure_ids": [
+        7,
+        19,
+        22,
+        52,
+        60,
+        81,
+        85
+      ],
+      "last_change": 1488298140
+    },
+    {
+      "id": 13,
+      "active": true,
+      "name": "Rudolf Stockar-Bernkopf",
+      "description": "Po vystudování pražské techniky odjel do Anglie, kde se mu zalíbila zahradní města. Stal se pak jedním z iniciátorů stavby miniaturního „zahradního města“ z řadových domků na Baště sv. Tomáše v katastru Hradčan. Tam si spolu s bratrem Jaroslavem postavil pěkný rondokubistický dvojdům čp. č.5/231 ve stylu kotěrovské moderny. Kolem roku 1910 se stal ředitelem uměleckých dílen Artěl, které vyráběly v malých sériích různé kubistické vázy, čajové servisy, ale podle Stockarových, Janákových, Gočárových nebo Hofmanových návrhů také cigaretové špičky, šperky, dózy aj. Dne 18. 6. 1910 se v pražském kostele Matky Boží před Týnem oženil s Ludmilou Brichtovou, dcerou Arnošta Brichty (redaktora a ředitele novin „Česká politika“) a Zdenky, rozené Prokopové. Zdroj: http://encyklopedie.brna.cz/",
+      "date_of_birth": "1886-05-28",
+      "date_of_death": "1957-12-19",
+      "photo": null,
+      "structure_ids": [
+        20
+      ],
+      "last_change": 1483693076
+    },
+    {
+      "id": 14,
+      "active": true,
+      "name": "Vladimír Wallenfels",
+      "description": "Narodil se ve Svatém Poli (Příbram). Po ukončení studia na gymnasiu v Praze v roce 1914 zahájil studium na Českém vysokém učení technickém v Praze, které přerušila 1. světová válka. Ve studiu pokračoval v letech 1917–1921. Na Akademii výtvarných umění v Praze studoval v letech 1921 – 1923 u Jana Kotěry a 1923–1924 u Josefa Gočára. Byl architekt Zemského úřadu a v letech 1948–1958 pracoval na Ministerstvu zdravotnictví. Byl předčasně penzionován. Jeho tvorba byla zaměřena především na sakrální stavby, projekty nemocnic, škol a obytných domů, především v Praze. Jeho tvorba byla v duchu purismu a funkcionalismu. Zdroj: https://cs.wikipedia.org",
+      "date_of_birth": "1895-08-17",
+      "date_of_death": "1962-06-29",
+      "photo": null,
+      "structure_ids": [
+        21
+      ],
+      "last_change": 1481625235
+    },
+    {
+      "id": 15,
+      "active": true,
+      "name": "František Fiala",
+      "description": "František Fiala studoval na pražském Českém učení technickém a na Akademii výtvarných umění u Jana Kotěry a 1921 – 1924 u Josefa Gočára. Zdroj: https://cs.wikipedia.org",
+      "date_of_birth": "1895-09-21",
+      "date_of_death": "1957-05-20",
+      "photo": null,
+      "structure_ids": [
+        21
+      ],
+      "last_change": 1481625814
+    },
+    {
+      "id": 16,
+      "active": true,
+      "name": "Ernst Wiesner",
+      "description": "Též Wiesner Arnošt. Narozen 21. 1. 1890 v Malackách na Slovensku. 1908-13 studium na Vysoké škole technické a na Akademii výtvarných umění (u B. Ohmanna) ve Vídni. Po 1. světové válce působí jako samostatný architekt v Brně až do roku 1939, kdy emigruje do Velké Británie a zúčastňuje se zahraničního odboje proti fašismu. Po válce zůstává v Anglii, v l. 1948-50 docentem na škole architektury univerzity v Oxfordu, v l. 1950-60 docentem na univerzitě v Liverpoolu. Roku 1969 jmenován čestným doktorem Univerzity J. E. Purkyně (dnes opět Masarykova univerzita) v Brně. Umírá 15. 7. 1971 v Liverpoolu. A.Wiesner byl velmi aktivní brněnský architekt v období mezi 1. a 2. světovou válkou. Jeho tvorba byla ovlivněna A.Loosem, jeho puristické stavby nepostrádaly klasicizující vyváženost a monumentalitu a patřily ve své době k nejlepším v Brně. Po 2. světové válce pracoval ve Velké Británii, kde se věnoval především pedagogické činnosti na univerzitách v Oxfordu a Liverpoolu. Zdroj: www.archiweb.cz",
+      "date_of_birth": "1890-01-21",
+      "date_of_death": "1971-07-15",
+      "photo": null,
+      "structure_ids": [
+        31
+      ],
+      "last_change": 1481719623
+    },
+    {
+      "id": 17,
+      "active": true,
+      "name": "Adolf Libscher",
+      "description": "Významný architekt, kreslíř a pedagog, který patřil do slavné rodiny Liebscherů, resp. byl synem malíře Adolfa. Zdroj: http://www.arch-pavouk.cz",
+      "date_of_birth": "1887-05-03",
+      "date_of_death": "1965-09-27",
+      "photo": null,
+      "structure_ids": [
+        31
+      ],
+      "last_change": 1481719939
+    },
+    {
+      "id": 18,
+      "active": true,
+      "name": "Jaroslav Rössler",
+      "description": "Český architekt a urbanista; reprezentant architektury vycházející z tvorby O. Wagnera a J. Kotěry a spějící k modernímu klasicismu. Hlavní díla: městské divadlo v Kladně, budova Úrazové pojišťovny dělnické v Praze, budova Pražské peněžní burzy, krematorium v Jaroměři. Zdroj: www.archiweb.cz",
+      "date_of_birth": "1886-01-14",
+      "date_of_death": "1964-11-27",
+      "photo": null,
+      "structure_ids": [
+        23,
+        27,
+        131
+      ],
+      "last_change": 1481720125
+    },
+    {
+      "id": 19,
+      "active": true,
+      "name": "Josef Polášek",
+      "description": "Po absolvování pražské Uměleckoprůmyslové školy u profesora Pavla Janáka, během jejíhož studia publikoval několik návrhů především v časopise Styl a zúčastnil se soutěže na dostavbu Tyršova domu v Praze, odešel Polášek v roce 1924 do Brna, kde našel zaměstnání na stavebním oddělení městského úřadu. Tady nejprve asistoval (obřadní síň brněnského městského hřbitova, 1925) a později spolupracoval s Bohuslavem Fuchsem. První Poláškovou samostatnou realizací se stal u nás zřídka užívaný typ přízemního rodinného domu č. p. 805 (1929-30) v Kyjově, ve kterém mohl architekt zúročit poznatky z nedávného studijního pobytu v Holandsku, financovaného v roce 1928 cestovním stipendiem Uměleckoprůmyslové školy. Knížka Holandské stavebnictví (1931), jež o něco později dojmy shrnula. Když Polášek v prosinci 1946 předčasně zemřel na nevyléčitelnou tuberkulózu, zůstala vlastně jeho tvorba časově sevřena jedinou dekádou funkcionalismem ovládaných let třicátých. Obdobím, oproti většině brněnských spolupracovníků a souputníků, neuvěřitelně krátkým. Zdroj: www.archiweb.cz",
+      "date_of_birth": "1899-03-27",
+      "date_of_death": "1946-12-20",
+      "photo": null,
+      "structure_ids": [
+        25,
+        32,
+        104
+      ],
+      "last_change": 1481720379
+    },
+    {
+      "id": 20,
+      "active": true,
+      "name": "Jaroslav Bureš",
+      "description": "Spolupracovník Josefa Poláška.",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        32
+      ],
+      "last_change": 1481720951
+    },
+    {
+      "id": 21,
+      "active": true,
+      "name": "Jindřich Kumpošt",
+      "description": "Architekt, urbanista a propagátor ochrany přírody Jindřich Kumpošt vystudoval v roce 1919 Akademii výtvarných umění ve Vídni a v letech 1920–1925 byl hlavním architektem stavebního úřadu města Brna. Od roku 1926 do konce druhé světové války byl samostatným projektantem v Brně. V letech 1945 až 1949 byl členem čtyřčlenné ředitelské rady Zemského studijního a plánovacího ústavu Moravskoslezského v Brně (s B. Fuchsem, V. Bumbou a J. Mazlem). Od roku 1945 až do roku 1956 byl vedoucím (přednostou) odboru výstavby Zemského (Krajského) národního výboru v Brně. V 50. letech se začal intenzivně zajímat také o ochranu přírodního prostředí a začal spolupracovat s přírodovědci a ochránci přírody. Zřejmě na konci 50. let byl dokonce na čas zaměstnán na Katedře životního prostředí Masarykovy univerzity v Brně a v 60. letech byl členem redakce časopisu Ochrana přírody. V roce 1965 byl architektovi udělen Řád práce. Zemřel o tři roky později v Brně.Zdroj: www.archiweb.cz",
+      "date_of_birth": "1891-07-12",
+      "date_of_death": "1968-07-14",
+      "photo": null,
+      "structure_ids": [
+        24
+      ],
+      "last_change": 1481721238
+    },
+    {
+      "id": 22,
+      "active": true,
+      "name": "Bohuslav Fuchs",
+      "description": "V letech 1916-19 studuje na Akademii výtvarných umění v Praze u J. Kotěry, v letech 1919-21 pracuje v Kotěrově pražském ateliéru. Roku 1922 se trvale usazuje v Brně, kde od r. 1923 působí jako pracovník městského stavebního úřadu. Od roku 1938 do r. 1940 je profesorem Uměleckoprůmyslové školy ve Zlíně, v letech 1945-58 učí architekturu na Vysokém učení technickém v Brně, kde je r. 1947 jmenován profesorem. Kromě intenzívní projektové a pedagogické práce je činný též jako teoretik a grafik. Své grafické a architektonické práce vystavuje v Praze, v Brně a v řadě evropských měst. Člen řady odborných organizací, např. SVU Mánes, dopisující člen RIBA v Londýně, stálý delegát CIAM a čestný místopředseda IFHP. Roku 1968 jmenován národním umělcem. B. Fuchs byl vynikající architekt, urbanista, pedagog a výtvarník. Byl čelným představi- telem českého funkcionalismu - tzv. brněnské architektonické školy. Patří i k nejvýkonnějším architektům (přes 100 realizovaných staveb a množství soutěžních nerealizovaných návrhů) s mimořádným smyslem pro soulad funkcionalistické novostavby s prostředím. Jeho avantgardní budovy pomohly vytvořit z Brna moderní velkoměsto a svou myšlenkovou a výtvarnou hodnotou patří k trvalým dílům české moderní architektury.Zdroj: www.archiweb.cz",
+      "date_of_birth": "1895-03-24",
+      "date_of_death": "1972-09-18",
+      "photo": null,
+      "structure_ids": [
+        25,
+        90,
+        91,
+        143
+      ],
+      "last_change": 1481721514
+    },
+    {
+      "id": 23,
+      "active": true,
+      "name": "Heinrich Blum",
+      "description": "Heinrich Blum se narodil v Soběšicích u Brna v židovské rodině. Otec Šimon, matka Leopolda rozená Polatschková. Studia absolvoval na První německé reálce v Brně, poté na Německé technice tamtéž, kde byl imatrikulován 17. ledna 1903. První státní zkoušku složil roku 1914 (51 bodů), druhou až v roce 1921 pravděpodobně kvůli vojenské službě v 1. světové válce. Na technice pokračoval jako asistent postgraduálním studiem a disertační prací „Studie zástavby Akademické čtvrti na Kraví hoře s návazností na území mezi Kraví horou a Královým polem“.[2] V polovině 30. let bydlel v bytě rodičů na Kobližné 18. Po studiu se Heinrich zařadil k brněnským architektům, vesměs židům - Ernst Wiesner, Otto Eisler, Sikmund Kerekes, kteří viděli hlavní orientační bod v Adolfu Loosovi s nímž se setkali v roce 1920. Díky vlivu Loose tak Brno získalo velký náskok v uplatněním moderní architektury. Zdroj: https://cs.wikipedia.org",
+      "date_of_birth": "1884-01-16",
+      "date_of_death": "1942-04-27",
+      "photo": null,
+      "structure_ids": [
+        26
+      ],
+      "last_change": 1481721794
+    },
+    {
+      "id": 24,
+      "active": true,
+      "name": "Alois Dryák",
+      "description": "Alois Dryák se narodil 24. 2.1872 v Olšanech u Slaného. Studium na Uměleckoprůmyslové škole v Praze (1889-95), zde žákem a později spolupracovníkem prof. B. Ohmanna. Od roku 1898 učitelem kreslení na odborné škole zlatnické v Praze, v letech 1903-18 učí na Uměleckoprůmyslové škole, poté pracuje jako samostatný architekt. Častá spolupráce se sochaři, zvláště se Stanislavem Suchardou. Úspěšně se zúčastňuje řady architektonických soutěží sám či s B. Bendelmayerem. Umírá 6.6.1932 v Praze. A. Dryák byl mimořádně schopným výtvarníkem - architektem a dekoratérem, pokračovatelem díla B. Ohmanna. Patřil k virtuózním představitelům secese v Čechách, např. jeho hotel Evropa na Václavském nám. lze řadit bezesporu k našim nejlepším secesním stavbám. Veřejnosti možná není příliš známo, že je též autorem architektonického řešení slavných pražských pomníků sv. Václava a Fr. Palackého. V jeho stavbách se objevovaly i reminiscence na další historické slohy, zejména barok a klasicismus. V Dryákových posledních modernistických budovách se projevil jeho konzervativní názor, kompoziční řešení však bylo vždy na vysoké výtvarné úrovni. Zdroj: www.archiweb.cz",
+      "date_of_birth": "1872-02-24",
+      "date_of_death": "1932-06-06",
+      "photo": null,
+      "structure_ids": [
+        28,
+        157
+      ],
+      "last_change": 1481722131
+    },
+    {
+      "id": 25,
+      "active": true,
+      "name": "Oskar Poříska",
+      "description": "1918-24 - studium na České vysoké škole technické v Brně a na ČVUT v Praze1924-38 - Stavební úřad města Brna (technický úředník, samostatný projektant v oddělení pozemních staveb-architektury, vrchní technický komisař)1937-48 - samostatný projektant v Brně1949-52 - Stavoprojekt Brno1953-69 - vedoucí urbanistického pracoviště ve Výzkumném ústavu vývoje architektury v BrněZdroj: www.archiweb.cz",
+      "date_of_birth": "1897-09-12",
+      "date_of_death": "1982-05-31",
+      "photo": null,
+      "structure_ids": [
+        30
+      ],
+      "last_change": 1481722622
+    },
+    {
+      "id": 26,
+      "active": true,
+      "name": "Karl Ernstberger",
+      "description": "Karl Ernstberger se narodil 25. září 1887 jako druhorozený syn Josefa Ernstbergera a Marie roz. Turbové ve vesničce Mallowitz, dnešních Malovicích u Stříbra. Do obecné školy chodil ve Welperschlitz (dnešní Erpužice), na měšťanskou školu potom do Kladrub u Stříbra. V letech 1902–1906 vychodil stavební odbor německé reálky v Plzni. Poté se přihlásil na nejprestižnější školu své doby – Akademii výtvarných umění ve Vídni a byl přijat do ateliéru prof. Otto Wagnera. V roce 1913 se osamostatnil a otevřel s Kilianem Koehlerem vlastní kancelář. Získali např. 1. cenu za návrh budovy parlamentu (Landtag) v bukovinských Černovicích a další ceny, mezi nimiž vyniká např. 1. cena v mezinárodní soutěži na Národní knihovnu a muzeum v Sofii (Bulharsko). V této kanceláři také spolupracoval se svým bratrem Josefem a se svým spolužákem Mangem. Slibný start samostatné kariéry byl přerušen v roce 1914, kdy Karl Ernstberger odešel na frontu. V roce 1918 se Ernstberger vrátil do Čech a založil se svým bratrem, stavitelem Josefem ve Stříbře stavební kancelář. Zde realizoval například kolej pro studenty redemptoristy ve Svaté Anně u Plané, dále v Plané sídliště se 30 domky, v Černošíně továrnu na boty bratrů Richterových, školy ve Slavicích, Toužimi a Benešovicích. V roce 1924 se Ernstberger usadil v Karlových Varech. Zde jako přední představitel geometrizující secese a raného modernismu na Karlovarsku postavil a přestavěl 1924–1925 hotel Loib (dnes Grandhotel Central), 1926 Grandhotel Bad (dnes Sevastopol), 1929–1930 hotel Wolker. Dále zde bylo podle jeho projektů postaveno několik vil a také mlékárna v Dolních Drahovicích. Nejvýraznější Ernstbergerovou prací v Karlových Varech je kostel Panny Marie Utěšitelky v Dalovicích (1929), kde navrhl modernistickou věž s horní subtilní částí proraženou do všech stran trojicemi dvoupodlažních arkád. Ze známé Ernstbergerovy tvorby vyčnívá a zároveň se vymyká stavba sanatoria Morava v Tatranské Lomnici, které realizoval spolu se známým brněnským architektem Bohuslavem Fuchsem. Míra spolupráce není známá, ale je jisté, že Ernstberger získal za projekt tohoto sanatoria 1. cenu a také existuje zachované razítko stavby, na kterém jsou jmenováni oba architekti.Zdtroj: www.slavnestavby.cz",
+      "date_of_birth": "1887-09-25",
+      "date_of_death": "1972-11-25",
+      "photo": null,
+      "structure_ids": [
+        34,
+        42
+      ],
+      "last_change": 1481901797
+    },
+    {
+      "id": 27,
+      "active": true,
+      "name": "Hermann Schutt",
+      "description": null,
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        35
+      ],
+      "last_change": 1481902413
+    },
+    {
+      "id": 28,
+      "active": true,
+      "name": "Adolf Foehr",
+      "description": "Pražský německý architekt a stavební rada, který ve dvacátých a třicátých letech realizoval množství staveb v Praze a na severu Čech. Již v dětství se s rodiči přestěhoval do Prahy. Vystudoval Německou technickou vysokou školu v Praze (Deutsche technische Hochschule in Prag). V letech 1899 - 1902 absolvoval mistrovskou školu na Uměleckoprůmyslové škole u Bedřicha Ohmanna a Jana Kotěry a ve studiu pokračoval na Spolkové vysoké technické škole v Curychu. Během studia ve Švýcarsku se úspěšně zúčastnil architektonických soutěží v Praze (dvě první ceny). Nejstarší známé projekty jsou stavby po roce 1910 v secesním stylu. Později pracoval v novoklasicistním puristickém stylu, Z. Lukeš jej označuje jako poněkud těžkopádný styl, Jeho stavby jsou zdobeny baldachýny, rizality a arkýři. Ve třicátých letech se jeho styl zjednodušil až ke konstruktivismu. Pracoval pro pojišťovny Donau a Securitas. V Praze realizoval velké množství staveb, vedle bankovních a kancelářských budov postavil 57 nájemních domů[3], přesto byl jako konzervativní architekt českou architektonickou veřejností ignorován. Byl členem spolku Schlaraffia.Zdroj: https://cs.wikipedia.org",
+      "date_of_birth": "1880-06-20",
+      "date_of_death": "1943-10-07",
+      "photo": null,
+      "structure_ids": [
+        36
+      ],
+      "last_change": 1481902743
+    },
+    {
+      "id": 29,
+      "active": true,
+      "name": "Karl Heller",
+      "description": "Karlovarský architekt",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        37
+      ],
+      "last_change": 1481903127
+    },
+    {
+      "id": 30,
+      "active": true,
+      "name": "Ladislav Machoň",
+      "description": "Narozen 28. 4. 1888 v Praze. Studium architektury na české technice v Praze u J. Schulze a J. Fanty, již od roku 1909 činný v ateliéru J. Kotěry. V té době podniká řadu studijních cest po celé Evropě. Od roku 1917 má samostatný projektový ateliér v Praze. V letech 1928-38 pracovníkem Státní regulační komise hl. m. Prahy, současně však projektuje a realizuje velké množství staveb. Své práce prezentuje na výstavách u nás i v zahraničí. Získává doktorský titul. Aktivní člen Společnosti architektů, Klubu architektů, Inženýrské komory, SVU Mánes, Svazu architektů ČSSR a ČSR. Za 2. světové války účastník odboje, za pražské revoluce členem České národní rady. Od roku 1945 pracovníkem Zemského národního výboru. V padesátých letech politickým vězněm, roku 1960 rehabilitován, roku 1968 jmenován zasloužilým umělcem. Umírá 22. 12. 1973 v Praze. Činnost L. Machoně byla neobyčejně rozsáhlá a mnohostranná - od urbanismu přes návrhy a rekonstrukce budov, interiéry, scénografii až k pomníkům. Byl reprezentant moderního klasicismu a funkcionalismu. Jeho přestavba pražského Klementina a Strakovy akademie, dostavba právnické fakulty v Praze, jeho velkorysé stavby v Pardubicích či památník J. A. Komenského v Naardenu patří k významným dílům naší meziválečné architektury.Zdroj: www.archiweb.cz",
+      "date_of_birth": "1888-04-28",
+      "date_of_death": "1973-12-22",
+      "photo": null,
+      "structure_ids": [
+        38,
+        73,
+        80,
+        115
+      ],
+      "last_change": 1481903601
+    },
+    {
+      "id": 31,
+      "active": true,
+      "name": "Karl Guth",
+      "description": null,
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        39
+      ],
+      "last_change": 1481903949
+    },
+    {
+      "id": 32,
+      "active": true,
+      "name": "Rudolf Wels",
+      "description": "Architekt Rudolf Wels byl jednou z nejpozoruhodnějších osobností naší meziválečné architektury. Studoval na vídeňské Akademii u Fridricha Ohmanna. Ve Vídni navštěvoval i kurzy Adolfa Loose, jehož vliv byl pro jeho budoucí architektonickou tvorbu velmi značný. Od 20. let 20. století působil Rudolf Wels v Karlových Varech. V letech 1921-1922 zde přestavěl a postavil nové objekty proslavené sklářské firmy Moser. Není také bez zajímavosti, že pro firmu Moser navrhoval řadu nápojových souprav a váz s výtvarnými dekory. Ty pak byly velice úspěšné na Mezinárodní výstavě dekorativních a průmyslových umění, pořádané v roce 1925 v Paříži. V letech 1923-1925 vypracoval projekt pro Hornický dům v Sokolově, kde o rok později postavil i dvě školní budovy - německou měšťanskou školu a českou školu. Mezi jeho nejzdařilejší práce vůbec však patří budova nemocenské pojišťovny (dnes Poliklinika) na náměstí Milady Horákové, lázeňský dům Bellevue a také budova Lázní VI v Karlových Varech. Ve 30. letech se Rudolf Wels přestěhoval do Prahy, kde založil ateliér spolu s ing. Guido Lagusem. V roce 1942 byl Wels internován v Terezíně a následující rok odeslán do koncentračního tábora v Osvětimi, odkud se již on, ani jeho manželka a jeden ze synů nevrátili. Tak jako mnoho jiných, pro které byl německý jazyk jazykem mateřským, zařadil se i Rudolf Wels mezi“zapomenuté“ osobnosti meziválečného Československa.  Zdroj: www.archiweb.cz",
+      "date_of_birth": "1882-04-28",
+      "date_of_death": "1944-03-08",
+      "photo": null,
+      "structure_ids": [
+        40,
+        41
+      ],
+      "last_change": 1481904164
+    },
+    {
+      "id": 33,
+      "active": true,
+      "name": "Ernst Březina",
+      "description": null,
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        43
+      ],
+      "last_change": 1481904845
+    },
+    {
+      "id": 34,
+      "active": true,
+      "name": "Robert Dvořáček",
+      "description": "Architekt a stavitel z Červeného Kostelce. ",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        44
+      ],
+      "last_change": 1481990677
+    },
+    {
+      "id": 35,
+      "active": true,
+      "name": "Ladislav Červinka",
+      "description": null,
+      "date_of_birth": "1912-05-16",
+      "date_of_death": "1975-12-22",
+      "photo": null,
+      "structure_ids": [
+        45
+      ],
+      "last_change": 1481993156
+    },
+    {
+      "id": 36,
+      "active": true,
+      "name": "Jan Rejchl",
+      "description": "Žák Josefa Gočára. Jeden z autorů mnoha funcionalistických budov , jenž dodaly moderní vzhled měsu Hradec Králové.Zdroj: http://www.theatre-architecture.eu",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        46
+      ],
+      "last_change": 1481993503
+    },
+    {
+      "id": 37,
+      "active": true,
+      "name": "Oldřich Liska",
+      "description": "Narodil se v Kamhajku u Kolína. Vyučil se zedníkem v Praze ve Společenstvu stavebních a výtvarných řemesel. Po vyučení v roce 1899 studoval nejprve na Státní průmyslové škole v Praze a v roce 1901 odešel na Uměleckoprůmyslovou školu do Drážďan. Praxi v oboru získával i během studií u pražské stavební firmy Matěje Blechy. Po skončení vojenské služby v roce 1905 byl na praxi ve stavební firmě Niklíček v Poličce. Po roční praxi se vrátil do Drážďan, kde pracoval jako projektant v atelieru H. Watzlavika. Pak navštívil Mnichov, kde se v roce 1908 seznámil s architektem Ladislavem Skřivánkem, v jehož ateliéru ve Vídni byl následně rok zaměstnán.V roce 1909 se vrátil do Čech a přijal místo projektanta ve stavební firmě Josefa Jihlavce v Hradci Králové. S tímto městem byla spojena převážná část jeho života i tvorby. Ještě před 1. světovou válkou se stal spolumajitelem projekční kanceláře Fňouk–stavitel &amp; Liska–architekt a po válce pracoval u města jako vedoucí projektant Stavební společnosti a zaměstnanec Technické kanceláře. V roce 1921 založil vlastní projekční kancelář s ateliérem, která se stala počátkem 30. let součástí jeho nově postavené vily, kterou sám projektoval. Po 2. světové válce, veden snahou podílet se na obnově válkou zničených míst, odešel z Hradce Králové do Opavy, kde se po roce 1948 stal zaměstnancem Stavoprojektu. Zemřel ve věku 78 let v Brně. Za dobu své profesní kariéry byl ovlivněn jak směry a tendencemi, které se v architektuře v průběhu let objevovaly, tak významnými architekty, se kterými se setkal i spolupracoval. Mezi ně patřili Jan Kotěra, Josef Gočár, Pavel Janák, Jaromír Krejcar, Vladimír Fultner, Vladimír Zákrejs, Václav Rejchl a další. V počátku jeho tvorby je nejvíce patrný vliv „Gesamtkunstwerku“, spojujícího klasicismus s německou secesí a jeho dekorativismu. Další, v architektuře krátké období kubismu (1910 – 1913), ho svedlo dohromady s propagátorem tohoto směru, architektem Vladimírem Fultnerem, s nímž spolupracoval při návrzích některých realizovaných i nerealizovaných staveb. Liska ale kubismem v architektuře příliš ovlivněn nebyl, kromě stavby evangelického kostela s farou v Pečkách, a využíval spíše kubistický dekor při návrzích průčelí a fasád staveb, či interiérových prvků. Po 1. světové válce to pak byl dekor rondokubistický, který uplatnil například při návrzích obytných domů v Poličce. Charakterističtější pro jeho pozdější tvorbu se staly prvky purismu a mašinismu, ze kterého převzal oblé linie, připomínající automobilovou kapotu a aerodynamické kovové konstrukce velkých oken. To vše, podobně jako nautické motivy architekta Jaromíra Krejcara, však používal jen jako ozvláštnění umírněného funkcionalistického směru, ve kterém vznikly jeho nejzásadnější stavby. Z jejich realizací je patrná též velká autorova záliba v kombinaci režného zdiva s hladkou omítkou. Oldřich Liska je považován za architekta severovýchodních Čech a jeho ateliér se stal ve 20. – 50. letech 20. století nejvýznamnější projekční kanceláří tohoto regionu. Realizace jeho projektů se nacházejí nejen ve velkých městech Hradci Králové, Pardubicích, Jablonci nad Nisou, ale i v menších městech Poličce, Chlumci nad Cidlinou, Lomnici nad Popelkou, Jaroměři, Pečkách a dalších. Velká většina jeho staveb patří mezi nemovité kulturní památky České republiky. Zdroj: https://cs.wikipedia.org",
+      "date_of_birth": "1881-04-17",
+      "date_of_death": "1959-12-08",
+      "photo": null,
+      "structure_ids": [
+        47,
+        69,
+        107
+      ],
+      "last_change": 1481994225
+    },
+    {
+      "id": 38,
+      "active": true,
+      "name": "Čeněk Musil",
+      "description": "Český architekt a urbanista, který působil i jako scénograf a výtvarník. Musilovy stavby významně ovlivnily vzhled Jičína. Jeho regulační plán tohoto města byl jedním z vůbec prvních regulačních plánů v Čechách. Pracoval na něm v letech 1930–1935. Musil v Jičíně. Realizoval celkem asi 40 staveb včetně rodinných domů.Zdroj: https://cs.wikipedia.org",
+      "date_of_birth": "1889-03-05",
+      "date_of_death": "1947-11-01",
+      "photo": null,
+      "structure_ids": [
+        48,
+        49
+      ],
+      "last_change": 1481994531
+    },
+    {
+      "id": 39,
+      "active": true,
+      "name": "Goldschmid a Hartman Goldschmid a Hartman",
+      "description": "Stavební a projektantská kancelář z Náchoda. Ing. Antonín Hartman.",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        50
+      ],
+      "last_change": 1481996343
+    },
+    {
+      "id": 40,
+      "active": true,
+      "name": "Jindřich Freiwald",
+      "description": "Jindřich Freiwald  se narodil v Hronově a pocházel ze známé rodiny Freiwaldů, kteří byli spřízněni s Aloisem Jiráskem. Své mládí prožil v rodném Padolí. Zamiloval si tento kraj pod Borem, zamiloval si toto město. Cvičil v Sokole a působil v hronovském ochotnickém spolku. Byl znalcem a milovníkem díla Mistra Aloise Jiráska. Od roku 1913 studoval na Akademii výtvarných umění v Praze architekturu u profesora Jana Kotěry. V roce 1921 založil s Ing. Jaroslavem Böhmem projekční a stavitelskou firmu pod názvem Inženýři Freiwald - Böhm v Praze - Karlíně, v níž působil až do konce svého života. Ve své tvorbě se soustředil především na problematiku bydlení (kolonie rodinných domků i vily v Praze na Smíchově, v Dejvicích, Kolíně, Opavě, Pardubicích, dělnické kolonie v Duchcově a Chustu na Podkarpatské Rusi,) a na architekturu peněžních ústavů (v Kolíně, Železném Brodě, Dvoře Králové nad Labem, Hronově, Polici nad Metují, Sobotce, Sušicích, Červeném Kostelci).Arch. Freiwald měl hlavní podíl na vypracování projektu hronovského divadla včetně městského muzea a dalšího divadelního zázemí. Projektoval také divadla v Chrudimi, Kolíně. K dalším realizacím patřil  nájemní dům v Praze v Bubenči (Šmeralova ul.), objekty továrny Aero v Praze ve Vysočanech a Karlíně a kino Aero v Praze na Žižkově. Netrpělivě očekával konec války a návrat svobody. Při pražském povstání si hned 5. května oblékl důstojnickou uniformu (byl důstojníkem čsl. armády) a šel vyjednávat s komandem SS, aby z Prahy odešli a nevraždili naše lidi. Byl zatčen a při odchodu jednotky SS 8.5. 1945 na kopci nad krčskou nemocnicí jej i s jeho pomocníkem zastřelili. Malý pomníček na levé straně silnice na Benešov připomíná jeho hrdinný čin a surovou vraždu nacistů. Původně byl pohřben již 11.5.1945 na hřbitově v Braníku, ale později byl uložen v rodné půdě hronovského hřbitova. Pohřeb byl v době 15. Jiráskova Hronova vypraven z budovy divadla a Ing. arch. Freiwald je pochován na legionářském hřbitově. Zdroj: www.http://slavnestavby.cz",
+      "date_of_birth": "1890-06-06",
+      "date_of_death": "1945-05-08",
+      "photo": null,
+      "structure_ids": [
+        51
+      ],
+      "last_change": 1481996581
+    },
+    {
+      "id": 41,
+      "active": true,
+      "name": "František Piskora",
+      "description": "Stavitel a projektant, Solnice.",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        53
+      ],
+      "last_change": 1481997099
+    },
+    {
+      "id": 42,
+      "active": true,
+      "name": "Karel Salač",
+      "description": "Turnovský stavitel a architekt.",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        57
+      ],
+      "last_change": 1481997423
+    },
+    {
+      "id": 43,
+      "active": true,
+      "name": "ing. John",
+      "description": "Stavitelé, Hodkovice nad Mohelkou.",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        58
+      ],
+      "last_change": 1484133469
+    },
+    {
+      "id": 44,
+      "active": true,
+      "name": "Karel Beran",
+      "description": "Architekt a stavitel.",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        56
+      ],
+      "last_change": 1481998052
+    },
+    {
+      "id": 45,
+      "active": true,
+      "name": "Carl Daut",
+      "description": "Rychnovský stavitel a architekt.Zdroj: www.iberec-reichenberg.net",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        59
+      ],
+      "last_change": 1481998147
+    },
+    {
+      "id": 46,
+      "active": true,
+      "name": "Josef Ulbrich",
+      "description": null,
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        null
+      ],
+      "last_change": 1481998457
+    },
+    {
+      "id": 47,
+      "active": true,
+      "name": "Viktorin Šulc",
+      "description": "Český architekt a malíř. V letech 1890–1897 absolvoval architekturu na České vysoké škole technické v Praze. Poté krátce působil ve službách města Prahy. V září 1899 nastoupil do funkce profesora na České státní průmyslové škole v Plzni, kde zůstal až do roku 1912. Vypracoval řadu projektů (fasády staveb, výstavní pavilony, městské nájemní, bankovní a obchodní domy, vily, školy, radnice, nemocnice, sirotčince, mosty, regulace zástavby) pro Plzeň, širší okolí i vzdálenější místa (Litomyšl, Mladá Boleslav, Písek, Týnice nad Sázavou, Přerov aj.). S architekty J. Šulou a J. Velflíkem, vypracoval návrh Smetanova domu v Litomyšli, podobně s pražským architektem Richardem Klenkou návrh českého Národního divadla v Brně [2]. V letech 1910–1912 navrhl radnici Slezské Ostravy. Je také autorem radnice v Pacově. Jeho tvorba vycházela z pozdního historismu. Eklekticky uplatňoval tvarosloví renesance, baroka a secese, vždy však s inklinací k historismu a dekorativismu. Po první světové válce v jeho díle převážil nový klasicismus. Byl členem spolku Myslbek a Jednoty umělců výtvarných.Zdroj: https://cs.wikipedia.org",
+      "date_of_birth": "1870-10-09",
+      "date_of_death": "1946-03-20",
+      "photo": null,
+      "structure_ids": [
+        61,
+        65
+      ],
+      "last_change": 1481999487
+    },
+    {
+      "id": 48,
+      "active": true,
+      "name": "Jaroslav Vondrák",
+      "description": "Český architekt a urbanista, významná osobnost české architektury přelomu 19. a 20. století, studium na Uměleckoprůmyslové škole v Praze u Jana Kotěry.Zdroj: http://www.slavnestavby.cz",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        62
+      ],
+      "last_change": 1481999720
+    },
+    {
+      "id": 49,
+      "active": true,
+      "name": "Karel Andrejsek",
+      "description": "Semilský architekt.",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        63
+      ],
+      "last_change": 1482000025
+    },
+    {
+      "id": 50,
+      "active": true,
+      "name": "Karl Randak",
+      "description": "Semilský architekt a stavitel.",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        63
+      ],
+      "last_change": 1482000084
+    },
+    {
+      "id": 51,
+      "active": true,
+      "name": "František Vahala",
+      "description": "Československý architekt a výtvarník, žák Jana Kotěry a Stanislava Suchardy a člen Spolku výtvarných umělců Mánes. Jeho návrhy a projekty vycházely v časopisech „Das Interieur“, „Moderne Kleinbauten“, „Styl“, „Stavitel“, „Volné směry“. Narodil se v Hustopečích nad Bečvou jako nejmladší ze šesti dětí. Učil se zedníkem, navštěvoval odbornou školu pro zpracování dřeva a na Umprum studoval nejdříve malbu a později Speciální školu pro dekorativní architekturu Jana Kotěry. Po ukončení studií pracoval v architektonické kanceláři u Otakara Novotného a poté u Antonína Balšánka v kanceláři pro stavbu Obecního domu v Praze. Samostatnou činnost zahájil František Vahala v roce 1911. Navrhoval interiéry bytů, nábytek, rodinné a činžovní domy a zúčastňoval se architektonických soutěží. Jako jeden z prvních žáků Jana Kotěry byl od počátku přesvědčeným moderním architektem. Dával své práci solidní praktický a technický základ; tím umožňoval její realisaci i v dobách nepřízně k novému směru. Jeho dovednost v různých výtvarných oborech i v uměleckém průmyslu se projevovala v dokonalém vyřešení detailu i po výtvarné stránce; dovolovala mu ovládnutí celku k jednotnému výrazu. Charakter jeho práce byl dán původním zaměřením Kotěrovy školy; nebylo v něm úchylek, ale nenáhlý vývoj od stránky ryze výtvarné v novém duchu nazírání funkcionalismu, ovšem se stálým hlavním zřetelem výtvarným. Jeho stavby jsou prosté, věcné, harmonické, ve stále stejném, jen zdokonalujícím se duchu; neprodělaly různé výboje, kterými kdysi byla naplněna naše architektonická veřejnost; zůstávají jaksi stranou příboje, ale tím dostávají osobitý výraz. Zvláštní pozornost si zaslouží rodinný domek a interiér, ač v nich nebyla převaha jeho práce. Například skupina rodinných domků na Ořechovce (1919), kolonie v Citolibech (1920) a zvláště kolonie rodinných domů v Bechyni (1922). Zvláště v pozdější době se věnoval hlavně veřejným stavbám. Podle jeho návrhu bylo provedeno mnoho obecných, hlavních a středních škol - například obecné a hlavní školy v Novém Jičíně (1924), v Jistebníku (1928), v Turnově (1931), v Mohelnici (1936), v Hustopečích nad Bečvou (1939); reálné gymnasium ve Zlatých Moravcích na Slovensku (1920), v Novém Jičíně (1925), v Turnově (1927), ve Vsetíně (1930), Ústřední škola bytového průmyslu v Praze na Žižkově (1923) (dnešní Střední uměleckoprůmyslová škola SUPŠ). Z celé řady různých úředních budov si zasluhují zmínky krajský soud v Moravské Ostravě (1924), rozsáhlá budova státních úřadů s byty v Liberci (1926), krajský soud v Ostravě, budova okresního soudu v Milevsku (1930). Nejvyspělejší jeho stavbou je Lékařský dům v Praze na Vinohradech (1928). Hodnotné jsou i jeho urbanistické práce, zejména soutěžní návrh na pražský severozápadní sektor Letná (s Vratislavem Lhotou 1920), regulace severní části Bechyně (1931) a úprava několika hřbitovů (Chotěboř). Velmi zdařilé jsou i architektonické úpravy vodních staveb, okolí jezu v Praze-Tróji, rozšíření elektrárny v Praze na Štvanici, ale zejména Masarykova zdymadla v Ústí nad Labem pod Střekovem. František Vahala realizoval značný počet svých návrhů; patřil tedy mezi úspěšné architekty; jeho práce měla vždy úroveň, byla solidní a vážná.Zdroj: https://cs.wikipedia.org",
+      "date_of_birth": "1881-07-03",
+      "date_of_death": "1942-03-24",
+      "photo": null,
+      "structure_ids": [
+        64,
+        140
+      ],
+      "last_change": 1483693412
+    },
+    {
+      "id": 52,
+      "active": true,
+      "name": "Jan Vodňaruk",
+      "description": "Český architekt a stavitel studoval stavitelství na průmyslové škole v Praze. Od r. 1913 stavitel v Praze. - Účastník mnoha architektonických soutěží. Získal ocenění za regulační plán Luhačovic a Bratislavy, šekový palác v Praze, měšťanskou školu ve Slaném, městské divadlo v Kutné Hoře ad. Autor projektů rodinných domků a nájemních domů v Praze. ",
+      "date_of_birth": "1885-04-04",
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        65
+      ],
+      "last_change": 1482000730
+    },
+    {
+      "id": 53,
+      "active": true,
+      "name": "Alois Mezera",
+      "description": "Významný český funkcionalistický a klasicistně puristický architekt. Patří k opomíjeným osobnostem české architektury. Byl předsedou Společnosti architektů. Jeho manželkou byla malířka Julie Winterová-Mezerová. Mezi roky 1910–1913 vystudoval na pražské Vysoké škole uměleckoprůmyslové v Praze u Josipa Plečnika. V letech 1920–1925 byl členem Spolku výtvarných umělců Mánes.Zdroj: http://www.slavnestavby.cz",
+      "date_of_birth": "1889-06-20",
+      "date_of_death": "1945-09-26",
+      "photo": null,
+      "structure_ids": [
+        54,
+        84,
+        110
+      ],
+      "last_change": 1482001028
+    },
+    {
+      "id": 54,
+      "active": true,
+      "name": "František Capoušek",
+      "description": "Stavitel a architekt.",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        55
+      ],
+      "last_change": 1482001534
+    },
+    {
+      "id": 55,
+      "active": true,
+      "name": "Vojtěch Vanický",
+      "description": "Český stavitel a architekt, žák Kotěry a Gočára se narodil v Horní Sloupnici na východě Čech v Pardubickém kraji. Studoval na Vyšší průmyslové škole v Brně a v letech 1922-1925 na Akademii výtvarných umění v Praze u profesorů Jana Kotěry a Josefa Gočára. V letech 1925 – 1930 potom pracoval v Gočárově ateliéru. Od roku 1925 byl členem Sdružení architektů a od roku 1928 Asociace akademických architektů.. Pracoval v redakční radě časopisu Stavitel. Projekty a texty publikoval v časopisech Stavitel, Styl, Stavitelské listy aj. Vyučoval na průmyslových školách v Plzni, Děčíně a Hradci Králové. Sám uspěl v několika soutěžích a realizoval řadu návrhů, převážně mimopražských. Zprvu jeho tvorbu ovlivňovala nová holandská architektura. Ve svých návrzích pod tímto vlivem často uplatňoval režné zdivo. Později se přimykal k funkcionalismu, ale režnému zdivu zůstal věrný. Řadu pozoruhodných staveb realizoval v Moravské a v České Třebové, kde byl také autorem regulačního plánu. Vojtěch Vanický zemřel ve Vysokém Mýtě.Zdroj: www.http://slavnestavby.cz",
+      "date_of_birth": "1898-11-15",
+      "date_of_death": "1983-08-31",
+      "photo": null,
+      "structure_ids": [
+        66,
+        72
+      ],
+      "last_change": 1482001999
+    },
+    {
+      "id": 56,
+      "active": true,
+      "name": "František Luc",
+      "description": "Architekt, Lysá nad Labem",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        68
+      ],
+      "last_change": 1482002322
+    },
+    {
+      "id": 57,
+      "active": true,
+      "name": "Karel Řepa",
+      "description": "Český architekt, zejména autor řady funkcionalistických staveb na Pardubicku. Jeho syn Miroslav Řepa je rovněž architektem. Karel Řepa je pohřben na pardubickém Centrálním hřbitově. Řepa studoval od roku 1918 pražskou UMPRUM a byl žákem Josipa Plečnika, jehož práce zprvu formovala i jeho vlastní styl. Plečnika následoval až do slovinské Lublaně, kde svá studia dokončil (s Plečnikem si dopisoval ještě v 50. letech). Později pracoval krátce v Praze v ateliéru arch. Františka Krásného a natrvalo se nakonec usadil v Pardubicích, kde od poloviny 20. let projektoval řadu moderních budov rozličného určení. Byl hlavním architektem Výstavy tělesné výchovy a sportu (květen až říjen 1931), na kterou navrhl ceněné a mezinárodně publikované funkcionalistické pavilony – například letní kavárnu U jezírka v Tyršových sadech. Dodnes se z výstavy dochovaly pouze části sportovního stadiónu s klopenou cyklistickou dráhou a hlavní pavilon – budova Průmyslového muzea (dnešní Střední průmyslová škola potravinářská). Významný je Řepův projekt pardubického hlavního nádraží, na kterém v letech 1947-1948 spolupracoval s Karlem Kalvodou a Josefem Dandou. Jedna z nejvýznamnějších staveb poválečného funkcionalismu s prostornou odbavovací halou, hotelem a podzemním kinem, byla dokončena už ve stalinské éře.Zdroj: https://cs.wikipedia.org",
+      "date_of_birth": "1895-10-23",
+      "date_of_death": "1963-03-02",
+      "photo": null,
+      "structure_ids": [
+        67,
+        74
+      ],
+      "last_change": 1482003487
+    },
+    {
+      "id": 58,
+      "active": true,
+      "name": "Antonín Ausobský",
+      "description": "Český architekt a vysokoškolský pedagog. Pracoval jako profesor architektonické tvorby a teorie a vývoje architektury na ČVUT. Během svého působení na Vysoké škole architektury a pozemního stavitelství při ČVUT zde založil archiv lidové architektury. Byl též autorem vysokoškolské učebnice Základy tvarosloví české lidové architektury.Zdroj: https://cs.wikipedia.org",
+      "date_of_birth": "1885-06-13",
+      "date_of_death": "1957-06-13",
+      "photo": null,
+      "structure_ids": [
+        70
+      ],
+      "last_change": 1482002846
+    },
+    {
+      "id": 59,
+      "active": true,
+      "name": "Karel Tymich",
+      "description": "Český architekt Karel Tykách narozený ve Lhotě nad Moravou se specializoval na projekty veřejných budov, zejména nemocnic a škol.",
+      "date_of_birth": "1893-11-27",
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        71
+      ],
+      "last_change": 1482003317
+    },
+    {
+      "id": 60,
+      "active": true,
+      "name": "Bohuslav Šmíd",
+      "description": "Dílo Bohuslava Šmída (1895–1982), soustředěné v Poličce, je dokladem toho, že v éře první republiky vznikala kvalitní architektura i mimo velká centra. Výtvarný talent a houževnatost přivedly nejstaršího z osmi dětí domkáře k pozoruhodné kariéře. Ve čtrnácti letech jej rodiče poslali k vyučení zednickému řemeslu do Plzně. Jako zedník pracoval Bohuslav na Sázavě až do začátku první světové války, jejíž dobu strávil na italské a ruské frontě jako prostý voják. V samostatném československém státě získal v červenci 1919 stavitelskou koncesi v Praze a záhy poté byl přijat na praxi do projekční kanceláře architekta Pavla Janáka. Z metropole odchází roku 1920 do Poličky, kde o tři roky později uzavřel sňatek s Jarmilou Richterovou, dcerou sládka. Až do roku 1929 měl v Poličce samostatnou projekci, poté tu až do politického zvratu v roce 1948 řídil vlastní stavební firmu. Vedle silničních, mostních, bytových a obchodních staveb stavitel Šmíd mezi válkami realizoval také řadu prospěšných obecních podniků (škola, okresní nemocnice). Ve vlastní vile (a zamýšlené, ale neuskutečněné domovní kolonii při bysterské ulici) se Šmíd přiklonil k progresivnímu funkcionalistickému proudu. Asymetrická hmotová konfigurace domu sestává ze dvou navzájem se prostupujících kvadratických těles. Barevný dvojakord domu oživovaly modré nátěry okenních, někdy za roh zalomených rámů. V levé části uliční fronty byl situován privátní vstup s navazujícím víceramenným dubovým schodištěm do obytného patra, v partii protějšího pravoúhle ustouplého nároží mu sekundoval vchod do přízemí s archivem a firemními kancelářemi. Vila byla vybavena centrálním topením a kompletně elektrifikovanými spotřebiči (kuchyňský sporák, lednička, pračka). Zdroj: www.http://slavnestavby.cz",
+      "date_of_birth": "1924-01-30",
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        75
+      ],
+      "last_change": 1482004039
+    },
+    {
+      "id": 61,
+      "active": true,
+      "name": "Hanuš Zápal",
+      "description": "Rodina Jana Zápala, který od dob svých vysokoškolských studií používal křestní jméno Hanuš, pocházela z oblasti Rakovnicka a Kralovicka. Tamní krajina s četnými barokními památkami na něj měla mimořádný vliv. Nejenže usiloval o záchranu ohrožených památek, ale z barokních předloh při své práci celý život čerpal. Po studiu architektury na české technice v Praze a praxi u Jana Kouly, Antonína Balšánka a Bedřicha Bendelmayera, nastoupil od dubna 1910 na městský stavební úřad v Plzni. Více než dvě desetiletí zde pak projektoval významné veřejné budovy, které se v mnoha případech staly symbolem úspěšné modernizace Plzně v meziválečném období. Kromě celé řady školních budov navrhl například městské divadelní skladiště, krematorium, novou část vodárny a tramvajové vozovny. Mimo své úřední práce a po odchodu do předčasné penze v roce 1931 projektoval rovněž soukromě. Zaměřoval se při tom předně na budovy škol a sociálních ústavů. Zabýval se také opravami památek, přátelil se s Ladislavem Lábkem a celoživotní úsilí věnoval záchraně barokního poutního místa v Mariánské Týnici u Kralovic (předně 1919–1957). Od pozdně secesního a neoklasicistního pojetí přes kubistické ohlasy po polovině 20. let přešel k purismu a později k funkcionalismu. Ve 30. letech hledal alternativy funkcionalistické architektury, přičemž tvůrčím způsobem rozvíjel historické principy. Obdiv k baroku stál za citlivostí umístění jeho staveb v kontextu sídel i krajiny, uplatňování uměleckých děl apod. V padesátých letech přišel o svůj byt v Plzni a následně byl odstaven i ze záchranných prací v Mariánské Týnici. Text: Petr Domanický",
+      "date_of_birth": "1885-02-07",
+      "date_of_death": "1964-11-28",
+      "photo": null,
+      "structure_ids": [
+        6,
+        9,
+        11,
+        12,
+        13,
+        141
+      ],
+      "last_change": 1482004663
+    },
+    {
+      "id": 62,
+      "active": true,
+      "name": "František Albert Libra",
+      "description": "Narozen v Českém Herálci. Studium architektury na české (1910-13) a německé (1913-16) technice v Praze. V letech 1916-20 v armádě, r. 1920 zakončuje vysokoškolská studia přerušená válkou. Od roku 1921 samostatný architekt. Studijní cesty po Evropě. Široké kulturní zájmy: aktivně hudba-violoncello, historie, filozofie. Spolupráce s Autoklubem RČS. Dokumentace svých četných prací vystavuje na mezinárodních výstavách v Praze, Bruselu, Paříži (stříbrná medaile). V letech 1948-52 zaměstnán ve Stavoprojektu, 1952-58 v Energoprojektu v Praze. Umírá v roce 1958 v Praze. F. A. Libra patřil k předním českým funkcionalistickým architektům. Množství jeho soutěžních projektů (cca 50) a zejména množství realizovaných staveb svědčí o jeho mimořádném talentu a píli. Obsáhl široké spektrum architektonické tvorby - urbanismus, obytné budovy, peněžní a léčebné ústavy, jesle a školky, koupaliště, průmyslové stavby, interiéry, avšak i plakáty a drobný design. Jeho budovy se vyznačovaly dokonalým provozním řešením a kultivovaným architektonickým výrazem. Zejména jeho největší a nejznámější realizace - areál sanatoria pro léčbu TBC ve Vyšných Hágách - patří k nejlepším a nejcitlivějším funkcionalistickým stavbám třicátých let u nás.Zdroj: www.archiweb.cz",
+      "date_of_birth": "1891-04-08",
+      "date_of_death": "1958-06-03",
+      "photo": null,
+      "structure_ids": [
+        8,
+        125
+      ],
+      "last_change": 1482006307
+    },
+    {
+      "id": 63,
+      "active": true,
+      "name": "Václav Klein",
+      "description": "Architekt Václav Klein se narodil v Praze, kde také vystudoval architekturu a pozemní stavitelství. Ještě jako student se roku 1910 stal předsedou oddělení výstavby technických úřadů města Plzně, a v západočeské metropoli pak prožil i většinu svého života. Působil rovněž v místním historickém oddělení městského muzea; jeho láska k historii se odrážela i v jeho angažmá v památkové péči. Věnoval se mimo jiné projektům rekonstrukcí hradních a sakrálních objektů, zasloužil se výrazně o obnovu plzeňského františkánského kláštera. Věnoval se rovněž přednáškové činnosti a malířství. V druhé polovině třicátých a první polovině čtyřicátých let se Václav Klein coby městský architekt (resp. městský vrchní technický komisař) zapsal do tváře města řadou kvalitních funkcionalistických budov či dílčích úprav – obytný dům pro Annu Kodymovou (C4–2150) byl vystavěn v letech 1936–1937, v téže době byla provedena modernistická adaptace části přízemí jižního křídla gymnázia a filozofického ústavu (někdejšího kláštera dominikánek) ve Smetanových sadech pro potřeby knihovny. Třetí obecná a měšťanská škola chlapecká na Čapkově náměstí pochází z let 1937–1940, objekt Lidové university Husovy s biografem (C1–102) byl realizován v letech 1938–1939, bytový trojdům zaměstnanců Elektrických podniků města Plzně ve Slovanské aleji jen o rok později, infekční pavilon nemocnice na Borech pak během válečných let 1940–1943.Zdroj: www.http://pam.plzne.cz",
+      "date_of_birth": "1890-02-18",
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        10
+      ],
+      "last_change": 1482007277
+    },
+    {
+      "id": 64,
+      "active": true,
+      "name": "Ladislav Skřivánek",
+      "description": "Český architekt, narozen v Čáslavi, studium na vysoké škole technické a Akademii výtvarných umění ve Vídni, seminář pro stavbu měst při vysoké škole technické v Berlíně-Charlottenburku, od roku 1912 pedagogické působení na Uměleckoprůmyslové škole v Praze.Zdroj: www.http://slavnestavby.cz",
+      "date_of_birth": "1877-06-21",
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        14,
+        77,
+        89
+      ],
+      "last_change": 1482010222
+    },
+    {
+      "id": 65,
+      "active": true,
+      "name": "38. oddělení Zemského úřadu v Praze",
+      "description": "38. oddělením Zemského úřadu v Praze pod vedením Ing. Douši.",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        4
+      ],
+      "last_change": 1484214970
+    },
+    {
+      "id": 66,
+      "active": true,
+      "name": "Josef Doležal",
+      "description": "Stavitelská firma Josef Doležal a syn ze Strážnice.",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        29
+      ],
+      "last_change": 1482066596
+    },
+    {
+      "id": 67,
+      "active": true,
+      "name": "Mojmír Kyselka st.",
+      "description": "1921 - maturita na 1. české státní reálce v Brně1921-28 - studium na České vysoké škole technické v Brně1928-44, 1945-52 - Stavební úřad města Brna (samostatný projektant, vedoucí projekční kanceláře pro pozemní stavby a architekturu, vedoucí projekčního a regulačního oddělení)1944-45 - po propuštění ze zaměstnání protektorálními úřady samostatný projektant v Brně1952-62 - vedoucí oddělení územního plánu v oboru výstavby a vodního hospodářství Městského národního výboru v Brně1958-64 - externí učitel Vysokého učení technického v Brně1962-74 - samostatný projektant v Brně. Člen Skupiny výtvarných umělců v Brně, Svazu československých výtvarných umělců.Zdroj: www.archiweb.cz",
+      "date_of_birth": "1902-07-16",
+      "date_of_death": "1974-11-04",
+      "photo": null,
+      "structure_ids": [
+        33,
+        104
+      ],
+      "last_change": 1482068352
+    },
+    {
+      "id": 68,
+      "active": true,
+      "name": "Ludwig Tremmel",
+      "description": "Ludwig Tremmel se narodil 24. května 1875 ve Vídni tesaři Franzi Josefu Tremmelovi a jeho ženě Marii. Roku 1894 dokončil studium na Státní obchodní škole ve Vídni a poté, v letech 1895–1898, studoval pod vedením Viktora Luntze na tamější Akademii výtvarných umění. Viktor Luntz, který působil jako stavbyvedoucí při realizaci vídeňské radnice, byl mimo jiné spolupracovníkem architekta Maxe Fleischera, autora prvního nerealizovaného návrhu plzeňské Nové (či Velké) synagogy. Právě Luntzův tradicionalistický názor na architekturu, oponující reformním snahám Otto Wagnera, ovlivnil i mladého Tremmela, který v převážné části své tvorby hojně využíval citace historických architektonických stylů – patrná je jeho inspirace barokní a klasicistní architekturou. Po studiích Tremmel krátký čas pracoval jako architekt v kanceláři dolnorakouského místodržícího. Roku 1907 odešel do Plzně, kde pobýval až do konce první světové války. V této době byl hlavním architektem Škodových závodů (jak v Plzni, tak v Mladé Boleslavi) a zároveň pedagogem na Německé státní obchodní škole v Nerudově ulici v Plzni. Svůj ateliér měl v činžovním domě č. o. 24 ve Skrétově ulici. Tremmel doslova zaplnil Plzeň svými realizacemi, kromě návrhů pro Škodovku se jednalo především o činžovní domy a vily pro soukromé investory. V historickém jádru Plzně je to například bytový a obchodní dům č. o. 13 pro vrchního sládka Měšťanského pivovaru v Plzni Adolfa Bayera v ulici Bedřicha Smetany, v jehož přízemí sídlila filiálka Anglo-rakouské banky (1912–1914, C1–159). Dnes objekt využívá Knihovna města Plzně. Další realizace Ludwiga Tremmela bychom našli v Sedláčkově, Riegrově, Františkánské, Zbrojnické a Dřevěné ulici a také na náměstí Republiky. Tremmelovy plzeňské realizace se vyznačují zejména dominantními štukovými prvky fasád, použitím různě strukturovaných omítek a bohatě profilovanými a výrazně vysazenými korunními římsami. Během pobytu v Plzni se Tremmel zúčastňoval také veřejných architektonických soutěží – za zmínku stojí návrhy Městského divadla v Mostě, evangelického kostela ve Vítkově ve Slezsku a kolonád v Mariánských Lázních. Po skončení války se Ludwig Tremmel vrátil do Vídně, kde opět učil a do vypuknutí druhé světové války také projektoval. V meziválečném období se pomalu začal stylově odklánět od historismu, jeho stavby získávají jednodušší geometrické fasády zvýrazněné použitím kontrastních barev. Po návratu do vlasti získal Rytířský kříž 1. třídy za zásluhy o Rakouskou republiku. Zemřel po dlouhé těžké nemoci 1. prosince 1946 ve Vídni.Zdroj: http://pam.plzne.cz",
+      "date_of_birth": "1875-04-24",
+      "date_of_death": "1946-12-01",
+      "photo": null,
+      "structure_ids": [
+        78
+      ],
+      "last_change": 1482088088
+    },
+    {
+      "id": 69,
+      "active": true,
+      "name": "Vladimír Weingärtner",
+      "description": "Vladimír Weingärtner, narozený 28. července 1892 v Praze, byl synem stavebního inženýra Viléma Weingärtnera, který pracoval jako mostař pro plzeňskou stavební firmu Müller &amp; Kapsa a podílel se na návrzích Masarykova mostu na Jateční a mostu Františka Josefa I. (dnes Wilsonův) na Americké třídě. Vladimír v letech 1911–1915 vystudoval Českou školu technickou v Praze (dnes ČVUT). Za války byl nasazen na italskou frontu k horským myslivcům, vážně onemocněl a z nemoci se již nikdy zcela nevyléčil. Po studiích se oženil s Emilií Kuhnovou a stal se otcem dvou synů. Starší Vladimír (nar. 1924) pokračoval v rodinné tradici a stal se dopravním inženýrem (podílel se například na stavbě letiště v Praze-Ruzyni), mladší Vratislav (nar. 1930) pracoval u ČSAD. V zimě na přelomu let 1930 a 1931 se rodina Weingärtnerových přestěhovala z bytu v domě č. o. 15 v Kollárově ulici (C2–333) do nového rodinného řadového domu č. o. 34 v Čermákově ulici v Bezovce (C4–1857). Tento trojdům vystavěli plzeňští stavitelé Tomáš Dobrý a Antonín Kurel podle návrhu Vladimíra Weingärtnera staršího. Architektův syn Vratislav vlastní tento dům dodnes. V letech 1921–1943 Weingärtner působil jako řádný profesor na České státní průmyslové škole (dnešní SPŠ stavební) na Chodském náměstí v Plzni. V této době také vytvořil návrhy řady staveb pro západočeskou metropoli a okolí. Ačkoliv jeho autorství nelze doložit z dochované plánové dokumentace, potvrzují ho pamětníci či architektovi potomci. Dnes se můžeme pouze dohadovat, zda Weingärtnerovi oficiální projektování neumožňovala jeho profesorská pozice, nebo pro něj bylo snazší tvořit pod záštitou někoho jiného. I přes poměrně malý soubor „prokázaných“ realizací byl Weingärtner bezpochyby významnou prvorepublikovou plzeňskou osobností spojenou s tehdejším stavebním rozvojem města. Jeho stopa je nejvíce patrná právě ve vilové čtvrti Bezovka – kromě zmíněného trojdomu byl v Čermákově ulici podle jeho návrhu vystavěn i rodinný šestidům (C4–1763). Z roku 1927 pak pochází návrh nájemního domu Antonína a Alžběty Kurelových č. o. 19 v Bendově ulici. Vladimír Weingärtner se podílel také na plzeňských školských stavbách – je autorem návrhu dílen Státních československých průmyslových škol (dnes SPŠ strojnická a SOŠ prof. Švejcara Plzeň) v Majerově ulici (1926–1927) a spoluautorem projektu školy Dr. Matouše Mandla (dnes Masarykovo gymnázium, Plzeň) v Petákově ulici (C1–1530, 1932–1935). Poslední maturitní ročník na stavební průmyslovce vedl jako třídní učitel oboru Stavitelství v roce 1938, poté mu již pokračující nemoc nedovolila pracovat. Vladimír Weingärnter zemřel v roce 1943.Zdroj: http://pam.plzne.cz",
+      "date_of_birth": "1892-07-28",
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        79
+      ],
+      "last_change": 1482088352
+    },
+    {
+      "id": 70,
+      "active": true,
+      "name": "František Xaver Čtrnáctý",
+      "description": "Vystudoval českou techniku v Praze. Člen Neodvislých, hlásil se k puristicko - konstruktivistickému směru. Před 2. sv. válkou samostatný projektant, po válce pracoval v Energoprojektu a Benzině v Praze a v Průmstavu v Pardubicích. Projektoval řadu nájemních domů v Praze. Zúčastnil se řady soutěží, např. v r. 1923 zvítězil jeho projekt první vysílačky Čs. rozhlasu v Praze-Strašnicích. Pod pseudonymem Jiří Xaver publikoval beletrii spolu se svým starším bratrem Milošem Čtrnáctým.Autor prózy „Ptáci na ráhnoví“ (1941, Musica Edition 1923, 172 stran, beletrie o lidech a životě).Zdroj:VLČEK, Pavel. Encyklopedie architektů, stavitelů, zedníků a kameníků v Čechách. Vyd. 1. Praha: Academia, 2004, s. 128.Biografický slovník českých zemí. 1. vyd. 11. sešit Čern-Čž. Praha: Libri, 2009, s. 89.",
+      "date_of_birth": "1890-04-22",
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        82
+      ],
+      "last_change": 1483693451
+    },
+    {
+      "id": 71,
+      "active": true,
+      "name": "Antonín Moudrý",
+      "description": "Český architekt, činný v první polovině 20. století. Studoval na Umělecko-průmyslové škole v Praze u Josipa Plečnika a na Akademii výtvarných umění u Jana Kotěry. Navrhl řadu veřejných budov i rodinných domů po celém Československu včetně Podkarpatské Rusi. Stylově se pohyboval mezi českou modernou a funkcionalismem. Zabýval se také návrhy textilií a uměleckých předmětů.Zdroj: https://cs.wikipedia.org",
+      "date_of_birth": "1892-05-07",
+      "date_of_death": "1948-05-03",
+      "photo": null,
+      "structure_ids": [
+        83
+      ],
+      "last_change": 1482145536
+    },
+    {
+      "id": 72,
+      "active": true,
+      "name": "Miroslav Purkyně",
+      "description": null,
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        86
+      ],
+      "last_change": 1482145819
+    },
+    {
+      "id": 73,
+      "active": true,
+      "name": "Ernst Krob",
+      "description": "Ústecký městský architekt, spolupracovník F. J. Arnolda. Studoval na VUT v Praze. Byl též aktivním šachistou, přeborníkem ústeckého šachového klubu. Zdroj: http://usti-aussig.net",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        87
+      ],
+      "last_change": 1482151029
+    },
+    {
+      "id": 74,
+      "active": true,
+      "name": "Franz Josef Arnold",
+      "description": "Ústecký městský architekt a vedoucí stavebního úřadu, zároveň byl ve 20. letech minulého století prvním vedoucím ústecké pobočky Metznerbundu (sdružení německých výtvarných umělců z Čech). Studoval v Drážďanech na technice a akademii. Je odchovancem Germana Bestelmeyera. Po nasazení ve válce a zranění se vrací do Ústí. Zde spolupracuje s inženýrem Ernstem Krobem. Zpočátku tvoří v neoklasickém duchu, ale záhy je patrný jeho příklon k abstrahovanému vnímání v duchu nové věcnosti. V letech 1929-30 se „dotkl hvězd“ jako člen poroty soutěže na hotel pro Dolní Zálezly, kdy mu pod rukama prošly návrhy později slavných architektů Plischkeho, Duikera, Schütte-Lihotzky ... Ve srovnání s ostatními architekty ve městě byla Arnoldova produkce opravdu rozsáhlá a výrazně ovlivnila podobu města. Ve funkci městského architekta setrval i za druhé světové války, po ní byl odsunut. Zdroj: http://usti-aussig.net",
+      "date_of_birth": "1888-01-18",
+      "date_of_death": "1962-02-15",
+      "photo": null,
+      "structure_ids": [
+        87
+      ],
+      "last_change": 1483693545
+    },
+    {
+      "id": 75,
+      "active": true,
+      "name": "Josef Gočár",
+      "description": "Narozen v Semíně u Přelouče. Studium architektury na Uměleckoprůmyslové škole v Praze (1902-05) u J. Kotěry, jehož je později nejbližším spolupracovníkem. Aktivně se zúčastňuje spolkového uměleckého života pražských architektů i výtvarných umělců. 1911 zakládá Skupinu výtvarných umělců, 1912 spolu s P. Janákem Pražské umělecké dílny. Je aktivním členem, později předsedou pražského Mánesa. Od r. 1923 profesorem architektury na Akademii výtvarných umění v Praze, zde v l. 1928-31 rektorem. Roku 1925 získává za návrh čs. pavilónu v Paříži Velkou cenu, 1926 řád francouzské Čestné legie. 1926 zvolen členem České akademie věd a umění a dopisujícím členem RIBA v Londýně. Kromě své nesmírně rozsáhlé projektové činnosti též publikuje, zejména v časopisech Stavba, Stavitel, Styl, Umělecký měsíčník, Volné směry, avšak i v časopisech zahraničních. Své práce vystavuje na řadě výstav po celé Evropě. Zúčastňuje se řady architektonických soutěží, mnohé nejen vyhrává, ale návrhy též realizuje. Josef Gočár patří k nejvýznamnějším českým architektům první poloviny 20. století. Jeho dílo je veskrze původní, nepodléhá vlivu historismu 19. století ani suchému funkcionalistickému racionalismu. Je výtvarně citlivé a funkčně dokonalé. První část jeho tvorby lze zařadit k dynamickému českému kubismu, resp. rondokubismu, plastiky na těchto budovách jsou pracemi našich nejlepších sochařů. Druhá část jeho tvorby je osobitým projevem moderny - výtvarně pojatého funkcionalismu. Většinu svých prací realizoval v Praze a v Hradci Králové, který se stal díky Gočárovi vedle Zlína vzorem moderního města. Jeho rozsáhlá a mnohotvárná činnost - od urbanismu a projektování budov, přes výstavnickou tvorbu až k návrhům nábytku a pomníků - prokazuje jeho všestranné výtvarné nadání.Zdroj: www.archiweb.cz",
+      "date_of_birth": "1880-03-13",
+      "date_of_death": "1945-09-10",
+      "photo": null,
+      "structure_ids": [
+        88
+      ],
+      "last_change": 1482146342
+    },
+    {
+      "id": 76,
+      "active": true,
+      "name": "Ludvík Hilgert",
+      "description": "Český architekt, od roku 1918 do 1921 studium na Uměleckoprůmyslové škole v Praze u Josipa Plečnika, v letech 1923-1924 pracoval ve studijní kanceláři Státní regulační komise, poté samostatná projekční praxe, kromě vilové architektury se především v poválečném období zaměřoval na školské stavby.Zdroj: www.slavnestavby.cz",
+      "date_of_birth": "1895-09-24",
+      "date_of_death": "1967-08-29",
+      "photo": null,
+      "structure_ids": [
+        99,
+        102,
+        128
+      ],
+      "last_change": 1482166578
+    },
+    {
+      "id": 77,
+      "active": true,
+      "name": "Josef Macharáček",
+      "description": null,
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        103
+      ],
+      "last_change": 1482166853
+    },
+    {
+      "id": 78,
+      "active": true,
+      "name": "Vlastislav Chroust",
+      "description": null,
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        105
+      ],
+      "last_change": 1482167186
+    },
+    {
+      "id": 79,
+      "active": true,
+      "name": "Josef Sakař",
+      "description": "Český architekt, urbanista, stavitel a stavební rada. Studovat začal původně strojírenství na pražské Polytechnice. před rokem 1877 přešel na stavební odbor. Studium zakončil v roce 1880 v ateliéru architekta Josefa Zítka. Absolvoval studiijní pobyt ve Florencii a v Římě. V letech 1882-1885 se podílel na obnově Národního divadla po požáru. Začátkem roku 1888 se stal stavitelem a tuto živnost provozoval do roku 1899. Poté byl stavebním radou. V roce 1912 byl jmenován mimořádným členem České akademie věd a umění. V roce 1912 mu byl též udělen čestný titul doktora technických věd (Dr.h.c.) Českého vysokého učení technického v Praze.Zdroj: https://cs.wikipedia.org",
+      "date_of_birth": "1856-12-07",
+      "date_of_death": "1936-01-15",
+      "photo": null,
+      "structure_ids": [
+        114
+      ],
+      "last_change": 1482167443
+    },
+    {
+      "id": 80,
+      "active": true,
+      "name": "Vratislav Lhota",
+      "description": null,
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        117,
+        118,
+        151
+      ],
+      "last_change": 1484754615
+    },
+    {
+      "id": 81,
+      "active": true,
+      "name": "Vladislav Martínek",
+      "description": null,
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        117
+      ],
+      "last_change": 1482167823
+    },
+    {
+      "id": 82,
+      "active": true,
+      "name": "Mečislav Petrů",
+      "description": null,
+      "date_of_birth": "1881-01-01",
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        117,
+        118,
+        119,
+        121,
+        151,
+        155
+      ],
+      "last_change": 1482167909
+    },
+    {
+      "id": 83,
+      "active": true,
+      "name": "Vladimír Frýda",
+      "description": null,
+      "date_of_birth": "1898-08-04",
+      "date_of_death": "1962-07-30",
+      "photo": null,
+      "structure_ids": [
+        120,
+        152
+      ],
+      "last_change": 1482168062
+    },
+    {
+      "id": 84,
+      "active": true,
+      "name": "Karel Beneš",
+      "description": "Plečnikův žák, který se stal vrchním stavebním tajemníkem Hl. M. Prahy. Navrhl několik kvalitních funkcionalistických školních budov. Studoval Uměleckoprůmyslovou školu v Praze v letech 1909 - 1916.Zdroj: Vlček, Pavel, ed. et al. Encyklopedie architektů, stavitelů, zedníků a kameníků v Čechách. Vyd. 1. Praha: Academia, 2004, s. 58.",
+      "date_of_birth": "1891-11-15",
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        119,
+        155
+      ],
+      "last_change": 1484753917
+    },
+    {
+      "id": 85,
+      "active": true,
+      "name": "František Kavalír",
+      "description": "Kotěrův žák z Uměleckoprůmyslové školy, který zpočátku spolupracoval se svým bratrem Václavem Kavalírem.",
+      "date_of_birth": "1878-10-06",
+      "date_of_death": "1932-09-08",
+      "photo": null,
+      "structure_ids": [
+        116
+      ],
+      "last_change": 1482168670
+    },
+    {
+      "id": 86,
+      "active": true,
+      "name": "Jaroslav Oplt",
+      "description": null,
+      "date_of_birth": "1887-07-10",
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        108
+      ],
+      "last_change": 1482169035
+    },
+    {
+      "id": 87,
+      "active": true,
+      "name": "Helmut Weber",
+      "description": null,
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        109
+      ],
+      "last_change": 1482169116
+    },
+    {
+      "id": 88,
+      "active": true,
+      "name": "E. Kubek",
+      "description": "Technické oddělení VIII/22 Zemského úřadu v Brně. ",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        111
+      ],
+      "last_change": 1482169330
+    },
+    {
+      "id": 89,
+      "active": true,
+      "name": "Bohumil Babánek",
+      "description": null,
+      "date_of_birth": "1896-06-21",
+      "date_of_death": "1963-05-15",
+      "photo": null,
+      "structure_ids": [
+        112
+      ],
+      "last_change": 1482169452
+    },
+    {
+      "id": 90,
+      "active": true,
+      "name": "Milan Kubeš",
+      "description": null,
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        113
+      ],
+      "last_change": 1482169631
+    },
+    {
+      "id": 91,
+      "active": true,
+      "name": "Antonín Flašar",
+      "description": "Architekt A. Flašar pocházel ze šesti dětí zedníka Františka Flašara, který se s rodinou přestěhoval do Bystřice pod Hostýnem, kde si postavil rodinný domek. V Bystřici Antonín navštěvoval základní školu. Potom studoval stavební průmyslovku, nasledně Školu umění u prof. Gajdoše a při zaměstnání studoval u prof. arch. Gahury ve Zlíně. Na Gahurovo doporučení absolvoval architekturu na UMPRUM. Nejprve u prof. Janáka, pak u prof. Benše (1941-48). Po absolutoriu pak nastoupil do Stavoprojektu Zlín (1948), kterému zůstal věrný až do důchodu. Je autorem řady škol v celém kraji. Nejvýznamnějšími jsou pak školy v Bystřici pod Hostýnem Pod Zábřehem (1957-1959, v tu dobu nejmodernější na Moravě) a 24 třídní škola v Luhačovicích (1958-60). Je autorem sídlišť v Hodoníně, Veselí nad Moravou a Trenčíně (Trenčín-Jih). V Bystřici pod Hostýnem projektoval parčík s bustou Komenského (1970, sochař Stanislav Mikulaštík) s unikátní sochařskou kopii Komenského mapy Moravy z roku 1627, dále navrhl úpravu náměstí, pomník u TONu, koupaliště a jiné. Ve Stavoprojektu byl pověřený mj. urbanistickou péčí o Hodonín a Veselí a také o město Trenčín. V interiérové tvorbě a při návrhování kovového nábytku pro zdravotnická zařízení spolupracoval se svým bratrem - také architektem - ak. arch. Františkem Flašarem. Účastnil se řady soutěží, kde v silné konkuranci obsadil přední místa - mj. soutěž Svazu čs. díla na školní nábytek (s arch. F. Flašarem) - I. cena, soutěž na divadlo v Brně (ve spolupráci) I. cena (1. fáze), mezinárodní soutěž na obytný obvod jihozáp. části Moskvy (s kol.) aj. Jeho syn ing. arch. Michal Flašar pokračuje v rodinné tradici. Působí v Praze a specializuje se na návrhy interiérů lékáren. Zdroj: http://prostor-ad.cz",
+      "date_of_birth": "1919-03-13",
+      "date_of_death": "2002-11-25",
+      "photo": null,
+      "structure_ids": [
+        94
+      ],
+      "last_change": 1482323014
+    },
+    {
+      "id": 92,
+      "active": true,
+      "name": "Jaroslav Smékal",
+      "description": null,
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        95
+      ],
+      "last_change": 1482170042
+    },
+    {
+      "id": 93,
+      "active": true,
+      "name": "Jaroslav Syřiště",
+      "description": "Architekt a pedagog Jaroslav Syřiště se narodil 12. května 1878 v Litovicích v okrese Kladno. Reálku absolvoval v letech 1889–96 v Praze a poté zde nastoupil na Českou vysokou školu technickou, kde studoval u Josefa Schulze a Jana Kouly. V letech 1904–08 asistoval v Koulově ateliéru a zároveň praktikoval v několika stavebních firmách. V roce 1907 byl jmenován učitelem a roku 1910 profesorem na Vyšší státní průmyslové škole v Brně, kde se stal roku 1919 ředitelem. Mezi jeho žáky patřili mimo jiné brněnští architekti a stavitelé Václav Dvořák, Alois Kuba, Bohuslav Fuchs nebo Josef Polášek. V roce 1919 založil pražskou Společnost architektů, stal se také členem brněnského Klubu výtvarných umělců Aleš a v roce 1922 stál u vzniku Skupinu výtvarných umělců v Brně. Jeho raná tvorba prošla vývojem od kubismu (Obecní dům v Bučovicích, 1913) k rondokubismu a národnímu slohu (sletiště Orla v Brně na Bauerově rampě, 1922, Nemocenská pokladna soukromých úředníku na rohu ulic Kounicovy a Zahradníkovy, 1923–25), inspiroval se ale také geometrickou secesí a holandskou architekturou. V roce 1923 se stal členem Regulačního poradního sboru pro Velké Brno, od této doby se také datuje jeho zájem o problematiku nového umístění budov brněnských vysokých škol. Rozhodující vliv na jeho další tvorbu měla Le Corbusierova přednáška „Purismus a architektura“, která se konala v rámci cyklu „Za novou architekturu“, organizovaného redakcí Bytové kultury a Klubem architektů v Brně a v Praze roku 1925. Syřišťova tvorba se od konce 20. let proměnila směrem k modernímu architektonickému rukopisu (České státní reálné gymnázium v Brně na Poříčí, 1929). V návrhu vlastního rodinného domu v Brně -Žabovřeskách v Březinově ulici a v jedné ze staveb kolonie Nový dům jsou již patrné funkcionalistické tendence. V roce 1926 byl Syřiště jmenován vedoucím odboru pozemního stavitelství na České vysoké škole technické v Brně, o rok později se stal děkanem odboru stavebního inženýrství. V letech 1929–31 a 1937–38 byl jmenován děkanem odboru architektury a pozemního stavitelství. Nejvyšší rektorskou funkci na brněnské české technice zastával v roce 1939 až do uzavření vysokých škol a vrátil se do ní opět po skončení války. V této době na škole působila generace avantgardních architektů, tvořená Bohuslavem Fuchsem, Bedřichem Rozehnalem, Jaromírem Krejcarem, Miroslavem Kopřivou a dalšími. V roce 1948 odešel Syřiště ze zdravotních důvodů do důchodu, na škole však nadále působil. Zemřel 20. září 1959 v Brně. Zdroj: http://www.bam.brno.cz",
+      "date_of_birth": "1878-05-12",
+      "date_of_death": "1951-09-20",
+      "photo": null,
+      "structure_ids": [
+        96
+      ],
+      "last_change": 1482170298
+    },
+    {
+      "id": 94,
+      "active": true,
+      "name": "Miroslav Drofa",
+      "description": "Architekt Miroslav Drofa se narodil ve Všehrdech u Plzně v rodině řídícího učitele. Vyrůstal spolu se dvěma sestrami a bratrem jako nejmladší ze sourozenců. Po ukončení studií na Vyšší stavební průmyslové škole v Plzni v roce 1928 uvítal příležitost nastoupit jako dvacetiletý do stavebního oddělení známé obuvnické firmy Baťa ve Zlíně. Firma prosperovala, vyvíjela se rychlým tempem a s ní i široké okolí Zlína. Když začal v roce 1928 svoji profesní kariéru jako stavař a rozpočtář, ještě netušil, jaké možnosti mu předválečný Zlín a firma Baťa poskytnou. Nebylo to jen velké množství práce, vyplývající z potřeby rychle se rozvíjejícího zlínského Baťova koncernu v tehdejším Československu i v zahraničí, ale i občanská a bytová výstavba s tím související. Přesto Baťa nabídnul Drofovi nádavkem to nejcennější, co lze mladému člověku na začátku jeho profesní kariéry poskytnout a to byl pracovní kontakt a spolupráce s kolegy a renomovanými architekty jako byl František Lydie Gahura, Vladimír Karfík a Jiří Voženílek. Spolu s nimi se stal Drofa tvůrcem výrazného funkcionalistického stylu, tolik charakteristického pro město Zlín. Zlínská architektura a způsob výstavby ve Zlíně v první polovině dvacátého století je fenomén, který neměl v předválečném Československu i v celé Evropě obdoby. Ostatně i v celosvětovém měřítku se pro srovnání najdou podobné příklady jen zřídka. Právě ve Zlíně se uskutečnily sny a vize celé tehdejší generace funkcionalistů. Ne realizací jedné či několika budov, ale hned celého města! Zlín se tak stal od poloviny 30. let vedle Prahy a Brna třetím výrazným centrem československé moderní architektury. Ve třicátých letech vznikly jako reakce na jednotvárnost i světový vývoj v oblasti bydlení nové typy domů, mezi nimiž se výrazně uplatnily návrhy F.L. Gahury, V. Karfíka a M. Drofy. Ten ze svojí předchozí odborné praxe věděl, jak důležitým kriteriem pro každého investora je cena stavby a nakolik se dá architektem a jeho týmem toto kriterium pozitivně či negativně ovlivnit. Stále říkal: „Co mohlo stát 100 000 korun, nesmělo stát 101 000 korun.“ I proto v jeho projektech naleznete konstrukčně a dispozičně jednoduchá a funkčně promyšlená účelná řešení. Tím se snižovaly investiční náklady staveb a přesto bylo dosaženo navíc vyššího standardu bydlení. V roce 1937 vyprojektoval architekt Drofa svůj první projekt typového jednodomku s garáží, po kterém následovaly další návrhy často pojmenované autorovým jménem. V roce 1939 byl pověřen vedením návrhového stavebního oddělení firmy Baťa ve Zruči nad Sázavou. Plánovaný rozvoj města mu umožnil, aby se spolu s architektem Karfíkem podílel na projektu nové továrny firmy Baťa, návrhu nové školy, společenského domu i sídliště pro zaměstnance. V novém městě tak vzniklo podobné zónové členění jako ve Zlíně - tedy zóna výrobní, zóna služeb, škol a zóna obytná. V roce 1942 byl Drofa povolán zpět do Zlína, aby se stal vedoucím oddělení pro bytovou výstavbu. Stačil přitom zvládat i projekty pro další z Baťových satelitů, Otrokovic-Baťova, Napajedel, slovenského města Baťovany, dnešní Partizánské. V roce 1940 až 1941 vznikla zlínská městská čtvrť Zadní Díly. V této době se podíleli na dalším rozvoji města Zlína i architekti V. Kubečka, F. Musil, H. Adamec a A. Florián. V poválečném období mezi lety 1945 až 1948 přesunula firma Baťa svoje sídlo do Kanady. Za oceán po válce odešli natrvalo i někteří Drofovi spolupracovníci. Kontakt s nimi udržoval do konce života zejména písemnou formou. Jeho dlouholetý přítel a kamarád Josef Polášek, mu z USA zasílal řadu let odborné časopisy, které měly hlavně později v období uzavřenosti socialismu vůči civilizovanému světu nedocenitelnou hodnotu pro jeho další profesní růst. Po druhé světové válce se v roce 1945 transformovalo stavební oddělení firmy Baťa do nástupnické organizace Stavosvit a v roce 1952 do firmy Centroprojekt. Miroslav Drofa byl již z doby předválečné renomovaným a uznávaným architektem, takže po válce se mu dostalo logicky mnoho příležitostí spolu s kolegy V. Kubečkou, T. Slezákem, A.Vítkem, J. Voženílkem a dalšími zapojit se do obnovy bombardováním zničených továrních a městských struktur jakož i bytové výstavby. Na jeho rýsovacím prkně vznikly mimo jiné projekty dvou osmietážových Morýsových chodbových obytných domů a pěti obytných věžových domů. Jsou dodnes výraznou dominantou třídy Tomáše Bati. Morýsovy domy, vystavěné v roce 1947 se vyznačovaly na svoji doby vysokým standardem bydlení. Součástí domů byla restaurace, mateřská školka, jesle, byt správce, svobodárny pro pokojské. Každý byt měl již vestavěnou dřevěnou kuchyňskou linku a úložné šatní skříně. Obklady v koupelně byly samozřejmostí. Obyvatelé domu měli k dispozici osobní výtah, shoz na odpadky, prádelnu a mandlovnu. Tyto funkčně dokonalé domy, vytápěné ústředním dálkovým topením byly první stavbou v Československu, orientovanou na prvky kolektivního bydlení. Nejcharakterističtějším architektonickým prvkem domů byly na fasádě předsazené a v koncových sekcích částečně zapuštěné balkony z perforovaných železobetonových prefabrikátů. Tento prvek je sjednocujícím elementem výškových obytných staveb postavených ve Zlíně v období roku 1945 až 1950. Věžové domy, nepřímo inspirované cestou architekta Drofy do Švédska byly postaveny v rozmezí let 1947 až 1950. Poprvé byla ve Zlíně využita na takovou výšku stavby nosná cihelná konstrukce. Pět věžových domů dotvořilo panorama východní části Zlína. Spolu s Morýsovými domy jsou citlivě zakomponovány do okolní krajiny i zástavby. Vznikla tak nová výšková páteř a kompoziční osa této části města. V průmyslové výstavbě upřednostňoval Drofa nejen celkový koncept vznikajícího závodu a jeho symbiózu s okolním prostředím, ale vyžadoval na sobě i svých spolupracovnících, aby bylo dosaženo co nejefektivnějšího průběhu výrobního a materiálového toku závodem, optimální konfigurace výrobních a nevýrobních středisek a lidsky přijatelného pracovního prostředí. Projektoval průmyslové objekty různých průmyslových odvětví. To znamenalo vždy především nastudovat a pochopit logické vazby mezi jednotlivými pracovními procesy, utřídit si jejich funkční vazby a hierarchii jejich důležitosti v celkovém kontextu díla. Navržené průmyslové objekty byly charakteristické vysokou univerzalitou a flexibilitou. Drofa si uvědomoval, že se výrobní procesy budou do budoucna vyvíjet směrem ke kontinuální výrobě, automatizaci a robotizaci procesů. Tvůrcům takových konceptů zítřka chtěl poskytnout maximální manévrovací prostor pro realizaci jejich budoucích potřeb. Architektovi Drofovi osud nadělil velkou příležitost ovlivnit stavební vývoj a architekturu. Nejen města Zlína. Plně této příležitosti využil. Přesto, že jeho stavby vznikaly téměř cely život pod vlivem ekonomického nebo ideologického tlaku, nikdy jej tyto okolnosti nedonutily opustit vlastní zásady, osobitý rukopis a životní názor na architekturu a její rozvoj. Možná i tyto skutečnosti dopomohly k tomu, aby vytvořil velmi vyrovnané a kompaktní celoživotní dílo. Toto zjištění je o to cennější, že byl univerzálním tvůrcem, jak je patrno z přehledu jeho prací. Je autorem více než sta souborů a staveb, u nichž upoutá jednoduchost, účelnost a myšlenka dotažená až do promyšlených detailů. Oslňující, takzvaně „velká architektura“ sloužící osobní prezentaci a tzv. „nesmrtelnosti“ autora nemá v jeho pojetí místo. Přesto je jedním z mála autorů, jehož domy byly a jsou zcela spontánně a bez oficiálního vyhlášení nazývány dodnes jeho jménem. K osobnímu věhlasu zůstával zcela lhostejný. Pokorný vztah k přírodě, střídmost užívání pozemských požitků, laskavý vztah k lidem a velká znalost klasického umění se podepsaly na pozoruhodné umělecké propracovanosti a záměrnosti jeho díla při použití krajní jednoduchosti a užitých prostředků. Byl čestným členem Svazu československých architektů. Architekt Drofa je pochován na Lesním hřbitově ve Zlíně. Zdroj: www.http://www.drofa.com",
+      "date_of_birth": "1908-10-25",
+      "date_of_death": "1984-05-01",
+      "photo": null,
+      "structure_ids": [
+        101
+      ],
+      "last_change": 1483693622
+    },
+    {
+      "id": 95,
+      "active": true,
+      "name": "Rudolf Hovora",
+      "description": null,
+      "date_of_birth": "1910-12-03",
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        101
+      ],
+      "last_change": 1482317434
+    },
+    {
+      "id": 96,
+      "active": true,
+      "name": "Miroslav Lorenc",
+      "description": "Český architekt, legionář a účastník protinacistického odboje. Žák architekta Krejcara. Od roku 1930 působil ve Zlíně, odkud pocházela jeho žena. Ve službách firmy Baťa projektoval kino a hotel. Kvůli rozporům s Tomášem Baťou výstavba těchto dvou budov podle jeho projektů realizována nebyla a Lorenc firmu opustil. Ve Zlíně realizoval přes padesát staveb (například obytný dům Eduarda Pelčáka, Malotova cukrárna (asanována), obchodní a bankovní dům Františka Javorského, restaurace Minaříková). Jeho posledním projektem byly tzv. Elektrické domy pro úředníky, které dokončoval z ilegality. V období první světové války bojoval v řadách československých legií v Itálii, po Mnichovu a následné okupaci zbytku Československa se Lorenc aktivně zapojil do odboje. Později se stal okresním velitelem odbojové organizace Obrana národa. Po víc jak jednoletém skrývání byl prozrazen a 24. října 1940 zatčen. Architekt Lorenc byl popraven 11. února 1943 v Breslau. Zdroj: https://cs.wikipedia.org Po druhé světové válce byla na jeho zlínský dům umístěna pamětní tabule, od listopadu 1946 je po něm pojmenována jedna ze zlínských ulic",
+      "date_of_birth": "1896-06-09",
+      "date_of_death": "1943-02-11",
+      "photo": null,
+      "structure_ids": [
+        100
+      ],
+      "last_change": 1482317753
+    },
+    {
+      "id": 97,
+      "active": true,
+      "name": "Miloš Laml",
+      "description": "Architekt a urbanista Miloš Laml se narodil 28. prosince 1884 v Brně. Studoval nejprve v Praze na České vysoké škole technické a později na německé Vysoké škole technické v Brně, kterou dokončil roku 1908. V roce 1910 získal místo architekta a urbanisty technického oddělení Moravského místodržitelství v Brně. Stejnou funkci pak zastával také v letech 1918–28 na Zemské politické správě, kde byl počátkem 20. let pověřen modernizací a výstavbou budov Masarykovy univerzity. Jeho architektonická tvorba prošla od dekorativního národního slohu až k moderně s funkcionalistickými tendencemi. Byl členem brněnského Devětsilu a Sokola, pro kterého navrhl roku 1928 novou budovu u stadionu v Kounicově ulici. Ve 30. letech působil jako profesor na brněnské Státní průmyslové škole stavitelské. Po válce projektoval především užitkové stavby, kladl důraz na soulad architektury s přírodou. Zemřel 16. listopadu 1964 v Brně.  Zdroj: http://www.bam.brno.cz",
+      "date_of_birth": "1884-12-28",
+      "date_of_death": "1964-11-16",
+      "photo": null,
+      "structure_ids": [
+        98
+      ],
+      "last_change": 1482318006
+    },
+    {
+      "id": 98,
+      "active": true,
+      "name": "Vladimír Karfík",
+      "description": "Narozen  v Idriji v dnešním Slovinsku v rodině českého lékaře. V roce 1904 se rodina stěhuje do Prahy. Studium architektury na pražské technice (1919-24) a částečně na Akademii výtvarných umění (u prof. Jana Kotěry). V letech 1925-26 pracuje v ateliéru Le Corbusiera v Paříži jako český stážista. V letech 1927-29 projektuje v USA, zejména u F. L. Wrighta v Taliesin East a Taliesin West. Roku 1930 nastupuje jako vedoucí projektového oddělení Baťových závodů ve Zlíně, kde působí až do roku 1946. V letech 1931-56 je též členem mezinárodního sdružení CIAM. Od roku 1946 profesorem na fakultě architektury Slovenské vysoké školy technické v Bratislavě. Současně projektuje a realizuje stavby, roku 1956 vyznamenán Státní cenou; spolupracuje též se Slovenskou akademií věd. Roku 1971 se stává vědeckým pracovníkem URBIONu v Bratislavě. V letech 1979-83 profesorem architektonické tvorby na technické univerzitě na Maltě, kde současně projektuje a realizuje několik staveb. Po návratu do Československa žije v Brně. Roku 1985 jmenován čestným členem AIA (American Institute of Architects). V roce 1991 se stává čestným občanem Brna a Bratislavy, získává čestné doktoráty na fakultách architektury v Praze a Bratislavě. Roku 1992 vyznamenán prezidentem ČSFR Zlatou medailí. Umírá 6. 6. 1996 v Brně. Již Karfíkova léta tvůrčího dozrávání byla impozantní: byl žákem J. Kotěry i Le Corbusiera, stýkal se s A. Loosem, byl projektantem u F. L. Wrighta. Kromě talentu byl navíc mimořádně pilný a systematický. Tříletý pracovní pobyt v USA ovlivnil jeho další tvorbu, kterou nelze zařadit do nějakých módních směrů. Karfíkovy stavby vynikají jasnou dispozicí, vytříbeným konstrukčním řešením a výtvarnou kultivovaností. Byl spolupracovníkem a pokračovatelem díla F. L. Gahury; oba jsou nezapomenutelní hlavní tvůrci Baťova Zlína - ve své době jednoho z nejmodernějších evropských měst. Rovněž Karfíkova rozsáhlá projektová a vědecká činnost v Bratislavě je vynikající. Jako vážený a oblíbený profesor na fakultách architektury v Bratislavě, v Brně a na Maltě vychoval řadu svých úspěšných následovníků.www.archiweb.cz",
+      "date_of_birth": "1901-10-26",
+      "date_of_death": "1996-06-06",
+      "photo": null,
+      "structure_ids": [
+        97
+      ],
+      "last_change": 1482318913
+    },
+    {
+      "id": 99,
+      "active": true,
+      "name": "Aleš Parma",
+      "description": " Aleš Parma vystudoval architekturu na VUT v Brně,  po svém otci Alfrédu pak pokračoval ve funkci architekta města.Do povědomí frenštátského obyvatelstva se zapsal především jako projektant, architekt a stavitel. Byl významným členem Pohorské jednoty Radhošť, která jej ke svému padesátému výročí pověřila realizací rekreační chaty na místě shořelé boudy na vrcholu Velkého Javorníku. Provedl přístavby a přestavby škol na Tyršově ulici ve Frenštátě p. R. a školy T. G. Masaryka v Trojanovicích.Projektoval stavbu amfiteátru na Horečkách. Dlouhodobě spoluprácoval s ochotníky, především se souborem DAR, kterému se staral o scénografii. Jedna z nejvýraznějších scén, které si povšiml recenzent časopisu Amatérská scéna Jiří Beneš, se objevila ve hře Svět nemá čekárnu od M. Dekkera. Hra však dle recenzenta neměla vysokou úroveň (chyběla gradace vztahů osob, nebyli schopni postihnout postavy v celé šíři, sklouzávali k patosu, atd.), jedinou kladně hodnocenou stránkou hry byla právě Parmova scénografie.Aleš Parma v DARu rovněž navrhoval scénu pro Broučky od J. Karafiáta, Mahenova Jánošíka, Ukradené štěstí od Ivana Franka, Čtveráka hastrmana, pro inscenaci Strýček Váňa od A. P. Čechova, Bílou nemoc a Loupežníka od Karla Čapka, Oblaka Jaroslava Kvapila, D. C. Faltyse Stanici Gordian, A. Jiráska Kolébku.Podílel se také na výtvarné složce při recitačních večerech z poezie Jaroslava Seiferta a při uvedení Máje Karla Hynka Máchy.Scény byly především prostorové, působily realisticky a plasticky.Dle kreslených návrhů byly mnohdy i dost barevné a byly inspirovány místní krajinou a okolím.Ke všem výše jmenovaným (a mnoha dalším) inscenacím se zachovaly jevištní návrhy a skici společně s několika fotografiemi zrealizovaných scén, které pro ochotníky tvořil více než dvacet let. Zdroj: http://www.amaterskedivadlo.cz",
+      "date_of_birth": "1906-03-04",
+      "date_of_death": "1984-03-19",
+      "photo": null,
+      "structure_ids": [
+        92
+      ],
+      "last_change": 1482321049
+    },
+    {
+      "id": 100,
+      "active": true,
+      "name": "Ludvík Marholt",
+      "description": "Architekt, Frenštát pod Radhoštěm.",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        92
+      ],
+      "last_change": 1482321272
+    },
+    {
+      "id": 101,
+      "active": true,
+      "name": "Metoděj Matuška",
+      "description": "stavitel a architekt, Bystřice pod Hostýnem.",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        93
+      ],
+      "last_change": 1482321575
+    },
+    {
+      "id": 102,
+      "active": true,
+      "name": "Josef Hrubý",
+      "description": "Narozen ve Větrném Jeníkově. Studium fakulty architektury a pozemního stavitelství ČVUT v Praze (1924-31). Do roku 1945 má společný ateliér s arch. J. Kittrichem. Od r. 1948 pracuje jako vedoucí ateliéru ve Stavoprojektu resp. KPÚ v Praze, kde většinu svých návrhů projektuje společně s F. Cubrem a Z. Pokorným. Členem řady uměleckých spolků a svazů architektů. Nositel několika státních vyznamenání. Umírá 20.12.1988 v Praze. J.Hrubý byl představitelem funkcionalismu, resp. tzv. mezinárodního stylu (International Style). Projektoval - obvykle se spolupracovníky - stavby občanské, bytové, průmyslové a výstavní pavilóny. Ve výtvarné sféře se uplatňoval i jako malíř a grafik, napsal též řadu odborných článků do architektonických časopisů. I v období dekorativistického socialistického realismu v českých zemích si Hrubého tvorba zachovala kultivovanou střízlivost. Poté se právě jeho čs. výstavní pavilón na EXPO' 58 v Bruselu stal vzorem při utváření naší nové architektury i designu - hovořilo se o tzv. bruselském stylu.Zdroj: www.archiweb.cz",
+      "date_of_birth": "1906-02-23",
+      "date_of_death": "1988-12-20",
+      "photo": null,
+      "structure_ids": [
+        122
+      ],
+      "last_change": 1482356563
+    },
+    {
+      "id": 103,
+      "active": true,
+      "name": "Josef Kittrich",
+      "description": "Absolvent ČVUT, který v letech 1926 až 1934 působil jako asistent A. Engela. V meziválečném období spolupracoval s J. Hrubým a poté s manželkou Emanuelou Kittrichovou. Po 2. světové válce se stal profesorem na pražské technice.Zdroj: http://www.arch-pavouk.cz",
+      "date_of_birth": "1901-12-04",
+      "date_of_death": "1968-10-12",
+      "photo": null,
+      "structure_ids": [
+        122
+      ],
+      "last_change": 1482356987
+    },
+    {
+      "id": 104,
+      "active": true,
+      "name": "Vilém Kvasnička",
+      "description": "Akademický architekt  Kvasnička se narodil se v rodině třeboňského knihkupce. Nejdříve studoval stavitelství na Vyšší průmyslové škole v Praze, pak architekturu na Uměleckoprůmyslové škole v Praze u Jana Kotěry. V letech 1909-1911 pracoval v projekšním ateliéru architekta Ladislava Skřivánka. Od roku 1911 pracoval v Budapešti v ateliéru de Toery a Pogány. Zde se podílel na návrzích budovy rakousko-uherské banky ve Vídni, budovy pojišťovny Adria a budovy činoherního divadla v Budapešti. Za první světové války narukoval do armády. Přešel do Československých legií. Již během války navrhoval památníky a urny padlých legionářů. Během návratu přes Čínu vytvořil řadu skic v Pekingu. Po návratu projektoval další vojenské památníky a úspěšně se zúčastnil několika soutěží. S manželkou Žofií a synem Iljou žil v Praze na Žižkově.Zdroj: https://cs.wikipedia.org",
+      "date_of_birth": "1885-08-03",
+      "date_of_death": "1969-11-26",
+      "photo": null,
+      "structure_ids": [
+        123
+      ],
+      "last_change": 1482357793
+    },
+    {
+      "id": 105,
+      "active": true,
+      "name": "Jan Mayer",
+      "description": "Žák Jana Kotěry, který navrhoval kvalitní stavby v duchu kotěrovské moderny a posléze i funkcionalismu. Spolupracoval také se svými bratry Jaroslavem a Josefem a Vratislavem M.Zdroj: http://www.arch-pavouk.cz",
+      "date_of_birth": "1889-05-16",
+      "date_of_death": "1959-07-17",
+      "photo": null,
+      "structure_ids": [
+        123
+      ],
+      "last_change": 1484770342
+    },
+    {
+      "id": 106,
+      "active": true,
+      "name": "Vojtěch Kerhart",
+      "description": "V roce 1910 odmaturoval a ve studiích pokračoval v Praze, zaměřil se na architekturu na Vysokém učení technickém. Když začala první světová válka, byl povolán do armády a o něco později přeběhl na ruskou stranu fronty. V Rusku vstoupil do československé armády a získal hodnost majora ruských legií. Do vlasti, mezitím vzniklého Československa se vrátil až v roce 1920 „oklikou“ přes Kanadu. Teprve poté dokončil studium architektury. Až do roku 1949 pracoval jako samostatný architekt – projektant v Praze, dvanáct let zastupoval Uměleckou besedu v Památkovém sboru hlavního města Prahy. Od roku 1949 byl zaměstnán ve Stavoprojektu, později Papcelu a Sudopu. Projektoval četné veřejné stavby, obytné a rodinné domy v Praze a Poděbradech. Z jeho velkého díla zmiňujeme například Vyšší školu hospodářskou v Poděbradech (1926), je spoluautorem civilního letiště v Ruzyni, kde projektoval bytové domy pro personál letiště a piloty v krásném parkovém prostředí a také garáže a hasičskou stanici (1932), mezi jegho další práce patří pošta v Poděbradech (1933). V Poděbradech navrhl jedinou lázeňskou kolonádu z období funkcionalismu u nás - Libenského kolonádu (1938). Z vojenských budov je to kasárna železničního pluku v Pardubicích (1924) a letecká kasárna v Plzní (1937). Pro soukromníky pak vila továrníka Škody v Průhonicích (1927) a vila továrníka Zikmunda v Poděbradech, vilu spisovatele Václava Řezáče na Babě v Praze (1932). Spolupracoval také s O. Gutfreundem na řešení pomníků a památníků T. G. Masaryka na různých místech republiky. v Poděbradech, Kroměříži a Nitře (1928) navrhl pomník slavkovské bitvy na Žurání (1930), pomník Bedřicha Smetany v Poděbradech (1934). S Josefem Čapkem navrhl náhrobek Karla Čapka na vyšehradském Slavíně. Vzpomínáme jej v publikaci Slavné stavby Prahy 6 v pasáži o sídlišti Baba a u Státního civilního letiště v Ruzyni.Zdroj: www.slavnestavby.cz",
+      "date_of_birth": "1892-07-04",
+      "date_of_death": "1978-05-31",
+      "photo": null,
+      "structure_ids": [
+        124
+      ],
+      "last_change": 1482359212
+    },
+    {
+      "id": 107,
+      "active": true,
+      "name": "Rudolf Ryšán",
+      "description": "Český architekt, žák A. Balšánka, autor Zemské průmyslové školy v Kutné Hoře, obchodních domů J. Podlipného, J. Kozlíka, K. Bláhy, několika menších továren a početných obytných domů v Kutné Hoře, Kašparidesovy a Jaklovy továrny v Kolíně, obchodního domu E. Kaucký a Červinkovy vily v Jincích, mlýna Dubina u Malešova. Vynálezce asfaltocementové směsi Penetrit, kterou využil při stavbě silnic a pokládání letištní plochy v Praze - Ruzyni.Zdroj: http://abart-full.artarchiv.cz",
+      "date_of_birth": "1890-06-15",
+      "date_of_death": "1949-03-16",
+      "photo": null,
+      "structure_ids": [
+        132
+      ],
+      "last_change": 1482436069
+    },
+    {
+      "id": 108,
+      "active": true,
+      "name": "Adolf Benš",
+      "description": "Narodil se v Pardubicích v rodině středoškolského profesora francouzštiny Adolfa Benše. Studoval architekturu na české technice v Praze (1913-14, 1918-23) a na Akademii výtvarných umění v Praze (1921-24), kde byl žákem J. Kotěry a J. Gočára. V letech 1923-24 pracuje na Státní regulační komisi hl. m. Prahy, 1924-25 v ateliéru Josefa Gočára. V letech 1925-40 pracuje ve vlastním ateliéru, kde navrhuje své nejznámější funkcionalistické stavby. 1940-43 zaměstnán v Plánovací komisi pro hl. m. Prahu, v letech 1943-45 opět ve vlastním ateliéru. Od roku 1945 až do roku 1965 je profesorem Vysoké školy uměleckoprůmyslové v Praze, v letech 1947-48 je rektorem VŠUP. Od r. 1955 je také dopisujícím členem Akademie architektury v Paříži. Hlavní realizace: budova Elektrických podniků (1928 - 1935), ruzyňské letecké nádraží (1933 až 1937), podíl na urbanistických projektech. Adolf Benš měl také úzké vazby ke Slovensku a to jak profesní (škola ve Fiľakově – 1930, letiště a koupaliště v Košicích, Moyzesovo státní reálné gymnázium v Ružomberku, vila ing. Novotného v Bratislavě, řada soutěžních návrhů) , tak lidské, neboť jeho žena pocházela ze slovenské oravské Jasenové. Na jeho dílo měla velký vliv francouzská moderní architektura 20. a 30. let, především tvorba Le Corbusiera. Benšovy funcionalistické stavby se vyznačují vysokou výtvarnou kulturou. Mezi jeho díla patří především veřejné budovy, výstavní pavilony a územní plány měst. Zemřel v 88 letech v Praze.Zdroj: www.slavnestavby.cz",
+      "date_of_birth": "1894-05-18",
+      "date_of_death": "1982-03-08",
+      "photo": null,
+      "structure_ids": [
+        133
+      ],
+      "last_change": 1482436284
+    },
+    {
+      "id": 109,
+      "active": true,
+      "name": "Jiří Kroha",
+      "description": "Narodil se v Praze. Studoval reálku v Praze a Plzni a odbor architektury na českém vysokém učení technickém v Praze u profesorů Kouly, Balšánka, Fanty a Kříženeckého. Studium ukončil se zvláštním vyznamenáním. Po absolvování techniky v roce 1918 vstoupil jako sochař a malíř do Spolku výtvarných umělců Mánes. Vystavoval v Mánesu, Verraikonu, s Tvrdošijnými, na Výstavě drobného umění, Výstavě dekorativního umíní v Paříži a. j. Věnoval se také teoreticky i prak¬ticky divadlu, navrhl scénické výpravy pro Národní a Stavovské divadlo v Praze (Matěj Poctivý, Husité), režíroval a scénoval Dvořákovu Oresteu. Pracoval na vybudování moderního lidového divadla. Začal spolupracovat s družstvem Artěl, kde navrhoval užitkové předměty a nábytek. Později věnoval se úplně architektuře. V letech 1923 - 1927projektoval několik staveb v Mladé Boleslavi a Kosmonosech. Patří mezi ně např. Úřednická vila I. a II. v Kosmonosech, v Mladé Boleslavi Zemská průmyslová škola, přestavba a přístavba okresní nemocenské pojišťovny, obytné domy vojenských gážistů, Masarykův dům sociální péče, obchodní dům Pavla Gellnera či přestavba grandhotelu Věnec. Z dalších předválečných staveb vzpomeňme most přes Vltavu v Kralupech nad Vltavou (ve spolupráci s Jarolímem Farským), Okresní dům a muzeum v Benátkách nad Jizerou, nebo stavby v Brně: vlastní rodinný dům, vilu v kolonii Nový dům, Patočkovu vilu a další. Od roku 1926 přednášel na VUT v Brně, kam se v roce 1928 i s rodinou přestěhoval a v roce 1930 byl jmenován řádným profesorem. Pro své levicové veřejné přednášky byl v roce 1935 poslán do trvalé výslužby, přednášet mu bylo znovu povoleno v roce 1937. V roce 1939 byl znovu suspendován pro svou komunistickou orientaci a 1. září byl zatčen gestapem. Byl vězněn na Špilberku, v koncentračních táborech v Dachau a Buchenwald. V roce 1940 byl v rámci akce Červeného kříže propuštěn pro svůj špatný zdravotní stav a zbytek války žil pod policejním dohledem. Věnoval se malbě, kresbě a pokračoval v teoretické práci na bytovém problému.Po osvobození se pustil do intenzivní politické i architektonické činnosti. V letech 1947 – 1948 projektoval nájemní domy v Kounicově ulici v Brně (ve spolupráci s arch. Vilémem Kubou a Josefem Poláškem) Poslední Krohovou funkcionalistickou stavbou byl kulturní dům ve Mnichu u Kamenice nad Lipou z let 1948 – 1950. V roce 1948 byl jmenován rektorem Vysoké školy technické v Brně. Jeho ateliér zpracovával projekty bytové výstavby i propagandistické instalace výstav a politických akcí (Slovanská zemědělská výstava v Praze, Úprava Průmyslového paláce pro IX. Sjezd KSČ 1949, Smuteční výzdoba Pražského hradu k úmrtí prezidenta Gottwalda, 1. celostátní spartakiáda v Praze 1955 a další. Ateliér byl rozpuštěn v roce 1956. Za svoji činnost po roce 1948 získal řadu státních a uměleckých ocenění. Zemřel v Praze.Zdroj: www.slavnestavby.cz",
+      "date_of_birth": null,
+      "date_of_death": "1974-06-07",
+      "photo": null,
+      "structure_ids": [
+        134
+      ],
+      "last_change": 1482436549
+    },
+    {
+      "id": 110,
+      "active": true,
+      "name": "František Cuc",
+      "description": "Kotěrův žák, který navrhoval v historizujícím, secesním a po 1. sv. válce modernistickém stylu.",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        135
+      ],
+      "last_change": 1482436667
+    },
+    {
+      "id": 111,
+      "active": true,
+      "name": "Jaroslav Kabeš",
+      "description": "Kotěrův žák, který na nejvýznamnějších stavbách spolupracoval s Václavem Vejrychem. Od národního slohu přešli postupně k funkcionalismu.Zdroj: http://www.arch-pavouk.cz",
+      "date_of_birth": "1897-04-27",
+      "date_of_death": "1964-04-21",
+      "photo": null,
+      "structure_ids": [
+        126
+      ],
+      "last_change": 1482841742
+    },
+    {
+      "id": 112,
+      "active": true,
+      "name": "Václav Vejrych",
+      "description": "Inženýr a arcitekt byl žákem na pražské vyšší průmyslové škole. Praxi vykonal u Jana Vejrycha a Josefa Sakaře.Zdroj: VLČEK, Pavel; HILMERA, Jiří. heslo Vejrych, Václav. In Pavel Vlček a kolektiv. Encyklopedie architektů, stavitelů, zedníků a kameníků v Čechách. Praha : Academia, 2004. ISBN 80-200-0969-8. S. 690. ",
+      "date_of_birth": "1873-11-14",
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        126
+      ],
+      "last_change": 1482842781
+    },
+    {
+      "id": 113,
+      "active": true,
+      "name": "Bohumil Hübschmann",
+      "description": "Český architekt, narozen v Praze, studoval na vídeňské Akademii výtvarných umění u Otto Wagnera, člen spolku výtvarných umělců Mánes a Klubu Za starou Prahu, od roku 1945 psal své příjmení Hypšman. V jeho tvorbě se protíná klasické vzdělání na akademii, kultivovanost a nepřehlédnutelný vliv učitele, racionální zkušenost s inženýrskými, průmyslovými stavbami, dobrá znalost stavební praxe i možností nejnovějších technologií, a v meziválečné éře už i poučení z výdobytků mladší generace avantgardy.Zdroj: www.slavnestavby.cz",
+      "date_of_birth": "1878-01-10",
+      "date_of_death": "1961-11-03",
+      "photo": null,
+      "structure_ids": [
+        127
+      ],
+      "last_change": 1482843056
+    },
+    {
+      "id": 114,
+      "active": true,
+      "name": "František Václavek",
+      "description": null,
+      "date_of_birth": "1885-10-08",
+      "date_of_death": "1964-01-31",
+      "photo": null,
+      "structure_ids": [
+        129
+      ],
+      "last_change": 1482843364
+    },
+    {
+      "id": 115,
+      "active": true,
+      "name": "Vladimír Chamrád",
+      "description": "Architekt, profesor na VUT v Brně, komunistický funkcionář. Od roku 1939 zapojen do levicového odbojového hnutí.V době od 2. 10. 1939 do 16. 11. 1941 vězněn v Brně na Špilberku, v Breslau, Görlitz, Dietz. Po propuštění se zapojil do partyzánské skupiny „Bílek“, která pracovala na Místecku.Zdroj: http://encyklopedie.brna.cz",
+      "date_of_birth": "1903-01-14",
+      "date_of_death": "1969-01-16",
+      "photo": null,
+      "structure_ids": [
+        136
+      ],
+      "last_change": 1483693663
+    },
+    {
+      "id": 116,
+      "active": true,
+      "name": "Vladimír Meduna",
+      "description": "Profesor urbanismu na VUT v Brně a v letech 1958–1968 a 1970–1976 rektor univerzity.Zdroj: http://encyklopedie.brna.cz",
+      "date_of_birth": "1909-10-05",
+      "date_of_death": "1990-03-19",
+      "photo": null,
+      "structure_ids": [
+        136
+      ],
+      "last_change": 1482940898
+    },
+    {
+      "id": 117,
+      "active": true,
+      "name": "Jaroslav Fragner",
+      "description": "Studia: ČVUT v Praze - 1917-1922 a AVU (třída Josefa Gočára) – 1934-1935. Roku 1935 J. Fragner podnikl společně s Adolfem Hoffmeistrem studijní cestu do USA. Byl vedle architektů Evžena Linharta, Víta Obrtela a Karla Honzíka členem proslulé skupiny Puristická čtyřka, neformálního sdružení studentů pražské ČVUT, činné v první polovině 20. let minulého století. Fragner byl dále členem Devětsilu (od roku 1923), Klubu architektů a SVU Mánes, jež se roku 1939 stal předsedou. Fragnerovy prvotní práce osobitým způsobem reagovaly na pozdní fázi syntetického kubismu. Kolem roku 1924 Fragner dospěl společně s některými architekty (zejména J. Krejcarem) k internacionálnímu funkcionalistickému pojetí architektury, charakteristické pro většinu architektových realizací druhé poloviny 20. a první třetiny 30. let, kdy se Fragnerova tvorba pomalu odkláněla od striktně krabicovitého pojetí a začala inklinovat k organicistnější architektonické tvorbě, inspirované mimojité díly F. L. Wright nebo A. Aalta. Charakteristickou polohu této fáze Fragnerovy tvorby představují obytné zahrady, kterými autor obklopoval své vily, rodinné domy a zejména letní a víkendová sídla. Součástí Fragnerova zájmu bylo rovněž zájem o problém pojetí moderní monumentality u veřejných staveb. Od konce 30. let se architekt zabýval restaurováním a rekonstruováním historické architektury a památkových objektů. Zdroj:  www.archiweb.cz",
+      "date_of_birth": "1898-12-25",
+      "date_of_death": "1967-01-03",
+      "photo": null,
+      "structure_ids": [
+        137
+      ],
+      "last_change": 1482941293
+    },
+    {
+      "id": 118,
+      "active": true,
+      "name": "Jan Rubý",
+      "description": "Stavitel a architekt v Moravské Ostravě. V letech 1908 až 1910 pracoval ve Vídni, kde se vyučil zedníkem. V období studia na průmyslové škole v Brně se seznámil s pozdějším kolegou a spolupracovníkem Františkem Kolářem. Společně se podíleli na různých soutěžních projektech veřejných budov už před první světovou válkou. V roce 1919 se zúčastnili soutěže na stavbu české školy v Olomouci, kterou vyhráli. Od roku 1921 společně působili v Moravské Ostravě. V roce 1923 založili projekční a stavební kancelář Kolář &amp; Ruby. Po okupaci Československa Německem přijal říšské občanství. V roce 1945 byl internován a držen ve vazbě. Obvinění z kolaborace se neprokázala. Zdroj: https://cs.wikipedia.org",
+      "date_of_birth": "1883-08-24",
+      "date_of_death": "1945-08-08",
+      "photo": null,
+      "structure_ids": [
+        138,
+        145
+      ],
+      "last_change": 1482941559
+    },
+    {
+      "id": 119,
+      "active": true,
+      "name": "Čestmír Šlapeta",
+      "description": "Čestmír a Lubomír Šlapetové se narodili 9. prosince 1908 v Místku. Zde navštěvovali obecnou školu a společně ještě i české reálné gymnázium (dnešní Obchodní Akademie na Palackého třídě). Odtud však ještě před ukončením studia (roku 1923) odešli na Odbornou školu stavitelskou do Brna. Zapojili se do aktivit brněnského klubu architektů. Po maturitě v roce 1927 pracoval v několika projekčních ateliérech: nejprve u svého učitele Jarolava Syřiště, pak u stavební firmy V. Nekvasil v Brně a nakonec krátce u stavební firmy F. Havlena v Praze. V roce 1928 následoval svého bratra na Akademii umění a uměleckých řemesel ve Vratislavi. Zde se stal spolupracovníkem svých profesorů Adolfa Radinga a Hanse Scharouna na projektech ve Vratislavi a v Berlíně. Po návratu ze studií podnikla dvojčata „cestu za poznáním“ do Francie a Spojených států amerických (1930–1931) a po návratu počátkem 30. let se rozhodla založit vlastní kancelář Akademičtí architekti Šlapetové. Kancelář nejprve sídlila v Praze a měla pobočku v Moravské Ostravě, kterou vedl právě Čestmír. V prosinci 1936 se oženil. Jeho bratr se oženil v červnu 1937 a usadil se v Olomouci, kde rovněž otevřel projekční kancelář. Další spolupráce bratrů byla už jen příležitostná. Na začátku druhé světové války uzavřel svůj ateliér a pracoval pro Zbrojovku Brno. Po skončení války spolupracoval na regulačním plánu pro obnovu Ostravy. V letech 1948–1950 obnovil svou projekční kanelář, záhy byl ale donucen ji uzavřít a pracoval pro různé firmy (Stavoprojekt, Vítkovické železárny, Potravinoprojekt, KNV Ostrava, Báňské stavby atd.) Od roku 1963 pracoval na Krajské hygienicko-epidemiologické stanici v Ostravě v oboru akustiky a ochrany proti hluku. V roce 1967 byl pozván k roční stáži do Stuttgartu. Po okupaci Československa v srpnu 1968 zůstal v Německu, kde působil jako samostatný architekt v Gautingu. Zdroj: https://cs.wikipedia.org",
+      "date_of_birth": "1908-12-09",
+      "date_of_death": "1999-07-01",
+      "photo": null,
+      "structure_ids": [
+        139
+      ],
+      "last_change": 1482941803
+    },
+    {
+      "id": 120,
+      "active": true,
+      "name": "Karl Gottwald",
+      "description": "Karl Gottwald pocházel z dnešního Jeseníku, do Opavy přišel po ukončení vysokoškolských studií v roce 1909 a téměř dvě desetiletí působil v zemském stavebním úřadu. Když v roce 1927 s titulem vrchního stavebního rady odešel do penze, živil se jako samostatný architekt. Krátce nato si také postavil dům ve vilové kolonii na Kylešovském kopci. Jeho stylová východiska lze označit pojmy jako romantický regionalismus či barokní klasicismus vídeňského ražení. Toto pojetí bylo sice tradiční, Gottwald však při navrhování svého domova projevil značnou dávku originální prostorové představivosti a smyslu pro obyvatelnost. Páteř vnitřního prostoru tvoří nikoliv obvyklá schodišťová hala, nýbrž úspornější středový koridor a na něj kolmé dvojramenné schodiště. K chodbě přiléhala z jedné strany projekční kancelář s kreslírnou, z druhé pak kuchyně s příslušenstvím. Teprve za tuto pracovní zónu v jednopodlažním uličním traktu, do zvýšené zadní části domu umístil architekt obytné místnosti otevřené do zahrady. Prostředky reprezentace architekt soustředil do uličního průčelí, jež vybavil portálem s bohatou sochařskou výzdobou (hlava rozesmátého čerta, amoreti, psi, ptáci, hrozny vína) a neméně zdobnými pletenci okenních mříží. Okenní otvory jsou však poměrně malé a uzavřená, takřka utěsněná průčelní fronta manifestuje snahu o uchránění vnitřního prostoru jak před nepříznivými klimatickými vlivy severní strany, tak před rušivými účinky vnějšího světa. Hlavní úloha v exteriéru malebné stavby s valbovou střechou proto dle Gottwaldova záměru připadla zahradnímu průčelí. Ve snaze o jeho maximální otevřenost do vnějšího prostoru v něm architekt přes celou šířku posadil balkon a přízemí plasticky promodeloval postranními rizality. Zdroj: www.slavnestavby.cz",
+      "date_of_birth": "1884-01-01",
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        142
+      ],
+      "last_change": 1482942642
+    },
+    {
+      "id": 121,
+      "active": true,
+      "name": "Jan Víšek",
+      "description": "Přední představitel českého purismu a konstruktivismu, ve kterém ale klade důraz na harmonii, úměrnost, čistotu a řád. Velký vliv převážně na jeho urbanistické projekty má studium italské klasické architektury a italského racionalismu (mezi jeho přáteli se mu údajně předzdívalo „Giovanni“). V mládí byl velmi ovlivněn svým učitelem prof. Theodorem Petříkem (údajná spolupráce na Petříkově návrhu brněnského dvadla v době před 1. světovou válkou). Nejprve působil v Praze, kde jeho tvorba vrcholí přestavbou Zemědělského muzea v Kinského sadech, jež Víškovi zajistila uznání daleko za hranicemi. V roce 1924 přichází do Brna a připojuje se zde k celé řadě nadaných architektů. Jako jediný český reprezentant vystupuje s přednáškou „Zásady nové architektury“ v rámci brněnského přednáškového cyklu „Za novou architekturu“ (dále zde přednášeli J. J. P. Oud, W. Gropius, Le Corbusier, A. Ozenfat a A. Loos). Po studijní cestě do Paříže a dalším setkání s A. Loosem, Le Corbusierem a A. Perretem zakládá v roce 1926 v Brně vlastní architektonickou kancelář a navrhuje řadu děl nesoucích jeho osobitý rukopis. V roce 1928 se spolupodílí návrhem úsporného dvojdomu na vytvoření výstavní kolonie Nový dům. Bezpochyby nejvýznamnějším Víškovým stavebníkem byl MUDr. Václav Šilhan, pro kterého Víšek navrhl známé sanatorium v Brně a několik letních sídel v okolí Ivančic. Nejvíce úsilí věnoval návrhu českého Národního divadla (dnes Janáčkova) v Brně. To bohužel nemohl v dobách nástupu komunismu kvůli svému členství v zednářském loži realizovat dle svých představ. Zároveň bylo v roce 1948 zabráněno jeho jmenování řádným profesorem na ČVUT v Praze, kde po válce krátce přednášel. Zdroj: www.archiweb.cz",
+      "date_of_birth": "1890-05-13",
+      "date_of_death": "1966-06-06",
+      "photo": null,
+      "structure_ids": [
+        144,
+        158
+      ],
+      "last_change": 1483693813
+    },
+    {
+      "id": 122,
+      "active": true,
+      "name": "František Kolář",
+      "description": "Český architekt a stavitel v Moravské Ostravě. Pocházel z rodiny zedníka z okolí Bouzova. V letech 1904 až 1909 pracoval ve Vídni. V období 1909–1913 studoval na průmyslové škole v Brně, kde se seznámil s pozdějším kolegou a spolupracovníkem Janem Rubým. Společně se podíleli na různých soutěžních projektech veřejných budov už před první světovou válkou.V roce 1919 se zúčastnili soutěže na stavbu české školy v Olomouci, kterou vyhráli. Od roku 1921 společně působili v Moravské Ostravě. V roce 1923 založili projekční a stavební kancelář Kolář &amp; Ruby. V roce 1945 byla firma znárodněna a František Kolář pracoval jako projektant v Průmyslových stavbách Ostrava. Zdroj: https://cs.wikipedia.org",
+      "date_of_birth": "1890-01-01",
+      "date_of_death": "1969-01-01",
+      "photo": null,
+      "structure_ids": [
+        145
+      ],
+      "last_change": 1482943214
+    },
+    {
+      "id": 123,
+      "active": true,
+      "name": "Josef Hozda",
+      "description": "Stavitel v Hodkovicích nad Mohelkou, inženýr",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        58
+      ],
+      "last_change": 1484133580
+    },
+    {
+      "id": 124,
+      "active": true,
+      "name": "Jan Gillar",
+      "description": "Narozen 24. 6. 1904 v Příboře. V letech 1922-25 studuje architekturu u prof. Gočára na Akademii výtvarných umění v Praze. Poté zaměstnán v soukromých projektových kancelářích (např. u Jaromíra Krejcara), navrhuje budovy obytné i občanské včetně vnitřního zařízení. Jako přítel Karla Teigeho se silně zúčastňuje levicové spolkové činnosti, zejména v Devětsilu a Levé frontě, jakož i řady architektonických a urbanistických soutěží. Své práce vystavuje u nás i v zahraničí (Budapešť, Brusel, Paříž, Berlín, Stockholm, Bukurešť, Benátky). Po válce zaměstnán ve Stavoprojektu v Praze, od roku 1952 ve Studijním a typizačním ústavu v Praze, kde se zabývá zejména typizací občanských budov. Roku 1964 získává vyznamenání Za zásluhy o výstavbu, 7. 5. 1967 v Praze umírá. J. Gillar byl typickým funkcionalistickým architektem. Jeho elegantní obytné budovy, realizované v Praze před 2. světovou válkou, a zejména pak soubor budov francouzského gymnázia, patří k významným dílům českého funkcionalismu. Gillarovy budovy jsou funkčně i výtvarně čisté a jsou domyšleny i v interiérech. Bohužel řada jeho soutěžních architektonických projektů a urbanistických plánů zůstala nerealizována. V poválečném období se soustředil na řešení typových projektů obytných a občanských budov. Ing.arch. Kamil Dvořák, DrSc. Zdroj: http://www.archiweb.cz/",
+      "date_of_birth": "1904-06-24",
+      "date_of_death": "1967-05-07",
+      "photo": null,
+      "structure_ids": [
+        146
+      ],
+      "last_change": 1484214074
+    },
+    {
+      "id": 125,
+      "active": true,
+      "name": "lol pol",
+      "description": null,
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        null
+      ],
+      "last_change": 1484649210
+    },
+    {
+      "id": 126,
+      "active": true,
+      "name": "Jaroslav Brada",
+      "description": "Současník architekta Vladimíra Frýdy.",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        154
+      ],
+      "last_change": 1484753311
+    },
+    {
+      "id": 127,
+      "active": true,
+      "name": "Karel Popp",
+      "description": "Architekt,Praha. Zdroj: Vlček, Pavel, ed. et al. Encyklopedie architektů, stavitelů, zedníků a kameníků v Čechách. Vyd. 1. Praha: Academia, 2004, s. 517.",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        153
+      ],
+      "last_change": 1484754283
+    },
+    {
+      "id": 128,
+      "active": true,
+      "name": "Eduard Žáček",
+      "description": "Brněnský architekt Eduard Žáček se narodil roku 1899 a patřil k prvním studentům, kteří v roce 1925 absolvovali čerstvě založený odbor architektury na České vysoké škole technické v Brně. Patřil k mladší generaci funkcionalistických architektů a je autorem několika staveb v Prostějově a v Brně. Jako samostatný projektant byl činný až do roku 1952. Poté mu z politických důvodů bylo zamítnuto místo pedagoga na české technice a jeho kariéra se tak prakticky uzavřela. Nadále pracoval jen jako stavbyvedoucí nebo stavební dozor. Zemřel v roce 1973. Zdroj: http://www.bam.brno.cz",
+      "date_of_birth": "1899-12-26",
+      "date_of_death": "1973-09-10",
+      "photo": null,
+      "structure_ids": [
+        160
+      ],
+      "last_change": 1485214186
+    },
+    {
+      "id": 129,
+      "active": true,
+      "name": "Jaroslav Stockar-Bernkopf",
+      "description": "Významný český architekt, v letech 1908-1913 studoval na Českém vysokém učení technickém. V roce 1913 byl jmenován architektem ve dvorní kanceláři knížete Lichtenštejna ve Vídni. V roce 1915 byl povolán jako inženýr na ministerstvo války, do projekčního oddělení vzduchoplavby a pak jako samostatný referent do oddělení kontroly průmyslových staveb. Roku 1916 byl promován na doktora věd technických. Stal se čestným docentem lesnických staveb pozemních na Vysoké škole zemědělské v Brně a členem zkušební komise pro státní zkoušky z oboru architektury tamtéž. Roku 1919 se usadil v Brně jako civilní autorizovaný inženýr pro architekturu a pozemní stavby. V roce 1935 přesídlil do Prahy a stal se ředitelem technického oddělení Národní banky v Praze. Během svého působení v Brně projektoval novostavbu továrny UP Brno a Pensijního ústavu Brno, dále přestavby bankovních paláců Hypoteční banky a Zemědělské banky moravské v Brně, České průmyslové a hospodářské banky, Brněnské banky a dalších staveb. V Praze vypracoval pro Národní banku československou adaptace čp. 937 v Jindřišské ulici a někdejšího Ringhofferova paláce čp. 1511/II v třídě Politických vězňů na Novém Městě pražském. V letech 1937-1940 projektoval spolu s Josefem Šolcem blok sedmi funkcionalistických činžovních domů v Praze 7 - Holešovicích na zakázku Penzijního fondu zaměstnanců Národní banky. Dále je autorem přestavby nemocenské pojišťovny v Opavě, sociálního domu v Ostravě, lázní v Rajeckých Teplicích na Slovensku. Podle jeho projektu vznikl okresní úřad v Přerově a v Uherském Hradišti a veřejná nemocnice v Hranicích na Moravě. Zdroj: https://cs.wikipedia.org",
+      "date_of_birth": "1890-05-08",
+      "date_of_death": "1977-02-06",
+      "photo": null,
+      "structure_ids": [
+        159
+      ],
+      "last_change": 1496133093
+    },
+    {
+      "id": 130,
+      "active": true,
+      "name": "František Novák",
+      "description": "Olomoucký architekt a pedagog, založil tradici vědeckých sympozií Historická Olomouc a její současné problémy. Zdroj: http://www.mekbruntal.cz",
+      "date_of_birth": "1911-02-18",
+      "date_of_death": "1983-08-20",
+      "photo": null,
+      "structure_ids": [
+        156
+      ],
+      "last_change": 1485215171
+    },
+    {
+      "id": 131,
+      "active": true,
+      "name": "Miiroslav Putna",
+      "description": "Brněnský architekt a vysokoškolský pedagog. Vzdělání:státní průmyslová škola v Králově Poli - oddělení stavitelství (1923 maturita)ČVŠT v Brně - odbor architektury a pozemního stavitelství (2. státní zkouška v roce 1930).Zdroj: http://encyklopedie.brna.cz",
+      "date_of_birth": "1904-07-17",
+      "date_of_death": "1994-05-09",
+      "photo": null,
+      "structure_ids": [
+        161
+      ],
+      "last_change": 1485266737
+    },
+    {
+      "id": 132,
+      "active": true,
+      "name": "Slezský zemský stavební úřad Opava .",
+      "description": "Slezský zemský stavební úřad v Opavě vedli v letech 1886–1928 Adolf Jordan, Moritz Kohut a Adolf Müller.",
+      "date_of_birth": null,
+      "date_of_death": null,
+      "photo": null,
+      "structure_ids": [
+        163
+      ],
+      "last_change": 1501701478
+    }
+  ]
+}
