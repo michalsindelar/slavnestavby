@@ -9,7 +9,7 @@ import registerServiceWorker from "./registerServiceWorker"
 
 import * as Mapbox from "./home/tools/Mapbox"
 
-import { store, history } from "./services/"
+import { store } from "./services/"
 
 // init the mapbox map
 Mapbox.init()
