@@ -7,6 +7,7 @@ import Sidebar from "./components/Sidebar"
 import { fetchStructuresAction } from "./services/actions"
 
 import "./App.css"
+import {getLoading} from "./services/reducer"
 
 class Home extends Component {
   componentWillMount() {
@@ -30,7 +31,7 @@ class Home extends Component {
 
 export default connect(
   state => ({
-    loading: state.loading,
+    loading: getLoading(state),
   }),
   dispatch => ({
     fetchStructures: () => {

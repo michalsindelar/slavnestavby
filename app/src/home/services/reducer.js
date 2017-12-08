@@ -20,4 +20,7 @@ const reducer = (state = DEFAULT_STATE, action) => {
   }
 }
 
+export const getLoading = R.prop("loading")
+export const getStructures = R.prop("structures")
+
 export default reducer
