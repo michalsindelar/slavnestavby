@@ -1,3 +1,5 @@
+import * as R from "ramda"
+
 import appendScript from "./appendScript"
 
 export const CONFIG = {
@@ -30,17 +32,29 @@ export const init = () => {
         window.mapboxgl.accessToken = mapboxAccessToken
 
         /* eslint-disable */
-        new window.mapboxgl.Map({
+        window.map = new window.mapboxgl.Map({
           container: mapboxContainerId, // container id
           center: mapboxCenter,
           zoom: mamboxZoom,
           style: mapboxStyle
         })
         /* eslint-enable */
+        resolve()
       },
       err => {
         reject(err)
       },
     )
+  })
+}
+
+export const interposeLabels = labels => {
+  labels.forEach(marker => {
+    // create a HTML element for each feature
+    const el = document.createElement("div")
+    el.className = "marker"
+
+    // make a marker for each feature and add to the map
+    new window.mapboxgl.Marker(el).setLngLat(marker.geometry.coordinates).addTo(window.map)
   })
 }

@@ -7,12 +7,7 @@ import "./index.css"
 import Root from "./Root"
 import registerServiceWorker from "./registerServiceWorker"
 
-import * as Mapbox from "./home/tools/Mapbox"
-
 import { store } from "./services/"
-
-// init the mapbox map
-Mapbox.init()
 
 if (window) {
   window.reduxStore = store

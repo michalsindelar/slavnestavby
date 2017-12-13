@@ -4,15 +4,20 @@ import { connect } from "react-redux"
 import Map from "./scenes/Map/Map"
 import Sidebar from "./components/Sidebar"
 
-import { fetchStructuresAction } from "./services/actions"
+import { fetchStructuresAction, interposeLabelsAction } from "./services/actionCreators"
 
 import "./App.css"
-import {getLoading} from "./services/reducer"
+import { getLoading, getStructures} from "./services/reducer"
+import { init } from "./tools/Mapbox"
+import { getLabelsSelector } from "./services/selectors"
 
 class Home extends Component {
-  componentWillMount() {
-    const { fetchStructures } = this.props
-    fetchStructures()
+  componentDidMount() {
+    const { fetchStructures, interposeLabels } = this.props
+
+    Promise.all([fetchStructures(), init()]).then(() => {
+      interposeLabels()
+    })
   }
 
   render() {
@@ -31,11 +36,16 @@ class Home extends Component {
 
 export default connect(
   state => ({
+    labels: getLabelsSelector(state),
     loading: getLoading(state),
+    structures: getStructures(state),
   }),
   dispatch => ({
     fetchStructures: () => {
       dispatch(fetchStructuresAction())
+    },
+    interposeLabels: () => {
+      dispatch(interposeLabelsAction())
     },
   }),
 )(Home)
