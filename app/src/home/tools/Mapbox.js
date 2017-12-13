@@ -53,14 +53,13 @@ export const interposeLabels = labels => {
     // create a HTML element for each feature
     const el = document.createElement("div")
     el.className = "marker"
+    el.addEventListener("click", () => {
+      debugger
+    })
 
     // make a marker for each feature and add to the map
     new window.mapboxgl.Marker(el)
       .setLngLat(marker.geometry.coordinates)
-      .setPopup(
-        new window.mapboxgl.Popup({ offset: 25 }) // add popups
-          .setHTML(`<h3>${marker.properties.title}</h3><p>${marker.properties.description}</p>`),
-      )
       .addTo(window.map)
   })
 }

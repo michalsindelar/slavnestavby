@@ -3,6 +3,7 @@ import { connect } from "react-redux"
 
 import Map from "./scenes/Map/Map"
 import Sidebar from "./components/Sidebar"
+import Modals from "./scenes/Modals"
 
 import { fetchStructuresAction, interposeLabelsAction } from "./services/actionCreators"
 
@@ -27,8 +28,8 @@ class Home extends Component {
       <div className="Home">
         <Sidebar />
         <Map />
-
         {loading && <div>Loader</div>}
+        <Modals />
       </div>
     )
   }
