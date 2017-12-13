@@ -3,7 +3,7 @@ import * as R from "ramda"
 import appendScript from "./appendScript"
 
 export const CONFIG = {
-  mapboxScriptUrl: "https://api.tiles.mapbox.com/mapbox-gl-js/v0.35.1/mapbox-gl.js",
+  mapboxScriptUrl: "https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.1/mapbox-gl.js  ",
   mapboxAccessToken: "pk.eyJ1IjoibWljaGFsc2luZGVsYXIwMyIsImEiOiJjaXh2NGcxeWIwMDV2MnFvMXEzbXk2eDJwIn0.0RkllyKnfueuJ7EbJL_xXQ", // eslint-disable-line
   mapboxContainerId: "MapboxContainer",
   mapboxStyle: "mapbox://styles/michalsindelar03/cjapu6chsgqdq2rnx7ri2f1wa",
@@ -55,6 +55,12 @@ export const interposeLabels = labels => {
     el.className = "marker"
 
     // make a marker for each feature and add to the map
-    new window.mapboxgl.Marker(el).setLngLat(marker.geometry.coordinates).addTo(window.map)
+    new window.mapboxgl.Marker(el)
+      .setLngLat(marker.geometry.coordinates)
+      .setPopup(
+        new window.mapboxgl.Popup({ offset: 25 }) // add popups
+          .setHTML(`<h3>${marker.properties.title}</h3><p>${marker.properties.description}</p>`),
+      )
+      .addTo(window.map)
   })
 }

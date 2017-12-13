@@ -23,7 +23,7 @@ export const formatGeojsonDataSelector = createSelector(
       type: "Feature",
       geometry: {
         type: "Point",
-        coordinates: [R.path(["address", "lat"], x), R.path(["address", "lon"], x)],
+        coordinates: [R.path(["address", "lon"], x), R.path(["address", "lat"], x)],
       },
       properties: {
         title: "Mapbox",
