@@ -1,9 +1,7 @@
-import * as R from "ramda"
-
 import appendScript from "./appendScript"
 
 export const CONFIG = {
-  mapboxScriptUrl: "https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.1/mapbox-gl.js  ",
+  mapboxScriptUrl: "https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.1/mapbox-gl.js",
   mapboxAccessToken: "pk.eyJ1IjoibWljaGFsc2luZGVsYXIwMyIsImEiOiJjaXh2NGcxeWIwMDV2MnFvMXEzbXk2eDJwIn0.0RkllyKnfueuJ7EbJL_xXQ", // eslint-disable-line
   mapboxContainerId: "MapboxContainer",
   mapboxStyle: "mapbox://styles/michalsindelar03/cjapu6chsgqdq2rnx7ri2f1wa",
@@ -11,55 +9,55 @@ export const CONFIG = {
   mamboxZoom: 7,
 }
 
-export const init = () => {
-  const {
-    mapboxAccessToken,
-    mapboxContainerId,
-    mapboxCenter,
-    mapboxScriptUrl,
-    mapboxStyle,
-    mamboxZoom,
-  } = CONFIG
+class Mapbox {
+  id = ""
+  mapboxScriptUrl = "https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.1/mapbox-gl.js"
+  mapboxAccessToken = ""
+  mapboxContainerId = ""
+  mapboxStyle = ""
+  mapboxCenter = []
+  mamboxZoom = 7
 
-  return new Promise((resolve, reject) => {
-    appendScript(mapboxScriptUrl, () => Boolean(window.mapboxgl)).then(
-      () => {
-        // Check for window
-        if (!window || !window.mapboxgl) {
-          reject()
-        }
+  constructor(config) {
+    // Fallback to default config
+    const _config = Object.assign({}, CONFIG, config)
 
-        window.mapboxgl.accessToken = mapboxAccessToken
+    this.id = _config.id
+    this.mapboxScriptUrl = _config.mapboxScriptUrl
+    this.mapboxAccessToken = _config.mapboxAccessToken
+    this.mapboxContainerId = _config.mapboxContainerId
+    this.mapboxStyle = _config.mapboxStyle
+    this.mapboxCenter = _config.mapboxCenter
+    this.mamboxZoom = _config.mamboxZoom
 
-        /* eslint-disable */
-        window.map = new window.mapboxgl.Map({
-          container: mapboxContainerId, // container id
-          center: mapboxCenter,
-          zoom: mamboxZoom,
-          style: mapboxStyle
-        })
-        /* eslint-enable */
-        resolve()
-      },
-      err => {
-        reject(err)
-      },
-    )
-  })
-}
-
-export const interposeLabels = labels => {
-  labels.forEach(marker => {
-    // create a HTML element for each feature
-    const el = document.createElement("div")
-    el.className = "marker"
-    el.addEventListener("click", () => {
-      debugger
+    window.mapboxgl.accessToken = this.mapboxAccessToken
+    window.map = new window.mapboxgl.Map({
+      container: this.mapboxContainerId, // container id
+      center: this.mapboxCenter,
+      zoom: this.mamboxZoom,
+      style: this.mapboxStyle,
     })
+  }
 
-    // make a marker for each feature and add to the map
-    new window.mapboxgl.Marker(el)
-      .setLngLat(marker.geometry.coordinates)
-      .addTo(window.map)
-  })
+  interposeLabels(labels) {
+    labels.forEach(marker => {
+      // create a HTML element for each feature
+      const el = document.createElement("div")
+      el.className = "marker"
+      el.addEventListener("click", () => {
+        debugger
+      })
+
+      // make a marker for each feature and add to the map
+      new window.mapboxgl.Marker(el)
+        .setLngLat(marker.geometry.coordinates)
+        .addTo(window[this.id])
+    })
+  }
+
+  static loadScript() {
+    return appendScript(CONFIG.mapboxScriptUrl)
+  }
 }
+
+export default Mapbox

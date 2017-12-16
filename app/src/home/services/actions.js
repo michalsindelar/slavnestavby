@@ -1,4 +1,5 @@
 export const SET_LOADER = "SET_LOADER"
+export const SET_MAP = "SET_MAP"
 export const SET_STRUCTURES = "SET_STRUCTURES"
 export const SET_ACTIVE_STRUCTURE = "SET_ACTIVE_STRUCTURE"
 
@@ -12,7 +13,12 @@ export const setStructures = structures => ({
   payload: { data: structures },
 })
 
-export const seActiveStructure = activeStructureId => ({
+export const setActiveStructure = activeStructureId => ({
   type: SET_ACTIVE_STRUCTURE,
   payload: { data: activeStructureId },
+})
+
+export const setMap = map => ({
+  type: SET_MAP,
+  payload: { data: map },
 })

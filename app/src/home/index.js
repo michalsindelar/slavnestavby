@@ -1,3 +1,4 @@
+// @flow
 import React, { Component } from "react"
 import { connect } from "react-redux"
 
@@ -5,19 +6,35 @@ import Map from "./scenes/Map/Map"
 import Sidebar from "./components/Sidebar"
 import Modals from "./scenes/Modals"
 
-import { fetchStructuresAction, interposeLabelsAction } from "./services/actionCreators"
-
 import "./App.css"
-import { getLoading, getStructures} from "./services/reducer"
-import { init } from "./tools/Mapbox"
+
+import Mapbox from "./tools/Mapbox"
+
+import {
+  createMapAction,
+  fetchStructuresAction,
+  interposeLabelsAction,
+} from "./services/actionsCreators"
+import { getLoading, getStructures } from "./services/reducer"
 import { getLabelsSelector } from "./services/selectors"
 
-class Home extends Component {
-  componentDidMount() {
-    const { fetchStructures, interposeLabels } = this.props
+type Props = {
+  fetchStructures: Function,
+  interposeLabels: Function,
+  createMap: Function,
+}
 
-    Promise.all([fetchStructures(), init()]).then(() => {
-      interposeLabels()
+class Home extends Component {
+  props: Props // eslint-disable-line
+
+  componentDidMount() {
+    const { createMap, fetchStructures, interposeLabels } = this.props
+
+    Mapbox.loadScript().then(() => {
+      // debugger
+      Promise.all([fetchStructures(), createMap()]).then(() => {
+        window.setTimeout(interposeLabels, 1000)
+      })
     })
   }
 
@@ -47,6 +64,9 @@ export default connect(
     },
     interposeLabels: () => {
       dispatch(interposeLabelsAction())
+    },
+    createMap: () => {
+      dispatch(createMapAction())
     },
   }),
 )(Home)

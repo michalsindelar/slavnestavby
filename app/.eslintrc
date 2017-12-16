@@ -19,8 +19,8 @@
 
     // Flow
     // ---
-    "flowtype/no-weak-types": ["error", {
-      "any": false
+    "flowtype/no-weak-types": ["warn", {
+      "Function": false
     }], // no Function, Object
     "flowtype/require-valid-file-annotation": ["warn", "always"],
 
