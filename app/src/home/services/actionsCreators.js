@@ -6,7 +6,9 @@ import Mapbox from "../tools/Mapbox"
 export const fetchStructuresAction = () => dispatch => {
   dispatch(setLoader(true))
 
-  const url = "http://localhost:5000/getStructures"
+  // FIXME: Better
+  const url = `${window.location.protocol}//${window.location.hostname}:${process.env.PORT ||
+    5000}/getStructures`
 
   return fetch(url)
     .then(res => res.json(), console.log)

@@ -16,7 +16,7 @@ app.listen(PORT, function () {
 // Formatters
 // ===
 const limitResults = R.compose(
-  R.take(10),
+  R.take(20),
   R.prop('data')
 )
 
