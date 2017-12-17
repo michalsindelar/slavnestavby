@@ -26,8 +26,9 @@ export const formatGeojsonDataSelector = createSelector(
         coordinates: [R.path(["address", "lon"], x), R.path(["address", "lat"], x)],
       },
       properties: {
-        title: "Mapbox",
-        description: "Washington, D.C.",
+        id: R.prop("id", x),
+        title: R.prop("name", x),
+        description: R.prop("style", x),
       },
     }))(simpleStructures),
   }),
@@ -42,5 +43,5 @@ export const getActiveLabelsSelector = createSelector(
 
 export const getStructureDataSelector = createSelector(
   [getStructures, getActiveStructureId],
-  (structures, activeStructureId) => R.nth(activeStructureId, structures),
+  (structures, activeStructureId) => R.find(R.propEq("id", activeStructureId), structures),
 )

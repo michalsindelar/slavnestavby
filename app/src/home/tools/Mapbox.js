@@ -47,7 +47,7 @@ class Mapbox {
       const el = document.createElement("div")
       el.className = "marker"
       el.addEventListener("click", () => {
-        window.reduxStore.dispatch(setActiveStructure(i))
+        window.reduxStore.dispatch(setActiveStructure(marker.properties.id))
       })
 
       // make a marker for each feature and add to the map
