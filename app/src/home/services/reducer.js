@@ -1,6 +1,12 @@
 import * as R from "ramda"
 
-import { SET_LOADER, SET_STRUCTURES, SET_ACTIVE_STRUCTURE, SET_MAP } from "./actions"
+import {
+  SET_LOADER,
+  SET_STRUCTURES,
+  SET_ACTIVE_STRUCTURE,
+  SET_MAP,
+  CLOSE_ACTIVE_STRUCTURE,
+} from "./actions"
 
 const DEFAULT_STATE = {
   activeStructureId: null,
@@ -22,6 +28,9 @@ const reducer = (state = DEFAULT_STATE, action) => {
 
     case SET_MAP:
       return R.assoc("map", action.payload.data, state)
+
+    case CLOSE_ACTIVE_STRUCTURE:
+      return R.assoc("activeStructureId", null, state)
 
     default:
       return state

@@ -1,5 +1,7 @@
 import appendScript from "./appendScript"
 
+import { setActiveStructure } from "../services/actions"
+
 export const CONFIG = {
   mapboxScriptUrl: "https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.1/mapbox-gl.js",
   mapboxAccessToken: "pk.eyJ1IjoibWljaGFsc2luZGVsYXIwMyIsImEiOiJjaXh2NGcxeWIwMDV2MnFvMXEzbXk2eDJwIn0.0RkllyKnfueuJ7EbJL_xXQ", // eslint-disable-line
@@ -40,12 +42,12 @@ class Mapbox {
   }
 
   interposeLabels(labels) {
-    labels.forEach(marker => {
+    labels.forEach((marker, i) => {
       // create a HTML element for each feature
       const el = document.createElement("div")
       el.className = "marker"
       el.addEventListener("click", () => {
-        debugger
+        window.reduxStore.dispatch(setActiveStructure(i))
       })
 
       // make a marker for each feature and add to the map

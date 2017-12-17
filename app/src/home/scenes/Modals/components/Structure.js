@@ -1,8 +1,8 @@
 import React from "react"
 
-const Structure = () => (
+const Structure = ({ id }) => (
   <div>
-    <h1>Structure</h1>
+    <h1>Structure {id}</h1>
   </div>
 )
 

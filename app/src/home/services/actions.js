@@ -2,6 +2,7 @@ export const SET_LOADER = "SET_LOADER"
 export const SET_MAP = "SET_MAP"
 export const SET_STRUCTURES = "SET_STRUCTURES"
 export const SET_ACTIVE_STRUCTURE = "SET_ACTIVE_STRUCTURE"
+export const CLOSE_ACTIVE_STRUCTURE = "CLOSE_ACTIVE_STRUCTURE"
 
 export const setLoader = loading => ({
   type: SET_LOADER,
@@ -21,4 +22,8 @@ export const setActiveStructure = activeStructureId => ({
 export const setMap = map => ({
   type: SET_MAP,
   payload: { data: map },
+})
+
+export const closeActiveStructure = () => ({
+  type: CLOSE_ACTIVE_STRUCTURE,
 })
