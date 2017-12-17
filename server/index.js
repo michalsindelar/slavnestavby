@@ -46,7 +46,6 @@ app.use(function(req, res, next) {
   next();
 });
 
-
 // Apis
 // ===
 app.get('/getStructures', function (req, res) {
