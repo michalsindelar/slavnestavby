@@ -1,7 +1,7 @@
 import * as R from "ramda"
 import { createSelector } from "reselect"
 
-import { getStructures } from "./reducer"
+import { getActiveStructureId, getStructures } from "./reducer"
 
 export const getSimpleStructuresSelector = createSelector(
   getStructures,
@@ -34,7 +34,13 @@ export const formatGeojsonDataSelector = createSelector(
 )
 
 export const getLabelsSelector = createSelector(formatGeojsonDataSelector, R.prop("features"))
+
 export const getActiveLabelsSelector = createSelector(
   getLabelsSelector,
   R.filter(R.propEq("active", true)),
+)
+
+export const getStructureDataSelector = createSelector(
+  [getActiveLabelsSelector, getActiveStructureId],
+  (activeLabelsSelector, activeStructureId) => R.nth(activeStructureId, activeLabelsSelector),
 )
