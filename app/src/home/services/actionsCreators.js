@@ -7,7 +7,8 @@ export const fetchStructuresAction = () => dispatch => {
   dispatch(setLoader(true))
 
   // FIXME: Better
-  const url = `${window.location.protocol}//${window.location.host}/getStructures`
+  let url = `${window.location.protocol}//${window.location.host}/getStructures`
+  url = url.replace("3000", "5000")
 
   return fetch(url)
     .then(res => res.json(), console.log)

@@ -41,6 +41,6 @@ export const getActiveLabelsSelector = createSelector(
 )
 
 export const getStructureDataSelector = createSelector(
-  [getActiveLabelsSelector, getActiveStructureId],
-  (activeLabelsSelector, activeStructureId) => R.nth(activeStructureId, activeLabelsSelector),
+  [getStructures, getActiveStructureId],
+  (structures, activeStructureId) => R.nth(activeStructureId, structures),
 )

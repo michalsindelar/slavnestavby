@@ -37,7 +37,7 @@ const cachedApiRequest = (res, key) =>  {
   }
 }
 
-// Set cors headers
+// Set cors headers<x
 // ===
 app.use(function(req, res, next) {
   res.header('Access-Control-Allow-Origin', '*');
