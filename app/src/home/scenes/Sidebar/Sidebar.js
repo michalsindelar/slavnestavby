@@ -13,9 +13,22 @@ const SidebarStyle = styled.div`
   left: 0;
   bottom: 0;
   height: 100%;
-  width: 200px;
+  width: 300px;
   z-index: 1;
-  padding: 20px;
+`
+
+export const FilterYearTitleStyl = styled.div`
+  font-size: 15px;
+  color: ${THEME.pallete.ternary};
+  padding-top: 10px;
+  font-weight: 600;
+`
+
+export const FilterYearStyl = styled.div`
+  margin-top: 20px;
+  padding: 40px 30px;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
 `
 
 const Sidebar = () => (

@@ -2,6 +2,8 @@
 import React from "react"
 import InputRange from "react-input-range"
 
+import { FilterYearTitleStyl, FilterYearStyl } from "../Sidebar"
+
 import "react-input-range/lib/css/index.css"
 
 type Props = {|
@@ -20,7 +22,7 @@ const FilterYear = ({
   minYear,
   maxYear,
 }: Props) => (
-  <div>
+  <FilterYearStyl>
     <InputRange
       draggableTrack
       maxValue={maxThreshold}
@@ -29,7 +31,9 @@ const FilterYear = ({
       onChangeComplete={onChangeComplete}
       value={{ min: minYear, max: maxYear }}
     />
-  </div>
+
+    <FilterYearTitleStyl>Realizace</FilterYearTitleStyl>
+  </FilterYearStyl>
 )
 
 export default FilterYear

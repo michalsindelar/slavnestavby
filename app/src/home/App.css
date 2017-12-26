@@ -13,3 +13,72 @@
   cursor: pointer;
   background-color: #E33859;
 }
+
+
+/* Double slider */
+
+.input-range__slider,
+.input-range__track--active {
+  background: #55A59C;
+  border-color: #55A59C;
+}
+
+.input-range__label {
+  transform: rotate(-50deg);
+}
+
+.input-range__label--value {
+  color: #55A59C;
+  font-weight: 600;
+}
+
+.input-range__label--value,
+.input-range__label--min {
+  top: -45px;
+
+}
+
+.input-range__label--value {
+  z-index: 10;
+}
+
+.input-range__label--min {
+  left: 30px;
+}
+
+.input-range__label--max {
+  top: -20px;
+  right: -25px;
+}
+
+.input-range__label--value,
+.input-range__label--min,
+.input-range__label--max {
+  font-weight: 600;
+}
+
+.input-range__slider {
+  margin-top: -8px;
+  width: 10px;
+  height: 10px;
+}
+
+.input-range__track--background::before,
+.input-range__track--background::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  position: absolute;
+  border-radius: 2px;
+}
+
+.input-range__track--background::before {
+  top: -3px;
+  left: 0;
+}
+
+.input-range__track--background::after {
+  top: -3px;
+  right: 0;
+}
