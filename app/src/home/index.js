@@ -11,7 +11,7 @@ import "./App.css"
 import Mapbox from "./tools/Mapbox"
 
 import {
-  createMapAction,
+  createMapAction, fetchArchitectsAction,
   fetchStructuresAction,
   interposeLabelsAction,
 } from "./services/actionsCreators"
@@ -28,11 +28,15 @@ class Home extends Component {
   props: Props // eslint-disable-line
 
   componentDidMount() {
-    const { createMap, fetchStructures, interposeLabels } = this.props
+    const { createMap, fetchArchitects, fetchStructures, interposeLabels } = this.props
 
     Mapbox.loadScript().then(() => {
       // debugger
-      Promise.all([fetchStructures(), createMap()]).then(() => {
+      Promise.all([
+        fetchStructures(),
+        fetchArchitects(),
+        createMap()
+      ]).then(() => {
         window.setTimeout(interposeLabels, 2000)
       })
     })
@@ -61,6 +65,9 @@ export default connect(
   dispatch => ({
     fetchStructures: () => {
       dispatch(fetchStructuresAction())
+    },
+    fetchArchitects: () => {
+      dispatch(fetchArchitectsAction())
     },
     interposeLabels: () => {
       dispatch(interposeLabelsAction())

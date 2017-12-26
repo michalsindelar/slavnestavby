@@ -1,6 +1,7 @@
 export const SET_LOADER = "SET_LOADER"
 export const SET_MAP = "SET_MAP"
 export const SET_STRUCTURES = "SET_STRUCTURES"
+export const SET_ARCHITECTS = "SET_ARCHITECTS"
 export const SET_ACTIVE_STRUCTURE = "SET_ACTIVE_STRUCTURE"
 export const CLOSE_ACTIVE_STRUCTURE = "CLOSE_ACTIVE_STRUCTURE"
 export const SET_FILTERS_YEARS = "SET_FILTERS_YEARS"
@@ -15,6 +16,11 @@ export const setLoader = loading => ({
 export const setStructures = structures => ({
   type: SET_STRUCTURES,
   payload: { data: structures },
+})
+
+export const setArchitects = architects => ({
+  type: SET_ARCHITECTS,
+  payload: { data: architects },
 })
 
 export const setActiveStructure = activeStructureId => ({

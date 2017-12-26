@@ -8,7 +8,8 @@ import {
   CLOSE_ACTIVE_STRUCTURE,
   SET_FILTERS_YEARS,
   RESET_FILTERS,
-  SET_MARKERS
+  SET_MARKERS,
+  SET_ARCHITECTS
 } from "./actions"
 
 const DEFAULT_FILTERS = {
@@ -18,6 +19,7 @@ const DEFAULT_FILTERS = {
 
 const DEFAULT_STATE = {
   activeStructureId: null,
+  architects: [],
   loading: false,
   map: null,
   markers: [],
@@ -50,6 +52,9 @@ const reducer = (state = DEFAULT_STATE, action) => {
 
     case SET_MARKERS:
       return R.assoc("markers", action.payload.data, state)
+
+    case SET_ARCHITECTS:
+      return R.assoc("architects", action.payload.data, state)
 
     default:
       return state
