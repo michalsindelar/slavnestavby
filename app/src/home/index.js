@@ -3,7 +3,7 @@ import React, { Component } from "react"
 import { connect } from "react-redux"
 
 import Map from "./scenes/Map/Map"
-import Sidebar from "./components/Sidebar"
+import Sidebar from "./scenes/Sidebar/Sidebar"
 import Modals from "./scenes/Modals"
 
 import "./App.css"
@@ -33,7 +33,7 @@ class Home extends Component {
     Mapbox.loadScript().then(() => {
       // debugger
       Promise.all([fetchStructures(), createMap()]).then(() => {
-        window.setTimeout(interposeLabels, 1000)
+        window.setTimeout(interposeLabels, 2000)
       })
     })
   }
