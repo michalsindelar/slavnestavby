@@ -4,6 +4,7 @@ import { connect } from "react-redux"
 import FilterYear from "./FilterYear"
 import { setFilterYears } from "../../../services/actions"
 import { getFiltersMaxYear, getFiltersMinYear } from "../../../services/reducer"
+import { interposeLabelsAction } from "../../../services/actionsCreators"
 
 class Filters extends Component {
   render() {
@@ -30,6 +31,9 @@ export default connect(
     maxYear: getFiltersMaxYear(state),
   }),
   dispatch => ({
-    handleFiltersYearsChange: years => dispatch(setFilterYears(years)),
+    handleFiltersYearsChange: years => {
+      dispatch(setFilterYears(years))
+      dispatch(interposeLabelsAction())
+    },
   }),
 )(Filters)

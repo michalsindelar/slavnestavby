@@ -8,6 +8,7 @@ import {
   CLOSE_ACTIVE_STRUCTURE,
   SET_FILTERS_YEARS,
   RESET_FILTERS,
+  SET_MARKERS
 } from "./actions"
 
 const DEFAULT_FILTERS = {
@@ -19,6 +20,7 @@ const DEFAULT_STATE = {
   activeStructureId: null,
   loading: false,
   map: null,
+  markers: [],
   structures: [],
   filters: DEFAULT_FILTERS,
 }
@@ -46,6 +48,9 @@ const reducer = (state = DEFAULT_STATE, action) => {
     case RESET_FILTERS:
       return R.assoc("filters", DEFAULT_FILTERS, state)
 
+    case SET_MARKERS:
+      return R.assoc("markers", action.payload.data, state)
+
     default:
       return state
   }
@@ -58,5 +63,7 @@ export const getActiveStructureId = R.prop("activeStructureId")
 export const isActiveStructureSet = state => R.is(Number, R.prop("activeStructureId", state))
 export const getFiltersMinYear = R.path(["filters", "minYear"])
 export const getFiltersMaxYear = R.path(["filters", "maxYear"])
+export const getFilters = R.prop("filters")
+export const getMarkers = R.prop("markers")
 
 export default reducer

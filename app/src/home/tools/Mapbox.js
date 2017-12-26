@@ -1,6 +1,8 @@
+import * as R from "ramda"
 import appendScript from "./appendScript"
 
-import { setActiveStructure } from "../services/actions"
+import { setActiveStructure, setMapMarkers } from "../services/actions"
+import { getMarkers } from "../services/reducer"
 
 export const CONFIG = {
   mapboxScriptUrl: "https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.1/mapbox-gl.js",
@@ -42,7 +44,12 @@ class Mapbox {
   }
 
   interposeLabels(labels) {
-    labels.forEach((marker, i) => {
+    // Erase current ones at first
+    getMarkers(window.reduxStore.getState()).forEach(marker => marker.remove())
+
+    const markers = []
+
+    labels.forEach(marker => {
       // create a HTML element for each feature
       const el = document.createElement("div")
       el.className = "marker"
@@ -51,10 +58,14 @@ class Mapbox {
       })
 
       // make a marker for each feature and add to the map
-      new window.mapboxgl.Marker(el)
-        .setLngLat(marker.geometry.coordinates)
-        .addTo(window[this.id])
+      markers.push(
+        new window.mapboxgl.Marker(el)
+          .setLngLat(marker.geometry.coordinates)
+          .addTo(window[this.id]),
+      )
     })
+
+    window.reduxStore.dispatch(setMapMarkers(markers))
   }
 
   static loadScript() {

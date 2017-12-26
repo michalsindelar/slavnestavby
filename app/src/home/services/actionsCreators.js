@@ -1,5 +1,5 @@
 import { setLoader, setMap, setStructures } from "./actions"
-import { getActiveLabelsSelector } from "./selectors"
+import { getFilteredLabelsSelector } from "./selectors"
 import { getMap } from "./reducer"
 import Mapbox from "../tools/Mapbox"
 
@@ -21,7 +21,7 @@ export const fetchStructuresAction = () => dispatch => {
 export const interposeLabelsAction = () => (dispatch, getState) => {
   const state = getState()
   const map = getMap(state)
-  map.interposeLabels(getActiveLabelsSelector(state))
+  map.interposeLabels(getFilteredLabelsSelector(state))
 }
 
 export const createMapAction = () => dispatch => dispatch(setMap(new Mapbox({ id: "map" })))
