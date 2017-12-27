@@ -15,6 +15,9 @@ const SidebarStyle = styled.div`
   height: 100%;
   width: 300px;
   z-index: 1;
+  padding: 30px;
+  color: white;
+  font-size: 14px;
 `
 
 export const FilterYearTitleStyl = styled.div`
@@ -24,15 +27,21 @@ export const FilterYearTitleStyl = styled.div`
   font-weight: 600;
 `
 
+export const FilterArchitectTitleStyl = styled.div`
+  font-size: 15px;
+  color: white;
+`
+
 export const FilterYearStyl = styled.div`
-  margin-top: 20px;
-  padding: 40px 30px;
+  padding: 40px 0 20px 0;
   border-top: 1px solid #888;
   border-bottom: 1px solid #888;
+  margin-bottom: 10px;
 `
 
 export const FilterArchitectsStyl = styled.div`
-  padding: 20px 30px;
+  padding: 20px 0 10px 0;
+  position: relative;
 `
 
 const Sidebar = () => (

@@ -10,6 +10,8 @@ import {
 } from "../../../services/reducer"
 import { interposeLabelsAction, setArchitectFromName } from "../../../services/actionsCreators"
 import FilterArchitects from "./FilterArchitects"
+import FilterTypes from "./FilterTypes"
+import FilterStyle from "./FilterStyle"
 import { getArchitectsNames } from "../../../services/selectors"
 
 class Filters extends Component {
@@ -31,6 +33,11 @@ class Filters extends Component {
 
     return (
       <div>
+        <FilterArchitects
+          architectsNames={architectsNames}
+          architectsSetCount={1}
+          onSubmit={onArchitectAdd}
+        />
         <FilterYear
           minThreshold={1800}
           maxThreshold={2017}
@@ -39,11 +46,10 @@ class Filters extends Component {
           minYear={minYear}
           maxYear={maxYear}
         />
-        <FilterArchitects
-          architectsNames={architectsNames}
-          architectsSetCount={1}
-          onSubmit={onArchitectAdd}
-        />
+
+        <FilterTypes />
+
+        <FilterStyle />
       </div>
     )
   }
