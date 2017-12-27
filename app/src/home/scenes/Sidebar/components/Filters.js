@@ -1,9 +1,8 @@
 import React, { Component } from "react"
 import { connect } from "react-redux"
-import styled from "styled-components"
 
 import FilterYear from "./FilterYear"
-import { setFilterArchitect, setFilterYears } from "../../../services/actions"
+import { setFilterYears } from "../../../services/actions"
 import {
   getFiltersArchitect,
   getFiltersMaxYear,

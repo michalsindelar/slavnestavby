@@ -1,8 +1,8 @@
 import * as R from "ramda"
 
-import {setArchitects, setFilterArchitect, setLoader, setMap, setStructures} from "./actions"
+import { setArchitects, setFilterArchitect, setLoader, setMap, setStructures } from "./actions"
 import { getFilteredLabelsSelector } from "./selectors"
-import { getArchitects, getFiltersArchitect, getMap} from "./reducer"
+import { getArchitects, getMap } from "./reducer"
 import Mapbox from "../tools/Mapbox"
 
 const formatApiInEnv = endpoint =>

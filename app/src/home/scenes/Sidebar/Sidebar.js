@@ -32,6 +32,7 @@ export const FilterYearStyl = styled.div`
 `
 
 export const FilterArchitectsStyl = styled.div`
+  padding: 20px 30px;
 `
 
 const Sidebar = () => (

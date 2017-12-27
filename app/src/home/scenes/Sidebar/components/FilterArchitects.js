@@ -18,6 +18,7 @@ const FilterArchitects = ({ architectsNames, architectsSetCount, onSubmit }: Pro
         className="awesomplete"
         list="architectsList"
         onChange={ev => onSubmit(ev.target.value)}
+        style={{ width: "100%" }}
       />
       <datalist id="architectsList">{architectsNames.map(x => <option>{x}</option>)}</datalist>
     </div>
