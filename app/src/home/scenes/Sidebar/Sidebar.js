@@ -31,6 +31,9 @@ export const FilterYearStyl = styled.div`
   border-bottom: 1px solid #888;
 `
 
+export const FilterArchitectsStyl = styled.div`
+`
+
 const Sidebar = () => (
   <SidebarStyle>
     <Filters />

@@ -4,7 +4,7 @@ export const SET_STRUCTURES = "SET_STRUCTURES"
 export const SET_ARCHITECTS = "SET_ARCHITECTS"
 export const SET_ACTIVE_STRUCTURE = "SET_ACTIVE_STRUCTURE"
 export const CLOSE_ACTIVE_STRUCTURE = "CLOSE_ACTIVE_STRUCTURE"
-export const SET_FILTERS_YEARS = "SET_FILTERS_YEARS"
+export const SET_FILTERS = "SET_FILTERS"
 export const RESET_FILTERS = "RESET_FILTERS"
 export const SET_MARKERS = "SET_MARKERS"
 
@@ -39,13 +39,18 @@ export const closeActiveStructure = () => ({
 
 // years: { minYears: number, maxYears: number }
 export const setFilterYears = years => ({
-  type: SET_FILTERS_YEARS,
+  type: SET_FILTERS,
   payload: {
     data: {
       minYear: years.min,
       maxYear: years.max,
     },
   },
+})
+
+export const setFilterArchitect = architectId => ({
+  type: SET_FILTERS,
+  payload: { data: { architect: architectId } },
 })
 
 export const setMapMarkers = markers => ({

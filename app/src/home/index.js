@@ -11,7 +11,8 @@ import "./App.css"
 import Mapbox from "./tools/Mapbox"
 
 import {
-  createMapAction, fetchArchitectsAction,
+  createMapAction,
+  fetchArchitectsAction,
   fetchStructuresAction,
   interposeLabelsAction,
 } from "./services/actionsCreators"
@@ -32,11 +33,7 @@ class Home extends Component {
 
     Mapbox.loadScript().then(() => {
       // debugger
-      Promise.all([
-        fetchStructures(),
-        fetchArchitects(),
-        createMap()
-      ]).then(() => {
+      Promise.all([fetchStructures(), fetchArchitects(), createMap()]).then(() => {
         window.setTimeout(interposeLabels, 2000)
       })
     })

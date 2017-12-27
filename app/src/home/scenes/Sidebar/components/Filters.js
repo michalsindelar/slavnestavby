@@ -3,13 +3,32 @@ import { connect } from "react-redux"
 import styled from "styled-components"
 
 import FilterYear from "./FilterYear"
-import { setFilterYears } from "../../../services/actions"
-import { getFiltersMaxYear, getFiltersMinYear } from "../../../services/reducer"
-import { interposeLabelsAction } from "../../../services/actionsCreators"
+import { setFilterArchitect, setFilterYears } from "../../../services/actions"
+import {
+  getFiltersArchitect,
+  getFiltersMaxYear,
+  getFiltersMinYear,
+} from "../../../services/reducer"
+import { interposeLabelsAction, setArchitectFromName } from "../../../services/actionsCreators"
+import FilterArchitects from "./FilterArchitects"
+import { getArchitectsNames } from "../../../services/selectors"
 
 class Filters extends Component {
   render() {
-    const { handleFiltersYearsChange, minYear, maxYear } = this.props
+    const {
+      architectsNames,
+      handleFiltersYearsChange,
+      handleArchitectChange,
+      minYear,
+      maxYear,
+    } = this.props
+
+    const onArchitectAdd = architect => {
+      // ugly as fuck
+      if (architect.length > 6) {
+        handleArchitectChange(architect)
+      }
+    }
 
     return (
       <div>
@@ -21,6 +40,11 @@ class Filters extends Component {
           minYear={minYear}
           maxYear={maxYear}
         />
+        <FilterArchitects
+          architectsNames={architectsNames}
+          architectsSetCount={1}
+          onSubmit={onArchitectAdd}
+        />
       </div>
     )
   }
@@ -28,12 +52,18 @@ class Filters extends Component {
 
 export default connect(
   state => ({
+    architectsNames: getArchitectsNames(state),
     minYear: getFiltersMinYear(state),
     maxYear: getFiltersMaxYear(state),
+    filtersArchitect: getFiltersArchitect(state),
   }),
   dispatch => ({
     handleFiltersYearsChange: years => {
       dispatch(setFilterYears(years))
+      dispatch(interposeLabelsAction())
+    },
+    handleArchitectChange: architect => {
+      dispatch(setArchitectFromName(architect))
       dispatch(interposeLabelsAction())
     },
   }),

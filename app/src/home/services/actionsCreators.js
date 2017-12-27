@@ -1,6 +1,8 @@
-import { setArchitects, setLoader, setMap, setStructures} from "./actions"
+import * as R from "ramda"
+
+import {setArchitects, setFilterArchitect, setLoader, setMap, setStructures} from "./actions"
 import { getFilteredLabelsSelector } from "./selectors"
-import { getMap } from "./reducer"
+import { getArchitects, getFiltersArchitect, getMap} from "./reducer"
 import Mapbox from "../tools/Mapbox"
 
 const formatApiInEnv = endpoint =>
@@ -39,3 +41,9 @@ export const interposeLabelsAction = () => (dispatch, getState) => {
 }
 
 export const createMapAction = () => dispatch => dispatch(setMap(new Mapbox({ id: "map" })))
+
+export const setArchitectFromName = architectName => (dispatch, getState) => {
+  const state = getState()
+  const architects = getArchitects(state)
+  dispatch(setFilterArchitect(R.prop("id", R.find(R.propEq("name", architectName), architects))))
+}

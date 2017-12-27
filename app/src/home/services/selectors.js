@@ -1,7 +1,7 @@
 import * as R from "ramda"
 import { createSelector } from "reselect"
 
-import { getActiveStructureId, getFilters, getStructures } from "./reducer"
+import { getActiveStructureId, getArchitects, getFilters, getStructures } from "./reducer"
 
 export const getSimpleStructuresSelector = createSelector(
   getStructures,
@@ -12,6 +12,7 @@ export const getSimpleStructuresSelector = createSelector(
     address: R.prop("address", fullStructure), // {lat: "", lon: ""}
     year: R.prop("year", fullStructure),
     style: R.prop("style", fullStructure),
+    architectIds: R.prop("architect_ids", fullStructure),
     // TODO: Fill the needed ones for filtering
   })),
 )
@@ -33,6 +34,7 @@ export const formatGeojsonDataSelector = createSelector(
         description: R.prop("style", x),
         year: R.prop("year", x),
         style: R.prop("style", x),
+        architectIds: R.prop("architectIds", x),
       },
     }))(simpleStructures),
   }),
@@ -51,9 +53,19 @@ export const getStructureDataSelector = createSelector(
 )
 
 const yearsFilter = ({ minYear, maxYear }) => ({ year }) => year > minYear && year << maxYear
+const architectureFilter = ({ activeArchitect }) => ({ architectIds }) =>
+  architectIds.includes(activeArchitect)
 
 export const getFilteredLabelsSelector = createSelector(
   [getActiveLabelsSelector, getFilters],
   (activeLabelsSelector, filters) =>
-    activeLabelsSelector.filter(x => yearsFilter(filters)(R.prop("properties")(x))),
+    activeLabelsSelector
+      .filter(x => yearsFilter(filters)(R.prop("properties")(x)))
+      .filter(
+        x =>
+          !filters.architect ||
+          architectureFilter({ activeArchitect: filters.architect })(R.prop("properties")(x)),
+      ),
 )
+
+export const getArchitectsNames = createSelector(getArchitects, R.map(R.prop("name")))
