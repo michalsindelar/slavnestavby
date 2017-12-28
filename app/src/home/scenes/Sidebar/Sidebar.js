@@ -13,7 +13,7 @@ const SidebarStyle = styled.div`
   left: 0;
   bottom: 0;
   height: 100%;
-  width: 300px;
+  width: 20%;
   z-index: 1;
   padding: 30px;
   color: white;

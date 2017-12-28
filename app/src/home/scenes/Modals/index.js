@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import { connect } from "react-redux"
+import styled from "styled-components"
 
 import Modal from "react-modal"
 import Structure from "./components/Structure"
@@ -7,7 +8,7 @@ import { getActiveStructureId, isActiveStructureSet } from "../../services/reduc
 import { closeActiveStructure } from "../../services/actions"
 import { getStructureDataSelector } from "../../services/selectors"
 
-// FIXME Implement on close handler
+const ModalsStyl = styled.div``
 
 class Home extends Component {
   render() {
@@ -18,12 +19,30 @@ class Home extends Component {
       activeStructureData,
     } = this.props
 
+    const customStyles = {
+      overlay: {
+        backgroundColor: "rgba(0, 0, 0, 0.75)",
+        zIndex: 10,
+      },
+      content: {
+        position: "absolute",
+        top: "35%",
+        left: "25%",
+        right: "25%",
+        bottom: "35%",
+      },
+    }
+
     return (
-      <div className="Modals">
-        <Modal isOpen={activeStructureOpen} onRequestClose={closeStructureModal}>
+      <ModalsStyl>
+        <Modal
+          isOpen={activeStructureOpen}
+          onRequestClose={closeStructureModal}
+          style={customStyles}
+        >
           <Structure id={activeStructureId} {...activeStructureData} />
         </Modal>
-      </div>
+      </ModalsStyl>
     )
   }
 }

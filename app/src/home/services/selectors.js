@@ -22,7 +22,7 @@ export const formatGeojsonDataSelector = createSelector(
   simpleStructures => ({
     type: "FeatureCollection",
     features: R.map(x => ({
-      active: x.active,
+      active: true,
       type: "Feature",
       geometry: {
         type: "Point",

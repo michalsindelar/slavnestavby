@@ -28,12 +28,12 @@ const formatPhotoUrl = (id, oldPath) => {
   return oldPath.replace("aplikace/files/photo/users/havlicek1/20170116/", `static/stavby/images/structures/${id}/`)
 }
 
-const cachedApiRequest = (res, key) =>  {
+const cachedApiRequest = (res, key, filterFnc = () => true, mapFunc = R.identity) =>  {
   res.set('Content-Type', 'application/json');
   let data
 
   try {
-    data = ApisCache.get(key, true);
+    data = ApisCache.get(key, true)
   } catch (e) {
     // Not cached / needs update
     ApisCache.set(key, fs.readFileSync(path.resolve(__dirname, `../fixtures/${key}.json`)));
@@ -41,8 +41,8 @@ const cachedApiRequest = (res, key) =>  {
   } finally {
 
     const formattedData = limitResults(JSON.parse(data))
-      .filter(R.prop("active"))
-      .map(x => Object.assign({}, x, { photo: formatPhotoUrl(x.id, x.photo) }, { photos: x.photos.map(photoUrl => formatPhotoUrl(x.id, photoUrl)) }))
+      .filter(filterFnc)
+      .map(mapFunc)
 
     res.send(formattedData)
   }
@@ -60,7 +60,7 @@ app.use(function(req, res, next) {
 // Apis
 // ===
 app.get('/getStructures', function (req, res) {
-  cachedApiRequest(res, 'structures')
+  cachedApiRequest(res, 'structures', R.prop("active"), x => Object.assign({}, x, { photo: formatPhotoUrl(x.id, x.photo) }, { photos: x.photos.map(photoUrl => formatPhotoUrl(x.id, photoUrl)) }))
 });
 
 app.get('/getArchitects', function (req, res) {
