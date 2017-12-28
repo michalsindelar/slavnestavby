@@ -16,12 +16,18 @@ app.listen(PORT, function () {
 // Formatters
 // ===
 const limitResults = R.compose(
-  // R.take(20),
   R.prop('data')
 )
 
 // Helper for cached api requests
 // ===
+
+const formatPhotoUrl = (id, oldPath) => {
+  // http://slavnestavby.cz/aplikace/files/photo/users/havlicek1/20170116/trmalova-vila_mensi.jpg
+  // http://slavnestavby.cz/static/stavby/images/structures/1/TrmalovaVIla%20(1).jpg
+  return oldPath.replace("aplikace/files/photo/users/havlicek1/20170116/", `static/stavby/images/structures/${id}/`)
+}
+
 const cachedApiRequest = (res, key) =>  {
   res.set('Content-Type', 'application/json');
   let data
@@ -33,7 +39,12 @@ const cachedApiRequest = (res, key) =>  {
     ApisCache.set(key, fs.readFileSync(path.resolve(__dirname, `../fixtures/${key}.json`)));
     data = ApisCache.get(key)
   } finally {
-    res.send(limitResults(JSON.parse(data)))
+
+    const formattedData = limitResults(JSON.parse(data))
+      .filter(R.prop("active"))
+      .map(x => Object.assign({}, x, { photo: formatPhotoUrl(x.id, x.photo) }, { photos: x.photos.map(photoUrl => formatPhotoUrl(x.id, photoUrl)) }))
+
+    res.send(formattedData)
   }
 }
 
