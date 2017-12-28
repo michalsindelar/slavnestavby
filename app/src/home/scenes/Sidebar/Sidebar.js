@@ -12,12 +12,12 @@ const SidebarStyle = styled.div`
   top: 0;
   left: 0;
   bottom: 0;
-  height: 100%;
   width: 20%;
   z-index: 1;
   padding: 30px;
   color: white;
   font-size: 14px;
+  max-height: 100vh;
 `
 
 export const FilterYearTitleStyl = styled.div`

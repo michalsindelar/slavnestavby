@@ -6,7 +6,7 @@ import Modal from "react-modal"
 import Structure from "./components/Structure"
 import { getActiveStructureId, isActiveStructureSet } from "../../services/reducer"
 import { closeActiveStructure } from "../../services/actions"
-import { getStructureDataSelector } from "../../services/selectors"
+import { getArchitectByIdSelector, getStructureDataSelector } from "../../services/selectors"
 
 const ModalsStyl = styled.div``
 
@@ -17,6 +17,7 @@ class Home extends Component {
       activeStructureId,
       closeStructureModal,
       activeStructureData,
+      getArchitectById,
     } = this.props
 
     const customStyles = {
@@ -26,10 +27,13 @@ class Home extends Component {
       },
       content: {
         position: "absolute",
-        top: "35%",
+        top: "30%",
         left: "25%",
         right: "25%",
-        bottom: "35%",
+        bottom: "30%",
+        padding: 0,
+        border: 0,
+        height: "400px", // share to structure
       },
     }
 
@@ -40,7 +44,13 @@ class Home extends Component {
           onRequestClose={closeStructureModal}
           style={customStyles}
         >
-          <Structure id={activeStructureId} {...activeStructureData} />
+          {activeStructureOpen && (
+            <Structure
+              id={activeStructureId}
+              architects={activeStructureData.architectIds.map(getArchitectById)}
+              {...activeStructureData}
+            />
+          )}
         </Modal>
       </ModalsStyl>
     )
@@ -52,6 +62,7 @@ export default connect(
     activeStructureId: getActiveStructureId(state),
     activeStructureOpen: isActiveStructureSet(state),
     activeStructureData: getStructureDataSelector(state),
+    getArchitectById: getArchitectByIdSelector(state),
   }),
   dispatch => ({
     closeStructureModal: () => dispatch(closeActiveStructure()),

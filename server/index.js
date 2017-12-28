@@ -25,7 +25,7 @@ const limitResults = R.compose(
 const formatPhotoUrl = (id, oldPath) => {
   // http://slavnestavby.cz/aplikace/files/photo/users/havlicek1/20170116/trmalova-vila_mensi.jpg
   // http://slavnestavby.cz/static/stavby/images/structures/1/TrmalovaVIla%20(1).jpg
-  return oldPath.replace("aplikace/files/photo/users/havlicek1/20170116/", `static/stavby/images/structures/${id}/`)
+  return `http://slavnestavby.cz/static/stavby/images/structures/${id}/${R.last(oldPath.split("/"))}`
 }
 
 const cachedApiRequest = (res, key, filterFnc = () => true, mapFunc = R.identity) =>  {

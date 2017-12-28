@@ -69,3 +69,7 @@ export const getFilteredLabelsSelector = createSelector(
 )
 
 export const getArchitectsNames = createSelector(getArchitects, R.map(R.prop("name")))
+
+export const getArchitectByIdSelector = createSelector(getArchitects, architects => index =>
+  R.nth(index, architects),
+)

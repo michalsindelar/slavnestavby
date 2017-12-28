@@ -4,6 +4,7 @@ import { setArchitects, setFilterArchitect, setLoader, setMap, setStructures } f
 import { getFilteredLabelsSelector } from "./selectors"
 import { getArchitects, getMap } from "./reducer"
 import Mapbox from "../tools/Mapbox"
+import structuresMapper from "./mappers/structuresMapper"
 
 const formatApiInEnv = endpoint =>
   `${window.location.protocol}//${window.location.host}/${endpoint}`.replace("3000", "5000")
@@ -17,7 +18,7 @@ export const fetchStructuresAction = () => dispatch => {
     .then(res => res.json(), console.log)
     .then(json => {
       dispatch(setLoader(false))
-      dispatch(setStructures(json))
+      dispatch(setStructures(json.map(structuresMapper)))
     })
 }
 
