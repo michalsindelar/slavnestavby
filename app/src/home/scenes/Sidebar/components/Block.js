@@ -13,6 +13,7 @@ const BlockTitleStyl = styled.div`
 `
 const BlockItemsStyl = styled.div`
   flex-direction: column;
+  text-align: right;
 `
 
 const BlockItemsItemStyl = styled.div`

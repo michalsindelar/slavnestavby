@@ -57,3 +57,13 @@ export const setMapMarkers = markers => ({
   type: SET_MARKERS,
   payload: { data: markers },
 })
+
+export const setTypes = types => ({
+  type: SET_FILTERS,
+  payload: { data: { types } },
+})
+
+export const setStyles = styles => ({
+  type: SET_FILTERS,
+  payload: { data: { styles } },
+})

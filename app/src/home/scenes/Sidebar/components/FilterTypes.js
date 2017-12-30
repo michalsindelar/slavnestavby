@@ -5,16 +5,8 @@ import "awesomplete/prism/prism.css"
 
 import Block from "./Block"
 
-const FilterTypes = () => (
-  <Block
-    title="Funkce"
-    items={[
-      { id: "res", label: "residenční", active: false },
-      { id: "vzd", label: "vzdělání", active: true },
-      { id: "sak", label: "sakrální", active: false },
-    ]}
-    itemsClickHandler={() => {}}
-  />
+const FilterTypes = ({ typesOptions }) => (
+  <Block title="Funkce" items={typesOptions} itemsClickHandler={() => {}} />
 )
 
 export default FilterTypes

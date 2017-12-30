@@ -12,7 +12,10 @@ import { interposeLabelsAction, setArchitectFromName } from "../../../services/a
 import FilterArchitects from "./FilterArchitects"
 import FilterTypes from "./FilterTypes"
 import FilterStyle from "./FilterStyle"
-import { getArchitectsNames } from "../../../services/selectors"
+import {
+  getArchitectsNames, getFilterStyles, getFilterTypes, getStylesOptions,
+  getTypesOptions
+} from "../../../services/selectors"
 
 class Filters extends Component {
   render() {
@@ -22,6 +25,8 @@ class Filters extends Component {
       handleArchitectChange,
       minYear,
       maxYear,
+      filtersStylesOptions,
+      filtersTypesOptions,
     } = this.props
 
     const onArchitectAdd = architect => {
@@ -47,9 +52,9 @@ class Filters extends Component {
           maxYear={maxYear}
         />
 
-        <FilterTypes />
+        <FilterTypes typesOptions={filtersTypesOptions} />
 
-        <FilterStyle />
+        <FilterStyle stylesOptions={filtersStylesOptions} />
       </div>
     )
   }
@@ -61,6 +66,9 @@ export default connect(
     minYear: getFiltersMinYear(state),
     maxYear: getFiltersMaxYear(state),
     filtersArchitect: getFiltersArchitect(state),
+    filtersTypes: getFilterTypes(state),
+    filtersStylesOptions: getStylesOptions(state),
+    filtersTypesOptions: getTypesOptions(state),
   }),
   dispatch => ({
     handleFiltersYearsChange: years => {

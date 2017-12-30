@@ -5,16 +5,8 @@ import "awesomplete/prism/prism.css"
 
 import Block from "./Block"
 
-const FilterStyles = () => (
-  <Block
-    title="Styl"
-    items={[
-      { id: "fuk", label: "fukncionalismus", active: false },
-      { id: "sec", label: "secese", active: true },
-      { id: "pos", label: "postmoderna", active: false },
-    ]}
-    itemsClickHandler={() => {}}
-  />
+const FilterStyles = ({ stylesOptions }) => (
+  <Block title="Styl" items={stylesOptions} itemsClickHandler={() => {}} />
 )
 
 export default FilterStyles

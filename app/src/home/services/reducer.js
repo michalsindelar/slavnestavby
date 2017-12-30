@@ -16,6 +16,8 @@ const DEFAULT_FILTERS = {
   minYear: 1830,
   maxYear: 2000,
   architect: null,
+  types: [],
+  styles: [],
 }
 
 const DEFAULT_STATE = {

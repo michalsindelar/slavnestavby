@@ -73,3 +73,46 @@ export const getArchitectsNames = createSelector(getArchitects, R.map(R.prop("na
 export const getArchitectByIdSelector = createSelector(getArchitects, architects => index =>
   R.nth(index, architects),
 )
+
+export const getFilterTypes = createSelector(getFilters, R.prop("types"))
+
+export const getFilterStyles = createSelector(getFilters, R.prop("styles"))
+
+// FIXME: This could be merged
+export const getAllStylesSelector = createSelector(
+  getStructures,
+  R.reduce((acc, val) => {
+    const currStyle = R.prop("style", val).toLowerCase()
+    return acc.includes(currStyle) ? acc : [...acc, currStyle]
+  }, []),
+)
+
+export const getStylesOptions = createSelector(
+  getAllStylesSelector,
+  getFilterStyles,
+  (allStylesSelector, filterStyles) =>
+    allStylesSelector.map(style => ({
+      id: style,
+      label: style,
+      active: filterStyles.includes(style),
+    })),
+)
+
+export const getAllTypesSelector = createSelector(
+  getStructures,
+  R.reduce((acc, val) => {
+    const currType = R.prop("type", val).toLowerCase()
+    return acc.includes(currType) ? acc : [...acc, currType]
+  }, []),
+)
+
+export const getTypesOptions = createSelector(
+  getAllTypesSelector,
+  getFilterTypes,
+  (allStylesSelector, filterTypes) =>
+    allStylesSelector.map(type => ({
+      id: type,
+      label: type,
+      active: filterTypes.includes(type),
+    })),
+)

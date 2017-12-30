@@ -60,7 +60,20 @@ app.use(function(req, res, next) {
 // Apis
 // ===
 app.get('/getStructures', function (req, res) {
-  cachedApiRequest(res, 'structures', R.prop("active"), x => Object.assign({}, x, { photo: formatPhotoUrl(x.id, x.photo) }, { photos: x.photos.map(photoUrl => formatPhotoUrl(x.id, photoUrl)) }))
+  cachedApiRequest(
+    res,
+    'structures',
+    R.prop("active"),
+    x =>
+      Object.assign(
+        {},
+        x,
+        { photo: formatPhotoUrl(x.id, x.photo) },
+        { photos: x.photos.map(photoUrl => formatPhotoUrl(x.id, photoUrl)) },
+        { style: x.style || "normal" },
+        { type: x.type || "bez typu" }
+      )
+  )
 });
 
 app.get('/getArchitects', function (req, res) {
