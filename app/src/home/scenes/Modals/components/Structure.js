@@ -52,7 +52,7 @@ type Props = {
   properties: any,
 }
 
-const Structure = ({ id, architects, photo, photos, name, description }) => (
+const Structure = ({ id, architects, photo, photos, name, description }: Props) => (
   <StructureStyl>
     <StructureLeftStyl>
       <StructureImgStyl src={photo} alt={name} />

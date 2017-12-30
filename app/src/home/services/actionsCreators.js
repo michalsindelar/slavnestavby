@@ -1,7 +1,14 @@
 import * as R from "ramda"
 
-import { setArchitects, setFilterArchitect, setLoader, setMap, setStructures } from "./actions"
-import { getFilteredLabelsSelector } from "./selectors"
+import {
+  setArchitects,
+  setFilterArchitect, setFilterStyles,
+  setFilterTypes,
+  setLoader,
+  setMap,
+  setStructures,
+} from "./actions"
+import {getFilteredLabelsSelector, getFilterStyles, getFilterTypes} from "./selectors"
 import { getArchitects, getMap } from "./reducer"
 import Mapbox from "../tools/Mapbox"
 import structuresMapper from "./mappers/structuresMapper"
@@ -47,4 +54,44 @@ export const setArchitectFromName = architectName => (dispatch, getState) => {
   const state = getState()
   const architects = getArchitects(state)
   dispatch(setFilterArchitect(R.prop("id", R.find(R.propEq("name", architectName), architects))))
+}
+
+export const addFilterType = type => (dispatch, getState) => {
+  const state = getState()
+  const filterTypes = getFilterTypes(state)
+
+  dispatch(setFilterTypes(R.uniq(filterTypes, type)))
+}
+
+export const removeFilterType = type => (dispatch, getState) => {
+  const state = getState()
+  const filterTypes = getFilterTypes(state)
+
+  dispatch(setFilterTypes(filterTypes.filter(x => type !== x)))
+}
+
+export const toggleFilterType = type => (dispatch, getState) => {
+  const state = getState()
+  const filterTypes = getFilterTypes(state)
+
+  dispatch(
+    setFilterTypes(
+      filterTypes.includes(type)
+        ? filterTypes.filter(x => type !== x)
+        : R.uniq([...filterTypes, type]),
+    ),
+  )
+}
+
+export const toggleFilterStyle = style => (dispatch, getState) => {
+  const state = getState()
+  const filterStyles = getFilterStyles(state)
+
+  dispatch(
+    setFilterStyles(
+      filterStyles.includes(style)
+        ? filterStyles.filter(x => style !== x)
+        : R.uniq([...filterStyles, style]),
+    ),
+  )
 }

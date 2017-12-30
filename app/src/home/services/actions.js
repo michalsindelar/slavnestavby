@@ -53,6 +53,16 @@ export const setFilterArchitect = architectId => ({
   payload: { data: { architect: architectId } },
 })
 
+export const setFilterTypes = types => ({
+  type: SET_FILTERS,
+  payload: { data: { types } },
+})
+
+export const setFilterStyles = styles => ({
+  type: SET_FILTERS,
+  payload: { data: { styles } },
+})
+
 export const setMapMarkers = markers => ({
   type: SET_MARKERS,
   payload: { data: markers },

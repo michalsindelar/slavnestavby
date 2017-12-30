@@ -12,6 +12,7 @@ export const getSimpleStructuresSelector = createSelector(
     address: R.prop("address", fullStructure), // {lat: "", lon: ""}
     year: R.prop("year", fullStructure),
     style: R.prop("style", fullStructure),
+    type: R.prop("type", fullStructure),
     architectIds: R.prop("architect_ids", fullStructure),
     // TODO: Fill the needed ones for filtering
   })),
@@ -33,8 +34,9 @@ export const formatGeojsonDataSelector = createSelector(
         title: R.prop("name", x),
         description: R.prop("style", x),
         year: R.prop("year", x),
-        style: R.prop("style", x),
         architectIds: R.prop("architectIds", x),
+        style: R.prop("style", x),
+        type: R.prop("type", x),
       },
     }))(simpleStructures),
   }),
@@ -65,6 +67,16 @@ export const getFilteredLabelsSelector = createSelector(
         x =>
           !filters.architect ||
           architectureFilter({ activeArchitect: filters.architect })(R.prop("properties")(x)),
+      )
+      .filter(
+        x =>
+          R.isEmpty(filters.types) ||
+          filters.types.includes(R.path(["properties", "type"], x).toLowerCase()),
+      )
+      .filter(
+        x =>
+          R.isEmpty(filters.styles) ||
+          filters.styles.includes(R.path(["properties", "style"], x).toLowerCase()),
       ),
 )
 
@@ -81,10 +93,7 @@ export const getFilterStyles = createSelector(getFilters, R.prop("styles"))
 // FIXME: This could be merged
 export const getAllStylesSelector = createSelector(
   getStructures,
-  R.reduce((acc, val) => {
-    const currStyle = R.prop("style", val).toLowerCase()
-    return acc.includes(currStyle) ? acc : [...acc, currStyle]
-  }, []),
+  R.reduce((acc, val) => R.uniq([...acc, R.prop("style", val).toLowerCase()]), []),
 )
 
 export const getStylesOptions = createSelector(
@@ -100,10 +109,7 @@ export const getStylesOptions = createSelector(
 
 export const getAllTypesSelector = createSelector(
   getStructures,
-  R.reduce((acc, val) => {
-    const currType = R.prop("type", val).toLowerCase()
-    return acc.includes(currType) ? acc : [...acc, currType]
-  }, []),
+  R.reduce((acc, val) => R.uniq([...acc, R.prop("type", val).toLowerCase()]), []),
 )
 
 export const getTypesOptions = createSelector(

@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import {THEME} from "../../../consts/theme"
 
 const BlockStyl = styled.div`
   display: flex;
@@ -18,13 +19,23 @@ const BlockItemsStyl = styled.div`
 
 const BlockItemsItemStyl = styled.div`
   padding: 3px 0;
+  cursor: pointer;
+  border-radius: 2px;
 `
 
-const Block = ({ title, items }) => (
+const Block = ({ title, items, itemsClickHandler }) => (
   <BlockStyl>
     <BlockTitleStyl>{title}</BlockTitleStyl>
     <BlockItemsStyl>
-      {items.map(x => <BlockItemsItemStyl>{x.label}</BlockItemsItemStyl>)}
+      {items.map((x, i) => (
+        <BlockItemsItemStyl
+          key={i}
+          onClick={() => itemsClickHandler(x.id)}
+          style={{ backgroundColor: x.active ? THEME.ternary : "" }}
+        >
+          {x.label}
+        </BlockItemsItemStyl>
+      ))}
     </BlockItemsStyl>
   </BlockStyl>
 )

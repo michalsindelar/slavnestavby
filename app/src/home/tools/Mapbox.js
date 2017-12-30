@@ -1,4 +1,3 @@
-import * as R from "ramda"
 import appendScript from "./appendScript"
 
 import { setActiveStructure, setMapMarkers } from "../services/actions"

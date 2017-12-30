@@ -8,13 +8,19 @@ import {
   getFiltersMaxYear,
   getFiltersMinYear,
 } from "../../../services/reducer"
-import { interposeLabelsAction, setArchitectFromName } from "../../../services/actionsCreators"
+import {
+  interposeLabelsAction,
+  setArchitectFromName, toggleFilterStyle,
+  toggleFilterType,
+} from "../../../services/actionsCreators"
 import FilterArchitects from "./FilterArchitects"
 import FilterTypes from "./FilterTypes"
 import FilterStyle from "./FilterStyle"
 import {
-  getArchitectsNames, getFilterStyles, getFilterTypes, getStylesOptions,
-  getTypesOptions
+  getArchitectsNames,
+  getFilterTypes,
+  getStylesOptions,
+  getTypesOptions,
 } from "../../../services/selectors"
 
 class Filters extends Component {
@@ -27,6 +33,8 @@ class Filters extends Component {
       maxYear,
       filtersStylesOptions,
       filtersTypesOptions,
+      handleToggleFilterType,
+      handleToggleFilterStyle
     } = this.props
 
     const onArchitectAdd = architect => {
@@ -52,9 +60,9 @@ class Filters extends Component {
           maxYear={maxYear}
         />
 
-        <FilterTypes typesOptions={filtersTypesOptions} />
+        <FilterTypes typesOptions={filtersTypesOptions} toggleFilterType={handleToggleFilterType} />
 
-        <FilterStyle stylesOptions={filtersStylesOptions} />
+        <FilterStyle stylesOptions={filtersStylesOptions} toggleFilterStyle={handleToggleFilterStyle} />
       </div>
     )
   }
@@ -77,6 +85,14 @@ export default connect(
     },
     handleArchitectChange: architect => {
       dispatch(setArchitectFromName(architect))
+      dispatch(interposeLabelsAction())
+    },
+    handleToggleFilterType: type => {
+      dispatch(toggleFilterType(type))
+      dispatch(interposeLabelsAction())
+    },
+    handleToggleFilterStyle: style => {
+      dispatch(toggleFilterStyle(style))
       dispatch(interposeLabelsAction())
     },
   }),

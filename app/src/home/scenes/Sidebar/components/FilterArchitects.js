@@ -19,7 +19,9 @@ const FilterArchitects = ({ architectsNames, architectsSetCount, onSubmit }: Pro
       onChange={ev => onSubmit(ev.target.value)}
       style={{ width: "100%" }}
     />
-    <datalist id="architectsList">{architectsNames.map(x => <option>{x}</option>)}</datalist>
+    <datalist id="architectsList">
+      {architectsNames.map((x, i) => <option key={i}>{x}</option>)}
+    </datalist>
   </FilterArchitectsStyl>
 )
 
