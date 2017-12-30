@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import {THEME} from "../../../consts/theme"
+import { THEME } from "../../../consts/theme"
 
 const BlockStyl = styled.div`
   display: flex;
@@ -22,18 +22,19 @@ const BlockItemsItemStyl = styled.div`
   cursor: pointer;
   border-radius: 2px;
 `
+const BlockItemsItemLabelStyl = styled.span`
+  display: inline-block;
+  padding: 2px 3px;
+  border-radius: 2px;
+`
 
 const Block = ({ title, items, itemsClickHandler }) => (
   <BlockStyl>
     <BlockTitleStyl>{title}</BlockTitleStyl>
     <BlockItemsStyl>
       {items.map((x, i) => (
-        <BlockItemsItemStyl
-          key={i}
-          onClick={() => itemsClickHandler(x.id)}
-          style={{ backgroundColor: x.active ? THEME.ternary : "" }}
-        >
-          {x.label}
+        <BlockItemsItemStyl key={i} onClick={() => itemsClickHandler(x.id)}>
+          <BlockItemsItemLabelStyl style={{ backgroundColor: x.active ? THEME.pallete.quaternary : "" }}>{x.label}</BlockItemsItemLabelStyl>
         </BlockItemsItemStyl>
       ))}
     </BlockItemsStyl>
