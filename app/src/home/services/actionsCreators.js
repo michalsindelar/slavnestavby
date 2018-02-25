@@ -22,11 +22,12 @@ export const fetchStructuresAction = () => dispatch => {
   const url = formatApiInEnv("getStructures")
 
   return fetch(url)
-    .then(res => res.json(), console.log)
+    .then(res => res.json())
     .then(json => {
       dispatch(setLoader(false))
       dispatch(setStructures(json.map(structuresMapper)))
     })
+    .catch(console.log)
 }
 
 export const fetchArchitectsAction = () => dispatch => {
@@ -35,11 +36,12 @@ export const fetchArchitectsAction = () => dispatch => {
   const url = formatApiInEnv("getArchitects")
 
   return fetch(url)
-    .then(res => res.json(), console.log)
+    .then(res => res.json())
     .then(json => {
       dispatch(setLoader(false))
       dispatch(setArchitects(json))
     })
+    .catch(console.log)
 }
 
 export const interposeLabelsAction = () => (dispatch, getState) => {

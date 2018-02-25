@@ -3,6 +3,9 @@ const path = require('path');
 const fs = require('fs');
 const NodeCache = require('node-cache');
 const R = require('ramda');
+const firebase = require('firebase');
+
+const config = require('../db/config')
 
 const ApisCache = new NodeCache();
 
@@ -12,6 +15,14 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, function () {
   console.log(`Listening on port ${PORT}`);
 });
+
+// Firebase connect
+// ===
+
+
+firebase.initializeApp(config);
+const db = firebase.database()
+
 
 // Formatters
 // ===
@@ -28,23 +39,32 @@ const formatPhotoUrl = (id, oldPath) => {
   return `http://slavnestavby.cz/static/stavby/images/structures/${id}/${R.last(oldPath.split("/"))}`
 }
 
+
 const cachedApiRequest = (res, key, filterFnc = () => true, mapFunc = R.identity) =>  {
   res.set('Content-Type', 'application/json');
-  let data
+
+  const formatter = R.compose(
+    R.map(mapFunc),
+    R.filter(filterFnc)
+  )
 
   try {
-    data = ApisCache.get(key, true)
+    // Data already cached
+    res.send(formatter(ApisCache.get(key, true)))
+    console.log("Data cached")
   } catch (e) {
+    console.log("Data initialized")
     // Not cached / needs update
-    ApisCache.set(key, fs.readFileSync(path.resolve(__dirname, `../fixtures/${key}.json`)));
-    data = ApisCache.get(key)
-  } finally {
+    db
+      .ref(`${key}/`)
+      .once('value')
+      .then(snapshot => {
+        const data = formatter(snapshot.val())
 
-    const formattedData = limitResults(JSON.parse(data))
-      .filter(filterFnc)
-      .map(mapFunc)
-
-    res.send(formattedData)
+        ApisCache.set(key, data)
+        res.send(data)
+      })
+      .catch(console.log)
   }
 }
 
@@ -59,11 +79,17 @@ app.use(function(req, res, next) {
 
 // Apis
 // ===
+
+const isStructureActive = structure =>
+  R.prop("active", structure) &&
+  R.path(["address", "lat"], structure) &&
+  R.path(["address", "lon"], structure)
+
 app.get('/getStructures', function (req, res) {
   cachedApiRequest(
     res,
     'structures',
-    R.prop("active"),
+    isStructureActive,
     x =>
       Object.assign(
         {},
