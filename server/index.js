@@ -5,7 +5,7 @@ const NodeCache = require('node-cache');
 const R = require('ramda');
 const firebase = require('firebase');
 
-const config = require('../db/config')
+const config = require('../config').default
 
 const ApisCache = new NodeCache();
 
@@ -19,7 +19,7 @@ app.listen(PORT, function () {
 // Firebase connect
 // ===
 
-
+console.log("Config in Server", config)
 firebase.initializeApp(config);
 const db = firebase.database()
 
@@ -64,7 +64,7 @@ const cachedApiRequest = (res, key, filterFnc = () => true, mapFunc = R.identity
         ApisCache.set(key, data)
         res.send(data)
       })
-      .catch(console.log)
+      .catch(res.send)
   }
 }
 
