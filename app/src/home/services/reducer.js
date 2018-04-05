@@ -10,6 +10,7 @@ import {
   RESET_FILTERS,
   SET_MARKERS,
   SET_ARCHITECTS,
+  SET_VIEW_SCREEN,
 } from "./actions"
 
 const DEFAULT_FILTERS = {
@@ -27,6 +28,7 @@ const DEFAULT_STATE = {
   map: null,
   markers: [],
   structures: [],
+  viewScreen: {'viewScreen': 'map'},
   filters: DEFAULT_FILTERS,
 }
 
@@ -59,6 +61,9 @@ const reducer = (state = DEFAULT_STATE, action) => {
     case SET_ARCHITECTS:
       return R.assoc("architects", action.payload.data, state)
 
+	case SET_VIEW_SCREEN:
+	  return R.assoc("viewScreen", action.payload.data, state)
+
     default:
       return state
   }
@@ -75,5 +80,6 @@ export const getFiltersArchitect = R.path(["filters", "architects"])
 export const getFilters = R.prop("filters")
 export const getMarkers = R.prop("markers")
 export const getArchitects = R.prop("architects")
+export const getViewScreen = R.path(["viewScreen", "viewScreen"])
 
 export default reducer

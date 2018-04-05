@@ -5,7 +5,7 @@ import styled from "styled-components"
 
 const StructureStyl = styled.div`
   display: flex;
-  color: white;
+  color: black;
   font-weight: 400;
 `
 const StructureTitleStyl = styled.h2`
@@ -27,10 +27,10 @@ const StructureLeftStyl = styled.div`
 `
 
 const StructureRightStyl = styled.div`
-  width: 30%;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: #414142;
+  width: 50%;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #ffffff;
   overflow-y: scroll;
   overflow-x: hidden;
   font-weight: 400;

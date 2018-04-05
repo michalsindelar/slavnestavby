@@ -1,6 +1,16 @@
-import React from "react"
+import React, { Component } from "react"
 import { CONFIG } from "../../tools/Mapbox"
 
-const Map = () => <div id={CONFIG.mapboxContainerId} />
+class Map extends Component {
+    render() {
+        const { view } = this.props;
+
+        let displayMap = view == "map" ? "block" : "none";
+
+        return (
+            <div style={{display: displayMap}} id={CONFIG.googleMapsContainerId} />
+        )
+    }
+}
 
 export default Map

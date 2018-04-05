@@ -2,8 +2,9 @@
 import React, { Component } from "react"
 import { connect } from "react-redux"
 
-import Map from "./scenes/Map/Map"
+import ShowScreen from "./scenes/ShowScreen/ShowScreen"
 import Sidebar from "./scenes/Sidebar/Sidebar"
+import Topbar from "./scenes/Topbar/Topbar"
 import Modals from "./scenes/Modals"
 
 import "./App.css"
@@ -16,7 +17,7 @@ import {
   fetchStructuresAction,
   interposeLabelsAction,
 } from "./services/actionsCreators"
-import { getLoading, getStructures } from "./services/reducer"
+import { getLoading, getStructures, getViewScreen } from "./services/reducer"
 import { getLabelsSelector } from "./services/selectors"
 
 type Props = {
@@ -40,12 +41,13 @@ class Home extends Component {
   }
 
   render() {
-    const { loading } = this.props
+    const { loading , viewScreen } = this.props;
 
     return (
       <div className="Home">
+        <Topbar />
         <Sidebar />
-        <Map />
+        <ShowScreen view={viewScreen} />
         {loading && <div>Loader</div>}
         <Modals />
       </div>
@@ -58,6 +60,7 @@ export default connect(
     labels: getLabelsSelector(state),
     loading: getLoading(state),
     structures: getStructures(state),
+    viewScreen: getViewScreen(state)
   }),
   dispatch => ({
     fetchStructures: () => {

@@ -6,12 +6,12 @@ import Filters from "./components/Filters"
 import { THEME } from "../../consts/theme"
 
 const SidebarStyle = styled.div`
-  background-color: ${THEME.pallete.secondary};
-  opacity: 0.95;
+  background-color: ${THEME.pallete.darkgrey};
   position: absolute;
-  top: 0;
+  top: 60px;
   left: 0;
   bottom: 0;
+  max-width: 205px;
   width: 20%;
   z-index: 1;
   padding: 30px;

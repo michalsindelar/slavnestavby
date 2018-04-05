@@ -7,6 +7,7 @@ export const CLOSE_ACTIVE_STRUCTURE = "CLOSE_ACTIVE_STRUCTURE"
 export const SET_FILTERS = "SET_FILTERS"
 export const RESET_FILTERS = "RESET_FILTERS"
 export const SET_MARKERS = "SET_MARKERS"
+export const SET_VIEW_SCREEN = "SET_VIEW_SCREEN"
 
 export const setLoader = loading => ({
   type: SET_LOADER,
@@ -76,4 +77,9 @@ export const setTypes = types => ({
 export const setStyles = styles => ({
   type: SET_FILTERS,
   payload: { data: { styles } },
+})
+
+export const setViewScreen = viewScreen => ({
+	type: SET_VIEW_SCREEN,
+	payload: { data: { viewScreen } },
 })

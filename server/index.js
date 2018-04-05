@@ -95,7 +95,7 @@ app.get('/getStructures', function (req, res) {
         {},
         x,
         { photo: formatPhotoUrl(x.id, x.photo) },
-        { photos: x.photos.map(photoUrl => formatPhotoUrl(x.id, photoUrl)) },
+        { photos: (x.photos || []).map(photoUrl => formatPhotoUrl(x.id, photoUrl)) },
         { style: x.style || "normal" },
         { type: x.type || "bez typu" }
       )

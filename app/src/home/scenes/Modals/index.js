@@ -32,6 +32,7 @@ class Home extends Component {
         right: "25%",
         bottom: "30%",
         padding: 0,
+        borderRadius: "0",
         border: 0,
         height: "400px", // share to structure
       },

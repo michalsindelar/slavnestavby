@@ -1,4 +1,6 @@
-#MapboxContainer {
+#GoogleMapsContainer,
+#showScreen,
+#galleryList {
   position:absolute;
   top:0;
   bottom:0;
@@ -17,10 +19,15 @@
 
 /* Double slider */
 
+.input-range__track{
+  background: #98a5b3;
+  height: 4px;
+}
+
 .input-range__slider,
 .input-range__track--active {
-  background: #55A59C;
-  border-color: #55A59C;
+  background: #3788c7;
+  border-color: #3788c7;
 }
 
 .input-range__label {
@@ -28,8 +35,8 @@
 }
 
 .input-range__label--value {
-  color: #55A59C;
-  font-weight: 600;
+  color: #3788c7;
+  font-weight: 300;
 }
 
 .input-range__label--value,
@@ -54,7 +61,7 @@
 .input-range__label--value,
 .input-range__label--min,
 .input-range__label--max {
-  font-weight: 600;
+  font-weight: 300;
 }
 
 .input-range__slider {
@@ -68,7 +75,7 @@
   content: "";
   width: 10px;
   height: 10px;
-  background-color: white;
+  background-color: #98a5b3;
   position: absolute;
   border-radius: 2px;
 }
