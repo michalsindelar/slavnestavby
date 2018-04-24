@@ -10,6 +10,7 @@ export const CONFIG = {
   googleMapsZoom: 7,
   googleMapsCenterLat: 49.14,
   googleMapsCenterLng: 16.37,
+
   googleMapsStyle: [
 	  {
 		  "stylers": [
@@ -459,7 +460,13 @@ class Mapbox {
 	  this.map = new window.google.maps.Map(document.getElementById(CONFIG.googleMapsContainerId), {
 		  zoom: CONFIG.googleMapsZoom,
 		  center: uluru,
-		  styles: CONFIG.googleMapsStyle
+		  styles: CONFIG.googleMapsStyle,
+          zoomControl: false,
+          mapTypeControl: false,
+          scaleControl: false,
+          streetViewControl: false,
+          rotateControl: false,
+          fullscreenControl: false
 	  });
   }
 
@@ -481,8 +488,10 @@ class Mapbox {
 	  });
 
       this.points.push(point);
-      window.mapPoints.push( {'id': marker.properties.id, 'title': marker.properties.title} );
+      window.mapPoints.push( {'id': marker.properties.id, 'title': marker.properties.title, 'photo': marker.properties.photo} );
     })
+
+    window.mapPointsChanged = true;
 
   }
 

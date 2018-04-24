@@ -62,7 +62,10 @@ class Filters extends Component {
 
         <FilterTypes typesOptions={filtersTypesOptions} toggleFilterType={handleToggleFilterType} />
 
-        <FilterStyle stylesOptions={filtersStylesOptions} toggleFilterStyle={handleToggleFilterStyle} />
+        <FilterStyle
+            stylesOptions={filtersStylesOptions}
+            toggleFilterStyle={handleToggleFilterStyle}
+        />
       </div>
     )
   }

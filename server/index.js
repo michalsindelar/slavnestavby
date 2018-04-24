@@ -12,6 +12,9 @@ const ApisCache = new NodeCache();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+const STRUCTURES_INDEX = 'structures2';
+const ARCHITECTS_INDEX = 'new_architects';
+
 app.listen(PORT, function () {
   console.log(`Listening on port ${PORT}`);
 });
@@ -39,11 +42,27 @@ const formatPhotoUrl = (id, oldPath) => {
   return `http://slavnestavby.cz/static/stavby/images/structures/${id}/${R.last(oldPath.split("/"))}`
 }
 
-
 const cachedApiRequest = (res, key, filterFnc = () => true, mapFunc = R.identity) =>  {
   res.set('Content-Type', 'application/json');
 
   const formatter = R.compose(
+	(data) => {
+	  const out = [];
+	  for (var key of Object.keys(data))
+	  {
+			if (!data[key]) {
+				continue;
+			}
+
+		  if (!data[key]['id']) {
+			  data[key]['id'] = parseInt(key);
+		  }
+		  out.push(data[key]);
+	  }
+
+
+	  return out;
+	},
     R.map(mapFunc),
     R.filter(filterFnc)
   )
@@ -82,28 +101,40 @@ app.use(function(req, res, next) {
 
 const isStructureActive = structure =>
   R.prop("active", structure) &&
+  R.prop("photo", structure) &&
   R.path(["address", "lat"], structure) &&
   R.path(["address", "lon"], structure)
 
 app.get('/getStructures', function (req, res) {
   cachedApiRequest(
     res,
-    'structures',
+	STRUCTURES_INDEX,
     isStructureActive,
     x =>
-      Object.assign(
-        {},
-        x,
-        { photo: formatPhotoUrl(x.id, x.photo) },
-        { photos: (x.photos || []).map(photoUrl => formatPhotoUrl(x.id, photoUrl)) },
-        { style: x.style || "normal" },
-        { type: x.type || "bez typu" }
-      )
+	{
+		const obj =  Object.assign(
+			{},
+			x,
+			{photo: x.photo},
+			{photos: (x.photos || []).map(photo => photo.photo || false).filter((photoUrl) => photoUrl ? true : false )},
+			{style: x.style || "normal"},
+			{type: x.type || "bez typu"}
+		);
+
+		if (obj.architect) {
+			obj['architect_ids'] = [
+				parseInt(R.last(obj.architect.split("/")))
+			];
+		}
+
+		return obj;
+	}
   )
 });
 
 app.get('/getArchitects', function (req, res) {
-  cachedApiRequest(res, 'architects')
+
+  cachedApiRequest(res, ARCHITECTS_INDEX)
 });
 
 app.get('/getBooks', function (req, res) {

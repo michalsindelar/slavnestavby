@@ -6,7 +6,6 @@ import ShowScreen from "./scenes/ShowScreen/ShowScreen"
 import Sidebar from "./scenes/Sidebar/Sidebar"
 import Topbar from "./scenes/Topbar/Topbar"
 import Modals from "./scenes/Modals"
-
 import "./App.css"
 
 import Mapbox from "./tools/Mapbox"
@@ -29,6 +28,20 @@ type Props = {
 class Home extends Component {
   props: Props // eslint-disable-line
 
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            showMenu: true
+        };
+
+        this.toggleMenu = this.toggleMenu.bind(this);
+    }
+
+    toggleMenu() {
+        this.state.showMenu === true ? this.setState({showMenu: false}) : this.setState({showMenu: true})
+    }
+
   componentDidMount() {
     const { createMap, fetchArchitects, fetchStructures, interposeLabels } = this.props
 
@@ -43,13 +56,23 @@ class Home extends Component {
   render() {
     const { loading , viewScreen } = this.props;
 
+
     return (
+
       <div className="Home">
+
         <Topbar />
-        <Sidebar />
-        <ShowScreen view={viewScreen} />
+            <Sidebar
+                test={this.state.showMenu}
+                togglecicina={this.togglecicina}
+                onToggleButtonClick={this.toggleMenu}
+            />
+
+          <ShowScreen view={viewScreen} />
         {loading && <div>Loader</div>}
         <Modals />
+
+
       </div>
     )
   }

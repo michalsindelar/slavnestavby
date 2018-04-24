@@ -4,7 +4,7 @@ import styled from "styled-components"
 import { setActiveStructure } from "../../services/actions"
 
 const ListStyle = styled.div`
-  background-color: green;
+  
 `
 
 class List extends Component {
@@ -23,15 +23,22 @@ class List extends Component {
                     window.reduxStore.dispatch(setActiveStructure(id))
                 }
 
-                mapPoints.push(<div data-id={item.id} onClick={click} key={i}>{item.title}</div>);
+                mapPoints.push(<div className="list-items" data-id={item.id} onClick={click} key={i}>
+                    <div className="list-items__image" >
+                        <img data-id={item.id} onClick={click} src={item.photo} key={i} />
+                    </div>
+                    <div className="list-items__title" data-id={item.id} onClick={click} key={i}>
+                        {item.title}
+                    </div>
+                </div>);
             }
         }
 
 
-        let displayGallery = view == "gallery" ? "block" : "none";
+        let displayGallery = view == "gallery" ? "flex" : "none";
 
         return (
-            <ListStyle id="galleryList" style={{display: displayGallery}}>
+            <ListStyle id="galleryList" className="list-items__wrapper" style={{display: displayGallery}}>
                 {mapPoints}
             </ListStyle>
         )
