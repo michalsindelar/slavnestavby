@@ -2,6 +2,7 @@ import appendScript from "./appendScript"
 
 import { setActiveStructure, setMapMarkers } from "../services/actions"
 import { getMarkers } from "../services/reducer"
+import mapIcon from "./mapIcon.svg"
 
 export const CONFIG = {
   googleMapsScriptUrl: "https://maps.googleapis.com/maps/api/js?key=",
@@ -479,9 +480,11 @@ class Mapbox {
 
       // make a marker for each feature and add to the map
       var coordinates = marker.geometry.coordinates;
+
       var point = new window.google.maps.Marker({
 			position: {lng: coordinates[0], lat: coordinates[1], },
-			map: this.map
+			map: this.map,
+			icon: mapIcon
       });
       point.addListener("click", () => {
 		  window.reduxStore.dispatch(setActiveStructure(marker.properties.id))

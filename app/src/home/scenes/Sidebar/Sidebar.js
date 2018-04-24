@@ -156,26 +156,8 @@ export const FilterArchitectsStyl = styled.div`
 `;
 
 export const FilterArchitectsWrapper = styled.div`       
-        visibility: hidden;
-        transition: opacity 600ms, visibility 600ms;
-        display: none;
-    
-    ${props => props.show && css`
-        display: block;
         visibility: visible;
-        opacity: 1;
-        animation: fade 1s;
-    `}
-    
-    @keyframes fade {
-        0% {
-            opacity: 0;
-        }
-    
-        100% {
-            opacity: 1;
-        }
-    }
+        display: block;
 `;
 
 
