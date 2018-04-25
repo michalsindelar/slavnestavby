@@ -12,8 +12,9 @@ const BlockStyl = styled.div`
 `
 const BlockTitleStyl = styled.div`
   color: #98a5b2;
-  font-size: 15px;
-  font-weight: 100;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .1em;
   text-transform: uppercase;
   margin-bottom: 32px;
   
@@ -23,7 +24,7 @@ const BlockTitleStyl = styled.div`
     width: 18px;
     height: 15px;
     border: none;
-    outline:none;
+    outline: none;
     background: none;
     cursor: pointer;
   }

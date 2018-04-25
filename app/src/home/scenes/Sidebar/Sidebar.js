@@ -8,18 +8,18 @@ import { THEME } from "../../consts/theme"
 const SidebarStyle = styled.div`
   background: ${THEME.pallete.darkgrey};
   position: absolute; 
-  width: 270px;
+  width: 400px;
   height: 100%;
   max-height: 100vh;
   z-index: 1;
   color: white;
   font-size: 14px;
   transition: transform ease 250ms;
-  left: -270px;
+  left: -400px;
   top: 60px;
   
   .btn-sidebar {
-    left: 270px;
+    left: 400px;
     background: ${THEME.pallete.darkgrey};
     top: 40vh;
     position: absolute;
@@ -45,7 +45,7 @@ const SidebarStyle = styled.div`
   }
   
   ${props => props.test && css`
-    transform: translate3d(270px, 0, 0); 
+    transform: translate3d(400px, 0, 0); 
     
     .btn-sidebar img {
         transform: rotate(180deg);
@@ -79,8 +79,9 @@ export const InputRangeStyle = styled.div`
 
 export const FilterYearTitleStyl = styled.div`
   color: #98a5b2;
-  font-size: 15px;
-  font-weight: 100;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .1em;
   text-transform: uppercase;
   margin-bottom: 16px;
   
@@ -113,12 +114,12 @@ export const FilterYearTitleStyl = styled.div`
 `;
 
 export const FilterArchitectTitleStyl = styled.div`
-  font-size: 15px;
+  font-size: 14px;
   color: ${THEME.pallete.blue};
   margin-bottom: 24px;
   text-transform: uppercase;
-  font-weight: 100;
-  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: .1em;
   
   .btn-show {
     position: absolute;
@@ -151,13 +152,29 @@ export const FilterYearStyl = styled.div`
 `;
 
 export const FilterArchitectsStyl = styled.div`
-  padding: 20px 25px 10px;
+  padding: 36px 25px 0;
   position: relative;
 `;
 
 export const FilterArchitectsWrapper = styled.div`       
         visibility: visible;
         display: block;
+        input {
+          font-size: 16px;
+          letter-spacing: .12em;
+          padding: 0 15px;
+          margin-bottom: 39px;
+          width: 100%;
+          height: 50px;
+          color: #98a5b2;
+          border: 1px solid #6c7680;
+          background-color: #292e33;
+          border-radius: 5px;
+          box-sizing: border-box;          
+        }
+        input:focus {
+          border: 1px solid ${THEME.pallete.blue};
+        }
 `;
 
 

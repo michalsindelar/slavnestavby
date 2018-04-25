@@ -7,11 +7,12 @@ const StructureStyl = styled.div`
   display: flex;
   color: black;
   font-weight: 400;
+  height: 100%;
 `
 const StructureTitleStyl = styled.h2`
-  font-size: 20px;
+  font-size: 36px;
+  line-height: 1.3em;
   font-weight: 600;
-  padding-bottom: 30px;
 `
 const StructureAuthorStyl = styled.h3`
   font-size: 20px;
@@ -23,7 +24,7 @@ const StructureLeftStyl = styled.div`
   width: 70%;
   position: relative;
   overflow: hidden;
-  height: 400px;
+  height: 100%;
 `
 
 const StructureRightStyl = styled.div`
@@ -34,8 +35,10 @@ const StructureRightStyl = styled.div`
   overflow-y: scroll;
   overflow-x: hidden;
   font-weight: 400;
-  font-size: 12px;
-  height: 400px;
+  font-size: 14px;
+  letter-spacing: .03em;
+  line-height: 2em;
+  height: 100%;
 `
 
 const StructureImgStyl = styled.img`
@@ -43,7 +46,7 @@ const StructureImgStyl = styled.img`
   top: 0;
   left: 0;
   filter: grayscale(100%);
-  height: 420px;
+  width: 100%
 `
 
 type Props = {

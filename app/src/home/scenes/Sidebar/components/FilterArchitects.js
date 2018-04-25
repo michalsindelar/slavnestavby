@@ -1,7 +1,6 @@
 // @flow
 import React from "react"
 
-import "awesomplete/prism/prism.css"
 
 import { FilterArchitectTitleStyl, FilterArchitectsStyl, FilterArchitectsWrapper} from "../Sidebar"
 
@@ -33,10 +32,10 @@ export default class FilterArchitects extends React.Component
             <FilterArchitectsStyl>
                 <FilterArchitectsWrapper /* show={this.state.showList} */ >
                     <input
-                        className="awesomplete"
+                        //className="InputStyle"
                         list="architectsList"
                         onChange={ev => onSubmit(ev.target.value)}
-                        style={{ width: "100%" }}
+                        placeholder="architekt, stavba"
                     />
                     <datalist id="architectsList">
                         {architectsNames.map((x, i) => <option key={i}>{x}</option>)}

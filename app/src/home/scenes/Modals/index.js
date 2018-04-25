@@ -27,14 +27,13 @@ class Home extends Component {
       },
       content: {
         position: "absolute",
-        top: "30%",
-        left: "25%",
-        right: "25%",
-        bottom: "30%",
+        top: "10%",
+        left: "10%",
+        right: "10%",
+        bottom: "10%",
         padding: 0,
         borderRadius: 0,
         border: 0,
-        height: "400px", // share to structure
       },
     }
 
