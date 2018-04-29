@@ -153,7 +153,7 @@ app.get('/getStructureLists', function (req, res) {
 			delete obj.structure;
 
 			return {
-				...obj,
+				obj.customIcon,
 				structureId,
 			}
 		}).filter((obj) => !!obj);
