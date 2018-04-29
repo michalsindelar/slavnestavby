@@ -4,21 +4,27 @@ import styled from "styled-components"
 
 import Modal from "react-modal"
 import Structure from "./components/Structure"
-import { getActiveStructureId, isActiveStructureSet } from "../../services/reducer"
-import { closeActiveStructure } from "../../services/actions"
-import { getArchitectByIdSelector, getStructureDataSelector } from "../../services/selectors"
+import StructureList from "./components/StructureList"
+import { getStructuresOfList, getActiveStructureId, isActiveStructureSet, getActiveStructureListId, isActiveStructureListSet } from "../../services/reducer"
+import { closeActiveStructure, closeActiveStructureList } from "../../services/actions"
+import { getArchitectByIdSelector, getStructureDataSelector, getActiveStructureListDataSelector, getActiveStructuresOfListDataSelector } from "../../services/selectors"
 
 const ModalsStyl = styled.div``
 
-class Home extends Component {
+class ModalComponent extends Component {
   render() {
     const {
-      activeStructureOpen,
+      activeStructuresDataOfList,
       activeStructureId,
       closeStructureModal,
+      closeStructureListModal,
       activeStructureData,
       getArchitectById,
+      activeStructureListId,
+      activeStructureListData,
+      isModalOpen
     } = this.props
+
 
     const customStyles = {
       overlay: {
@@ -26,30 +32,38 @@ class Home extends Component {
         zIndex: 10,
       },
       content: {
+        backgroundColor: activeStructureListId ? activeStructureListData.color : "#FFFFFF",
         position: "absolute",
-        top: "30%",
-        left: "25%",
-        right: "25%",
-        bottom: "30%",
+        top: "10%",
+        left: "10%",
+        right: "10%",
+        bottom: "10%",
         padding: 0,
+        borderRadius: 0,
         border: 0,
-        height: "400px", // share to structure
       },
     }
+    const onRequestClose = activeStructureListId ? closeStructureListModal : closeStructureModal;
 
     return (
       <ModalsStyl>
         <Modal
-          isOpen={activeStructureOpen}
-          onRequestClose={closeStructureModal}
+          isOpen={isModalOpen}
+          onRequestClose={onRequestClose}
           style={customStyles}
         >
-          {activeStructureOpen && (
+          {activeStructureId && (
             <Structure
               id={activeStructureId}
               architects={activeStructureData.architectIds.map(getArchitectById)}
               {...activeStructureData}
             />
+          )}
+          {activeStructureListId && (
+              <StructureList
+                  structuresData={activeStructuresDataOfList}
+                  {...activeStructureListData}
+              />
           )}
         </Modal>
       </ModalsStyl>
@@ -59,12 +73,16 @@ class Home extends Component {
 
 export default connect(
   state => ({
+    activeStructuresDataOfList: getActiveStructuresOfListDataSelector(state),
     activeStructureId: getActiveStructureId(state),
-    activeStructureOpen: isActiveStructureSet(state),
+    isModalOpen: isActiveStructureSet(state) || isActiveStructureListSet(state),
     activeStructureData: getStructureDataSelector(state),
     getArchitectById: getArchitectByIdSelector(state),
+    activeStructureListId: getActiveStructureListId(state),
+    activeStructureListData: getActiveStructureListDataSelector(state)
   }),
   dispatch => ({
     closeStructureModal: () => dispatch(closeActiveStructure()),
+    closeStructureListModal: () => dispatch(closeActiveStructureList())
   }),
-)(Home)
+)(ModalComponent)

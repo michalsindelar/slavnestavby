@@ -7,14 +7,18 @@ import {
   getFiltersArchitect,
   getFiltersMaxYear,
   getFiltersMinYear,
+  getStructureLists
 } from "../../../services/reducer"
 import {
   interposeLabelsAction,
-  setArchitectFromName, toggleFilterStyle,
+  setArchitectFromName,
+    toggleFilterStyle,
+    toggleFilterStructureList,
   toggleFilterType,
 } from "../../../services/actionsCreators"
 import FilterArchitects from "./FilterArchitects"
 import FilterTypes from "./FilterTypes"
+import FilterStructureLists from './FilterStructureLists'
 import FilterStyle from "./FilterStyle"
 import {
   getArchitectsNames,
@@ -32,9 +36,11 @@ class Filters extends Component {
       minYear,
       maxYear,
       filtersStylesOptions,
+      filtersStructureLists,
       filtersTypesOptions,
       handleToggleFilterType,
-      handleToggleFilterStyle
+      handleToggleFilterStyle,
+      handleToggleFilterStructureList
     } = this.props
 
     const onArchitectAdd = architect => {
@@ -62,7 +68,15 @@ class Filters extends Component {
 
         <FilterTypes typesOptions={filtersTypesOptions} toggleFilterType={handleToggleFilterType} />
 
-        <FilterStyle stylesOptions={filtersStylesOptions} toggleFilterStyle={handleToggleFilterStyle} />
+        <FilterStyle
+            stylesOptions={filtersStylesOptions}
+            toggleFilterStyle={handleToggleFilterStyle}
+        />
+
+        <FilterStructureLists
+          structureLists={filtersStructureLists}
+          toggleFilterStructureList={handleToggleFilterStructureList}
+        />
       </div>
     )
   }
@@ -77,6 +91,7 @@ export default connect(
     filtersTypes: getFilterTypes(state),
     filtersStylesOptions: getStylesOptions(state),
     filtersTypesOptions: getTypesOptions(state),
+    filtersStructureLists: getStructureLists(state)
   }),
   dispatch => ({
     handleFiltersYearsChange: years => {
@@ -95,5 +110,8 @@ export default connect(
       dispatch(toggleFilterStyle(style))
       dispatch(interposeLabelsAction())
     },
+      handleToggleFilterStructureList: structureListId => {
+          dispatch(toggleFilterStructureList(structureListId))
+      },
   }),
 )(Filters)

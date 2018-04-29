@@ -1,7 +1,7 @@
 import * as R from "ramda"
 import { createSelector } from "reselect"
 
-import { getActiveStructureId, getArchitects, getFilters, getStructures } from "./reducer"
+import { getActiveStructureId, getArchitects, getFilters, getStructures, getStructureLists, getActiveStructureListId } from "./reducer"
 
 export const getSimpleStructuresSelector = createSelector(
   getStructures,
@@ -14,6 +14,7 @@ export const getSimpleStructuresSelector = createSelector(
     style: R.prop("style", fullStructure),
     type: R.prop("type", fullStructure),
     architectIds: R.prop("architect_ids", fullStructure),
+    photo: R.prop("photo", fullStructure)
     // TODO: Fill the needed ones for filtering
   })),
 )
@@ -37,6 +38,7 @@ export const formatGeojsonDataSelector = createSelector(
         architectIds: R.prop("architectIds", x),
         style: R.prop("style", x),
         type: R.prop("type", x),
+        photo: R.prop("photo", x)
       },
     }))(simpleStructures),
   }),
@@ -50,8 +52,43 @@ export const getActiveLabelsSelector = createSelector(
 )
 
 export const getStructureDataSelector = createSelector(
-  [getStructures, getActiveStructureId],
-  (structures, activeStructureId) => R.find(R.propEq("id", activeStructureId), structures),
+    [getStructures, getActiveStructureId],
+    (structures, activeStructureId) => {
+        return structures.find((el) => {
+            return el.id == activeStructureId;
+        });
+    }
+)
+
+
+export const getActiveStructureListDataSelector = createSelector(
+    [getStructureLists, getActiveStructureListId],
+    (structureLists, getActiveStructureListId) => {
+        return structureLists.find((el) => {
+            return el.id == getActiveStructureListId;
+        });
+    }
+)
+
+
+export const getActiveStructuresOfListDataSelector = createSelector(
+    [getActiveStructureListDataSelector, getStructures],
+    (structureListData, allStructures) => {
+        if (!structureListData) {
+            return [];
+        }
+        const structureIds = structureListData.structures.map((obj) => obj.structureId);
+
+        var structures = {};
+
+        allStructures.filter(function (obj) {
+            return structureIds.indexOf(obj.id) > -1
+        }).forEach(function (obj) {
+            structures[obj.id] = obj;
+        });
+
+        return structures;
+    }
 )
 
 const yearsFilter = ({ minYear, maxYear }) => ({ year }) => year > minYear && year << maxYear
@@ -83,7 +120,11 @@ export const getFilteredLabelsSelector = createSelector(
 export const getArchitectsNames = createSelector(getArchitects, R.map(R.prop("name")))
 
 export const getArchitectByIdSelector = createSelector(getArchitects, architects => index =>
-  R.nth(index, architects),
+    {
+        return architects.find((el) => {
+            return el.id == index;
+        });
+    }
 )
 
 export const getFilterTypes = createSelector(getFilters, R.prop("types"))

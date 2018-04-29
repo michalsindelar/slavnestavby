@@ -7,6 +7,8 @@ import {
   setLoader,
   setMap,
   setStructures,
+  setStructureLists,
+  setActiveStructureLists
 } from "./actions"
 import {getFilteredLabelsSelector, getFilterStyles, getFilterTypes} from "./selectors"
 import { getArchitects, getMap } from "./reducer"
@@ -42,6 +44,20 @@ export const fetchArchitectsAction = () => dispatch => {
       dispatch(setArchitects(json))
     })
     .catch(console.log)
+}
+
+export const fetchStructureListsAction = () => dispatch => {
+  dispatch(setLoader(true))
+
+  const url = formatApiInEnv("getStructureLists")
+
+  return fetch(url)
+      .then(res => res.json())
+      .then(json => {
+        dispatch(setLoader(false))
+        dispatch(setStructureLists(json))
+      })
+      .catch(console.log)
 }
 
 export const interposeLabelsAction = () => (dispatch, getState) => {
@@ -96,4 +112,8 @@ export const toggleFilterStyle = style => (dispatch, getState) => {
         : R.uniq([...filterStyles, style]),
     ),
   )
+}
+
+export const toggleFilterStructureList = structureListId => (dispatch, getState) => {
+  dispatch(setActiveStructureLists(structureListId))
 }
