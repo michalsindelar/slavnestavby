@@ -67,11 +67,11 @@ const cachedApiRequest = (res, key, filterFnc = () => true, mapFunc = R.identity
     R.filter(filterFnc)
   )
 
-  try {
+  // try {
     // Data already cached
-    res.send(formatter(ApisCache.get(key, true)))
-    console.log("Data cached")
-  } catch (e) {
+    // res.send(formatter(ApisCache.get(key, true)))
+    // console.log("Data cached")
+  // } catch (e) {
     console.log("Data initialized")
     // Not cached / needs update
     db
@@ -84,7 +84,7 @@ const cachedApiRequest = (res, key, filterFnc = () => true, mapFunc = R.identity
         res.send(data)
       })
       .catch(res.send)
-  }
+  // }
 }
 
 // Set cors headers<x
