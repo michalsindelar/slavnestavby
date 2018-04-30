@@ -8,7 +8,6 @@ export default class StructureList extends Component {
 
 	render()
 	{
-		console.log(this.props);
 		return <div>
 			<h1>{this.props.name}</h1>
 			<p>{this.props.description}</p>

@@ -10,8 +10,8 @@ import {
   setStructureLists,
   setActiveStructureLists
 } from "./actions"
-import {getFilteredLabelsSelector, getFilterStyles, getFilterTypes} from "./selectors"
-import { getArchitects, getMap } from "./reducer"
+import {getFilteredLabelsSelector, getFilterStyles, getFilterTypes, getActiveStructureLabelsOfListSelector } from "./selectors"
+import { getArchitects, getMap, getActiveStructureListId } from "./reducer"
 import Mapbox from "../tools/Mapbox"
 import structuresMapper from "./mappers/structuresMapper"
 
@@ -63,7 +63,15 @@ export const fetchStructureListsAction = () => dispatch => {
 export const interposeLabelsAction = () => (dispatch, getState) => {
   const state = getState()
   const map = getMap(state)
-  map.interposeLabels(getFilteredLabelsSelector(state))
+
+  const activeStructureId = getActiveStructureListId(state);
+
+  if (!activeStructureId) {
+    map.interposeLabels(getFilteredLabelsSelector(state))
+    return;
+  }
+
+  map.interposeLabels(Object.values(getActiveStructureLabelsOfListSelector(state)));
 }
 
 export const createMapAction = () => dispatch => dispatch(setMap(new Mapbox({ id: "map" })))

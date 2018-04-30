@@ -3,9 +3,7 @@ import { createSelector } from "reselect"
 
 import { getActiveStructureId, getArchitects, getFilters, getStructures, getStructureLists, getActiveStructureListId } from "./reducer"
 
-export const getSimpleStructuresSelector = createSelector(
-  getStructures,
-  R.map(fullStructure => ({
+const getSimpleStructureFromFullStructure = fullStructure => ({
     active: R.prop("active", fullStructure),
     id: R.prop("id", fullStructure),
     name: R.prop("name", fullStructure),
@@ -14,33 +12,84 @@ export const getSimpleStructuresSelector = createSelector(
     style: R.prop("style", fullStructure),
     type: R.prop("type", fullStructure),
     architectIds: R.prop("architect_ids", fullStructure),
-    photo: R.prop("photo", fullStructure)
+    photo: R.prop("photo", fullStructure),
+    customIcon: R.prop("customIcon", fullStructure),
     // TODO: Fill the needed ones for filtering
-  })),
+})
+
+const getGeoJsonDataFromStructure = simpleStructure => ({
+    active: true,
+    type: "Feature",
+    geometry: {
+        type: "Point",
+        coordinates: [R.path(["address", "lon"], simpleStructure), R.path(["address", "lat"], simpleStructure)],
+    },
+    properties: {
+        id: R.prop("id", simpleStructure),
+        title: R.prop("name", simpleStructure),
+        description: R.prop("style", simpleStructure),
+        year: R.prop("year", simpleStructure),
+        architectIds: R.prop("architectIds", simpleStructure),
+        style: R.prop("style", simpleStructure),
+        type: R.prop("type", simpleStructure),
+        photo: R.prop("photo", simpleStructure)
+    },
+    icon: R.prop("customIcon", simpleStructure),
+})
+
+export const getSimpleStructuresSelector = createSelector(
+  getStructures,
+  R.map(getSimpleStructureFromFullStructure),
+)
+
+
+export const getActiveStructureListDataSelector = createSelector(
+    [getStructureLists, getActiveStructureListId],
+    (structureLists, getActiveStructureListId) => {
+        return structureLists.find((el) => {
+            return el.id == getActiveStructureListId;
+        });
+    }
+)
+
+export const getActiveStructuresOfListDataSelector = createSelector(
+    [getActiveStructureListDataSelector, getStructures],
+    (structureListData, allStructures) => {
+        if (!structureListData) {
+            return [];
+        }
+
+		const strucData = {};
+
+		structureListData.structures.forEach((obj) => (strucData[obj.structureId] = {...obj}));
+        const structureIds = structureListData.structures.map((obj) => obj.structureId);
+
+        var structures = {};
+
+        allStructures.filter(function (obj) {
+            return structureIds.indexOf(obj.id) > -1
+        }).forEach(function (obj) {
+            structures[obj.id] = {
+				...obj,
+				customIcon: strucData[obj.id].customIcon
+			};
+        });
+
+        return structures;
+    }
+)
+
+export const getActiveStructureLabelsOfListSelector = createSelector(
+	getActiveStructuresOfListDataSelector,
+	R.map(getSimpleStructureFromFullStructure),
+	R.map(getGeoJsonDataFromStructure)
 )
 
 export const formatGeojsonDataSelector = createSelector(
   getSimpleStructuresSelector,
   simpleStructures => ({
     type: "FeatureCollection",
-    features: R.map(x => ({
-      active: true,
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [R.path(["address", "lon"], x), R.path(["address", "lat"], x)],
-      },
-      properties: {
-        id: R.prop("id", x),
-        title: R.prop("name", x),
-        description: R.prop("style", x),
-        year: R.prop("year", x),
-        architectIds: R.prop("architectIds", x),
-        style: R.prop("style", x),
-        type: R.prop("type", x),
-        photo: R.prop("photo", x)
-      },
-    }))(simpleStructures),
+    features: R.map(getGeoJsonDataFromStructure)(simpleStructures),
   }),
 )
 
@@ -57,37 +106,6 @@ export const getStructureDataSelector = createSelector(
         return structures.find((el) => {
             return el.id == activeStructureId;
         });
-    }
-)
-
-
-export const getActiveStructureListDataSelector = createSelector(
-    [getStructureLists, getActiveStructureListId],
-    (structureLists, getActiveStructureListId) => {
-        return structureLists.find((el) => {
-            return el.id == getActiveStructureListId;
-        });
-    }
-)
-
-
-export const getActiveStructuresOfListDataSelector = createSelector(
-    [getActiveStructureListDataSelector, getStructures],
-    (structureListData, allStructures) => {
-        if (!structureListData) {
-            return [];
-        }
-        const structureIds = structureListData.structures.map((obj) => obj.structureId);
-
-        var structures = {};
-
-        allStructures.filter(function (obj) {
-            return structureIds.indexOf(obj.id) > -1
-        }).forEach(function (obj) {
-            structures[obj.id] = obj;
-        });
-
-        return structures;
     }
 )
 

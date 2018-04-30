@@ -111,7 +111,8 @@ export default connect(
       dispatch(interposeLabelsAction())
     },
       handleToggleFilterStructureList: structureListId => {
-          dispatch(toggleFilterStructureList(structureListId))
+          dispatch(toggleFilterStructureList(structureListId));
+          dispatch(interposeLabelsAction())
       },
   }),
 )(Filters)

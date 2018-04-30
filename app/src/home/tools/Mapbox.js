@@ -484,8 +484,9 @@ class Mapbox {
       var point = new window.google.maps.Marker({
 			position: {lng: coordinates[0], lat: coordinates[1], },
 			map: this.map,
-			icon: mapIcon
+			icon: marker.icon ? marker.icon : mapIcon
       });
+		
       point.addListener("click", () => {
 		  window.reduxStore.dispatch(setActiveStructure(marker.properties.id))
 	  });
