@@ -35,8 +35,8 @@ export const setStructureLists = structureLists => ({
 export const setActiveStructureLists = structureListsId => ({
   type: SET_ACTIVE_STRUCTURE_LISTS,
   payload: { data: structureListsId },
+  // 'payload': { 'data': 1525017572499 } (id)
 })
-
 export const setActiveStructure = activeStructureId => ({
   type: SET_ACTIVE_STRUCTURE,
   payload: { data: activeStructureId },

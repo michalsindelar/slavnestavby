@@ -7,12 +7,8 @@ const Wrapper = styled.div.attrs({className: 'header__social-icons'})`
     
     .side-link {
       color: #000000;
-      margin-right: 25px;
+      margin: 0 25px;
       text-decoration: none;
-    }
-    
-    .side-link--mg-r {
-        margin-right: 80px
     }
     
     .side-link:hover {
@@ -22,6 +18,7 @@ const Wrapper = styled.div.attrs({className: 'header__social-icons'})`
     
 	img {
 	    width: 28px;
+      display: block;
 	}
 `;
 

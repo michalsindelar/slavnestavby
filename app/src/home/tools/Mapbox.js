@@ -8,9 +8,9 @@ export const CONFIG = {
   googleMapsScriptUrl: "https://maps.googleapis.com/maps/api/js?key=",
   googleMapsContainerId: "GoogleMapsContainer",
   googleMapsSecretKey: "AIzaSyCE9i1dSl9IcU9NYghiX7ZT6dI-zUT0RNI",
-  googleMapsZoom: 7,
-  googleMapsCenterLat: 49.14,
-  googleMapsCenterLng: 16.37,
+  googleMapsZoom: 8,
+  googleMapsCenterLat: 49.8,
+  googleMapsCenterLng: 15,
 
   googleMapsStyle: [
 	  {
@@ -465,10 +465,29 @@ class Mapbox {
           zoomControl: false,
           mapTypeControl: false,
           scaleControl: false,
-          streetViewControl: false,
+          streetViewControl: true,
           rotateControl: false,
           fullscreenControl: false
 	  });
+	  
+	  /* Selects czech repuplic – unaccurate borders due to fusions tabs
+	  /* It looks like there is not a way to outline one specific country
+
+	  this.world_geometry = new window.google.maps.FusionTablesLayer({
+		  query: {
+		    select: 'geometry',
+		    from: '16CTzhDWVwwqa0e5xe4dRxQ9yoyE1hVt_3ekDFQ',
+		    where: "sov_a3 IN ('CZE')"
+		  },
+		  styles: {
+		    where: "sov_a3 IN ('CZE')",
+			polygonOptions: {
+			    fillColor: "yellow",
+		  	} 
+		  },
+		  map: this.map,
+		  suppressInfoWindows: true
+		});*/
   }
 
   interposeLabels(labels) {

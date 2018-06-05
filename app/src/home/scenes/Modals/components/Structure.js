@@ -2,71 +2,76 @@
 import React from "react"
 import * as R from "ramda"
 import styled from "styled-components"
+import { THEME } from "../../../consts/theme"
+import Scrollbar from "../../../consts/Scrollbar"
 
 const StructureStyl = styled.div`
+  height: 90%;
+  max-width: 90%;
+  margin: auto;
   display: flex;
-  color: black;
-  font-weight: 400;
-  height: 100%;
 `
 const StructureTitleStyl = styled.h2`
-  font-size: 36px;
+  font-size: 30px;
   line-height: 1.3em;
   font-weight: 600;
+  margin-bottom: 30px;
 `
 const StructureAuthorStyl = styled.h3`
-  font-size: 20px;
-  padding-bottom: 30px;
+  font-size: 16px;
   font-weight: 400;
 `
 
 const StructureLeftStyl = styled.div`
-  width: 70%;
-  position: relative;
   overflow: hidden;
-  height: 100%;
+  margin-right: 10px;
+  border-radius: 3px;
+  max-height: 90vh;
+  min-height: 70vh;
 `
 
 const StructureRightStyl = styled.div`
-  width: 50%;
-  padding-left: 40px;
-  padding-right: 40px;
+  width: 400px;
+  border-radius: 3px;
+  box-sizing: border-box;
   background-color: #ffffff;
-  overflow-y: scroll;
-  overflow-x: hidden;
   font-weight: 400;
   font-size: 14px;
   letter-spacing: .03em;
-  line-height: 2em;
-  height: 100%;
+  line-height: 1.8em;
+  max-height: 90vh;
+  min-height: 70vh;
+  flex-shrink: 0;
 `
 
 const StructureImgStyl = styled.img`
-  position: absolute;
-  top: 0;
-  left: 0;
-  filter: grayscale(100%);
-  width: 100%
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 `
+
+
 
 type Props = {
   id: string,
   geometry: any,
   properties: any,
 }
-
-const Structure = ({ id, architects, photo, photos, name, description }: Props) => (
+const Structure = ({ id, architects, photo, photos, name, description, style, year }: Props) => (
   <StructureStyl>
     <StructureLeftStyl>
       <StructureImgStyl src={photo} alt={name} />
     </StructureLeftStyl>
 
     <StructureRightStyl>
-      <StructureTitleStyl>{name.split("(")[0]}</StructureTitleStyl>
-      <StructureAuthorStyl>{architects.map(R.prop("name")).join(", ")}</StructureAuthorStyl>
-      <p>{description}</p>
+      <Scrollbar topOffset={ 10 } padding={ 40 }>
+          <StructureAuthorStyl>{architects.map(R.prop("name")).join(", ")}&ensp;|&ensp;{ style }&ensp;|&ensp;{ year }</StructureAuthorStyl>
+          <StructureTitleStyl>{ name.split("(")[0] }</StructureTitleStyl>
+          <p>{ description }</p>
+      </Scrollbar>
     </StructureRightStyl>
-  </StructureStyl>
+    </StructureStyl>
 )
 
 export default Structure

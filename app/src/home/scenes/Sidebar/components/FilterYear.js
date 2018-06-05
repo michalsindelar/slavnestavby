@@ -4,8 +4,7 @@ import InputRange from "react-input-range"
 import BtnShow from "../Sidebar"
 
 import { FilterYearTitleStyl, FilterYearStyl, InputRangeStyle } from "../Sidebar"
-
-import "react-input-range/lib/css/index.css"
+import styled, {css} from "styled-components"
 
 
 export default class FilterYear extends React.Component
@@ -15,7 +14,7 @@ export default class FilterYear extends React.Component
         super();
 
         this.state = {
-            showList: false
+            showList: true
         };
 
         this.onClickToggleButton = this.onClickToggleButton.bind(this);
@@ -31,26 +30,26 @@ export default class FilterYear extends React.Component
         const { minThreshold, maxThreshold, onChange, onChangeComplete, minYear, maxYear,} = this.props;
 
         return (
-            <FilterYearStyl>
-                <FilterYearTitleStyl show={this.state.showList}>
+            <FilterYearStyl show={ this.state.showList }>
+                <FilterYearTitleStyl show={this.state.showList}
+                            onClick={ this.onClickToggleButton }>
                     Realizace
 
                     <button
-                        onClick={this.onClickToggleButton}
                         className="btn-show">
                         <img src={process.env.PUBLIC_URL + '/img/down-arrow-ico.svg'} />
                     </button>
 
-                </FilterYearTitleStyl>
+                </FilterYearTitleStyl>                    
                 <InputRangeStyle show={this.state.showList}>
-                <InputRange
-                    draggableTrack
-                    maxValue={maxThreshold}
-                    minValue={minThreshold}
-                    onChange={onChange}
-                    onChangeComplete={onChangeComplete}
-                    value={{ min: minYear, max: maxYear }}
-                />
+                    <InputRange
+                        draggableTrack
+                        maxValue={maxThreshold}
+                        minValue={minThreshold}
+                        onChange={onChange}
+                        onChangeComplete={onChangeComplete}
+                        value={{ min: minYear, max: maxYear }}
+                    />
                 </InputRangeStyle>
 
             </FilterYearStyl>

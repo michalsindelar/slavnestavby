@@ -11,7 +11,7 @@ export default class SocialIcons extends React.Component {
                     href="http://trmalovavila.eu/eshop/knihy"
                     target="_blank"
                     rel="noopener"
-                    className="side-link side-link--mg-r"
+                    className="side-link"
                 >
                     Knihy
                 </a>
@@ -27,6 +27,7 @@ export default class SocialIcons extends React.Component {
                     href="https://www.facebook.com/SlavneStavby/"
                     target="_blank"
                     rel="noopener"
+                    style={{marginLeft: '25px'}}
                 >
 
                     <img src={process.env.PUBLIC_URL + '/img/fb-icon.svg'} alt="Slavné stavby logo" />

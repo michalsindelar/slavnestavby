@@ -44,14 +44,13 @@ export const getSimpleStructuresSelector = createSelector(
 
 
 export const getActiveStructureListDataSelector = createSelector(
-    [getStructureLists, getActiveStructureListId],
+    [getStructureLists, getActiveStructureListId], 
     (structureLists, getActiveStructureListId) => {
         return structureLists.find((el) => {
             return el.id == getActiveStructureListId;
         });
     }
 )
-
 export const getActiveStructuresOfListDataSelector = createSelector(
     [getActiveStructureListDataSelector, getStructures],
     (structureListData, allStructures) => {
@@ -74,8 +73,9 @@ export const getActiveStructuresOfListDataSelector = createSelector(
 				customIcon: strucData[obj.id].customIcon
 			};
         });
-
+        // console.log({getActiveStructuresOfListDataSelector: structures});
         return structures;
+        // obsah staveb => architekt, popis
     }
 )
 
@@ -165,6 +165,15 @@ export const getStylesOptions = createSelector(
       active: filterStyles.includes(style),
     })),
 )
+
+// export const activeStructureList = createSelector(
+// getActiveStructureListId, 
+// (getActiveStructureListId) => 
+//   getActiveStructureListId.map(x => ({
+//     active: getActiveStructureListId.includes(x),
+//   })),
+// )
+
 
 export const getAllTypesSelector = createSelector(
   getStructures,

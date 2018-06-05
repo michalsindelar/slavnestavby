@@ -7,24 +7,6 @@ import { FilterArchitectTitleStyl, FilterArchitectsStyl, FilterArchitectsWrapper
 
 export default class FilterArchitects extends React.Component
 {
-    /*
-    constructor()
-    {
-        super();
-
-        this.state = {
-            showList: false
-        };
-
-        this.onClickToggleButton = this.onClickToggleButton.bind(this);
-    }
-
-    onClickToggleButton() {
-        this.setState({
-            showList: !this.state.showList
-        })
-    }
-    */
     render() {
         const { architectsNames, architectsSetCount, onSubmit } = this.props;
 
@@ -41,15 +23,6 @@ export default class FilterArchitects extends React.Component
                         {architectsNames.map((x, i) => <option key={i}>{x}</option>)}
                     </datalist>
                 </FilterArchitectsWrapper>
-                <FilterArchitectTitleStyl /* show={this.state.showList} */ >Filtr
-
-                    <button
-                        onClick={this.onClickToggleButton}
-                        className="btn-show">
-                        <img src={process.env.PUBLIC_URL + '/img/down-arrow-ico-blue.svg'} />
-                    </button>
-
-                </FilterArchitectTitleStyl>
             </FilterArchitectsStyl>
         );
     }

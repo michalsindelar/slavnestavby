@@ -124,4 +124,18 @@ export const toggleFilterStyle = style => (dispatch, getState) => {
 
 export const toggleFilterStructureList = structureListId => (dispatch, getState) => {
   dispatch(setActiveStructureLists(structureListId))
+  // console.log({actionCreators: structureListId});
+  // id => 1525017572499
 }
+// export const toggleFilterStructureList = structureListId => (dispatch, getState) => {
+//   const state = getState()
+//   const activeStructure = getActiveStructureListId(state)
+
+//   dispatch(
+//     setActiveStructureLists(
+//       activeStructure.includes(structureListId)
+//         ? activeStructure.filter(x => structureListId !== x)
+//         : R.uniq([...activeStructure, structureListId]),
+//     ),
+//   )
+// }

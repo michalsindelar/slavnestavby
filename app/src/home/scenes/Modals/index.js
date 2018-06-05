@@ -24,27 +24,34 @@ class ModalComponent extends Component {
       activeStructureListData,
       isModalOpen
     } = this.props
-
-
+    
     const customStyles = {
       overlay: {
+        position: 'fixed',
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 0,
         backgroundColor: "rgba(0, 0, 0, 0.75)",
+        padding: 0,
         zIndex: 10,
+        display: 'flex' 
       },
       content: {
-        backgroundColor: activeStructureListId ? activeStructureListData.color : "#FFFFFF",
-        position: "absolute",
-        top: "10%",
-        left: "10%",
-        right: "10%",
-        bottom: "10%",
+        backgroundColor: "rgba(0, 0, 0, 0)",
+        position: activeStructureListId ? "absolute" : "static",
+        top: "15%",
+        left: "15%",
+        right: "15%",
+        bottom: "15%",
+        margin: 'auto',
         padding: 0,
-        borderRadius: 0,
+        borderRadius: 0,  
         border: 0,
+        display: 'flex'
       },
     }
     const onRequestClose = activeStructureListId ? closeStructureListModal : closeStructureModal;
-
     return (
       <ModalsStyl>
         <Modal
@@ -63,6 +70,7 @@ class ModalComponent extends Component {
               <StructureList
                   structuresData={activeStructuresDataOfList}
                   {...activeStructureListData}
+                  bgColor={ activeStructureListData.color }
               />
           )}
         </Modal>

@@ -7,7 +7,7 @@ import {
   getFiltersArchitect,
   getFiltersMaxYear,
   getFiltersMinYear,
-  getStructureLists
+  getStructureLists,
 } from "../../../services/reducer"
 import {
   interposeLabelsAction,
@@ -27,7 +27,70 @@ import {
   getTypesOptions,
 } from "../../../services/selectors"
 
+import styled, {css} from "styled-components"
+import { THEME } from "../../../consts/theme"
+
+const H1 = styled.div`
+    color: ${THEME.pallete.accent};
+    font-size: 14px;
+    display: inline;
+    font-weight: 400;
+    padding-left: 20px; 
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+`
+
+const ToggleWrapper = styled.div`
+
+  ${props => props.show && css`
+    display: none;
+  `}
+`
+const Button = styled.div`
+    padding-top: 16px;
+    box-sizing: border-box;
+    min-height: 55px;
+    cursor: default;
+
+    .btn-show img {
+    width: 18px;
+    height: 18px;
+    transition: 200ms ease-in-out;
+    }
+  
+`
+
+const Arrow = styled.div`
+    float: right;
+    padding-right: 22px;
+    border: none;
+    outline:none;
+    background: none;
+  
+    .arrow {
+    width: 18px;
+    height: 18px;
+    transition: 200ms linear all;
+    }
+
+   ${props => props.show && css`
+        .arrow {
+            transform: rotate(180deg);
+        }
+   `}
+`
+
 class Filters extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      showListFilter: false,
+      showListStructures: false
+    };
+  }
+
   render() {
     const {
       architectsNames,
@@ -40,7 +103,7 @@ class Filters extends Component {
       filtersTypesOptions,
       handleToggleFilterType,
       handleToggleFilterStyle,
-      handleToggleFilterStructureList
+      handleToggleFilterStructureList,
     } = this.props
 
     const onArchitectAdd = architect => {
@@ -49,7 +112,6 @@ class Filters extends Component {
         handleArchitectChange(architect)
       }
     }
-
     return (
       <div>
         <FilterArchitects
@@ -57,30 +119,44 @@ class Filters extends Component {
           architectsSetCount={1}
           onSubmit={onArchitectAdd}
         />
-        <FilterYear
-          minThreshold={1800}
-          maxThreshold={2017}
-          onChange={handleFiltersYearsChange}
-          onCompleteChange={handleFiltersYearsChange}
-          minYear={minYear}
-          maxYear={maxYear}
-        />
+        <Button onClick={() => this.setState({showListFilter: !this.state.showListFilter})}>
+          <H1>Filtr</H1>
+          <Arrow
+            show={ this.state.showListFilter }>
+            <img className="arrow" src={process.env.PUBLIC_URL + '/img/down-arrow-ico-blue.svg'} />
+          </Arrow>
+        </Button>
 
-        <FilterTypes typesOptions={filtersTypesOptions} toggleFilterType={handleToggleFilterType} />
+        <ToggleWrapper show={this.state.showListFilter}> 
+          <FilterYear
+            minThreshold={1800}
+            maxThreshold={2017}
+            onChange={handleFiltersYearsChange}
+            onChangeComplete={handleFiltersYearsChange}
+            minYear={minYear}
+            maxYear={maxYear} />
 
-        <FilterStyle
+          <FilterTypes 
+            typesOptions={filtersTypesOptions} 
+            toggleFilterType={handleToggleFilterType} />
+          <FilterStyle
             stylesOptions={filtersStylesOptions}
-            toggleFilterStyle={handleToggleFilterStyle}
-        />
-
+            toggleFilterStyle={handleToggleFilterStyle} />
+        </ToggleWrapper>     
+        <Button>
+          <H1 className="StructureListTitle">Seznamy staveb</H1>    
+        </Button>
         <FilterStructureLists
           structureLists={filtersStructureLists}
-          toggleFilterStructureList={handleToggleFilterStructureList}
-        />
+          toggleFilterStructureList={handleToggleFilterStructureList} />
       </div>
     )
   }
 }
+          // active: false
+          // color: "#A89A69"
+          // id: 1525017572499
+          // label: "STAVBY STOLETÍ"
 
 export default connect(
   state => ({
@@ -110,9 +186,13 @@ export default connect(
       dispatch(toggleFilterStyle(style))
       dispatch(interposeLabelsAction())
     },
-      handleToggleFilterStructureList: structureListId => {
-          dispatch(toggleFilterStructureList(structureListId));
-          dispatch(interposeLabelsAction())
-      },
+    handleToggleFilterStructureList: structureListId => {
+        dispatch(toggleFilterStructureList(structureListId));
+        // active: false
+        // color: "#A89A69"
+        // id: 1525017572499
+        // label: "STAVBY STOLETÍ"
+        dispatch(interposeLabelsAction())
+    },
   }),
 )(Filters)

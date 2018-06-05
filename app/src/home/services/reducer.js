@@ -70,11 +70,12 @@ const reducer = (state = DEFAULT_STATE, action) => {
     case SET_ARCHITECTS:
       return R.assoc("architects", action.payload.data, state)
 
-	case SET_VIEW_SCREEN:
-	  return R.assoc("viewScreen", action.payload.data, state)
+  	case SET_VIEW_SCREEN:
+  	  return R.assoc("viewScreen", action.payload.data, state)
 
     case SET_ACTIVE_STRUCTURE_LISTS:
       return R.assoc("activeStructureListId", action.payload.data, state)
+      // přiřadí se ID zakliknutý stavby
 
     default:
       return state
@@ -87,6 +88,7 @@ export const getStructures = R.prop("structures")
 export const getStructureLists = state => R.prop("structureLists")(state) || []
 export const getActiveStructureId = R.prop("activeStructureId")
 export const getActiveStructureListId = R.prop("activeStructureListId")
+// get ID
 export const isActiveStructureSet = state => R.is(Number, R.prop("activeStructureId", state))
 export const isActiveStructureListSet = state => R.is(Number, R.prop("activeStructureListId", state))
 export const getFiltersMinYear = R.path(["filters", "minYear"])

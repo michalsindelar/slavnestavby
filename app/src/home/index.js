@@ -61,17 +61,15 @@ class Home extends Component {
     return (
 
       <div className="Home">
-
-        <Topbar />
+        <Topbar view={ viewScreen }/>
             <Sidebar
                 toggleMenu={this.state.showMenu}
                 onToggleButtonClick={this.toggleMenu}
             />
 
           <ShowScreen view={viewScreen} />
-        {loading && <div>Loader</div>}
+        {loading}
         <Modals />
-
 
       </div>
     )
