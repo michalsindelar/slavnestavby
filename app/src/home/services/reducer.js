@@ -36,6 +36,7 @@ const DEFAULT_STATE = {
 }
 
 const reducer = (state = DEFAULT_STATE, action) => {
+  console.log('reducer', action, state);
   switch (action.type) {
     case SET_LOADER:
       return R.assoc("loading", action.payload.data, state)

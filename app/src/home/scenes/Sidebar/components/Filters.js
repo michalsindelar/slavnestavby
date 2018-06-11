@@ -112,6 +112,7 @@ class Filters extends Component {
         handleArchitectChange(architect)
       }
     }
+    console.log('filtersStructureLists', filtersStructureLists);
     return (
       <div>
         <FilterArchitects
